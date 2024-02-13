@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+    * all css files would be imported here. it is the entry point of the css files.
+    * create css for each module of the app and gather all the css files here.
+*/
