@@ -61,14 +61,14 @@ function OurServices() {
   ];
   return (
     <>
-      <div className="pt-10 ">
+      <div className="pt-10 mt-10 ">
         <div className="bg-[url('/assests/images/bg-departments.png')] bg-no-repeat h-[30vh] bg-top px-40">
           <div className="pl-[38%]  pt-3 text-[#3F7884] text-4xl font-bold">
             <h1>OUR SERVICES</h1>
           </div>
         </div>
         <div className="bg-[url('/assests/images/doctors-bg.png')] bg-no-repeat bg-contain bg-top">
-          <div className="grid grid-cols-4 gap-5 mx-20  ">
+          <div className="grid grid-cols-4 gap-5 mx-20 pt-20  ">
             {services.map((service) => (
               <div
                 key={service.id}
