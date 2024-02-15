@@ -2,15 +2,24 @@ import React from "react";
 import Hero from "./_components/main/hero";
 import OurServices from "./_components/main/our-services";
 import EHR from "./_components/main/ehr";
-import Aboutus from "./_components/main/about-us"
+import Demo from "./_components/main/demo";
+import Blog from "./_components/main/blog";
+import News from "./_components/main/news";
+import AboutUs from "./_components/main/about-us";
+
 
 function MainPage() {
-  return <div>
+  return (
+  <>
+  
     <Hero/>
     <OurServices/>
     <EHR/>
-    <Aboutus/>
-  </div>;
+    <AboutUs/>
+    <Demo/>
+    <Blog/>
+    <News/>
+  </>)
 }
 
 export default MainPage;
