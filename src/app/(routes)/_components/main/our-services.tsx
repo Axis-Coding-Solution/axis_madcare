@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { fjalla } from "@/utility/font";
 
 function OurServices() {
   const services = [
@@ -63,12 +64,14 @@ function OurServices() {
     <>
       <div className="pt-10 mt-10 ">
         <div className="bg-[url('/assests/images/bg-departments.png')] bg-no-repeat h-[30vh] bg-top px-40">
-          <div className="pl-[38%]  pt-3 text-primary text-4xl font-bold">
-            <h1>OUR SERVICES</h1>
+          <div className="pl-[38%]  pt-7 ">
+            <h1 className="text-[#3f7884]  font-normal text-5xl leading-[24px] not-italic">
+              OUR SERVICES
+            </h1>
           </div>
         </div>
         <div className="bg-[url('/assests/images/doctors-bg.png')] bg-no-repeat bg-contain bg-top">
-          <div className="grid grid-cols-4 gap-5 mx-16 pt-20   ">
+          <div className="grid grid-cols-4 gap-5 mx-[60px] pt-12   ">
             {services.map((service) => (
               <div
                 key={service.id}
@@ -86,14 +89,16 @@ function OurServices() {
                       />
                     </div>
                     <div className=" text-center">
-                      <h5 className="mt-5 text-[#62919A] px-1 font-bold  text-[16px]">
+                      <h5
+                        className={`${fjalla.className} mt-5 text-[#62919A]  font-bold  text-[16px]`}
+                      >
                         {service.title}
                       </h5>
-                      <p className="pr-2 text-gray-400  text-[11px] text-start px-5  mt-5 ">
+                      <p className="pr-2 text-[#7b7a8b]  text-[11px] text-start pl-8  mt-5 ">
                         {service.description}
                       </p>
                       <div className="">
-                        <button className=" text-sm  rounded-full h-14 w-44 px-0 mt-12 border-[1px] border-[#3791a4]  font-bold    text-[#68959E] hover:text-[white] hover:bg-[#3F7884] transition-all duration-300 ">
+                        <button className=" text-[16px]  rounded-full h-14 w-44 px-0 mt-12 border-[1px] border-[#3791a4]  font-bold    text-[#68959E] hover:text-[#fffefe] hover:bg-[#3F7884] transition-all duration-300 ">
                           View Detail
                         </button>
                       </div>

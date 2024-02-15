@@ -15,12 +15,12 @@ function Header() {
             width={118}
           />
         </div>
-        <div className="flex font-bold   gap-10">
-          <button className="text-[#316069]">Solutions</button>
-          <button className="text-[#316069]">Pricing</button>
-          <button className="text-[#316069]">Company</button>
-          <button className="text-[#316069]">Resources</button>
-          <button className="text-white text-sm border-2 rounded-full h-[50px] px-6 mt-3 border-white hover:text-[#316069] hover:border-[#315a61] hover:bg-transparent bg-[#1a363b] transition-all duration-300">
+        <div className="flex  not-italic  font-bold text-[16px] leading-[24px] text-[#316069]    gap-10">
+          <button className=" ">Solutions</button>
+          <button className="">Pricing</button>
+          <button className="">Company</button>
+          <button className="">Resources</button>
+          <button className="text-white  border-2 rounded-full text-[14px] leading-[21px] h-[50px] px-6 mt-3 border-white hover:text-[#316069] hover:border-[#315a61] hover:bg-transparent bg-[#1a363b] transition-all duration-300">
             Request Demo
           </button>
         </div>

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { fjalla } from "@/utility/font";
 
 function EHR() {
   return (
@@ -17,10 +18,12 @@ function EHR() {
               />
             </div>
             <div className="">
-              <h1 className="text-[#F0F4F9] text-[25px]  font-extrabold">
+              
+              <h1  className={`${fjalla.className} text-[#f0f4f9] text-[33px] leading-[40px]  font-bold not-italic`}
+                      >
                 We specialize in Electronic Health Records (EHR)
               </h1>
-              <p className="text-[#E7EFF4] text-base pr-[98px]  mt-7">
+              <p className="text-[#f0f4f9] text-base pr-[98px]  mt-7">
                 We specialize in Electronic Health Records (EHR), offering
                 comprehensive solutions tailored to the unique needs of
                 healthcare providers. With a deep understanding of the
@@ -33,7 +36,7 @@ function EHR() {
                 patients.
               </p>
 
-              <button className=" text-sm  rounded-full h-14 w-48 px-0  border-[1px] bg-[#F2F6FA]  font-bold    text-[#535365] mt-5    transition-all duration-300 ">
+              <button className=" text-[16px]  rounded-full h-14 w-48 px-0  border-[1px] bg-[#F2F6FA]  font-bold    text-[#464558] mt-5    transition-all duration-300 ">
                 Learn More
               </button>
             </div>
