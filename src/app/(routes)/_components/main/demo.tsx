@@ -13,7 +13,7 @@ function Demo() {
         <div className="flex  pl-28 mt-20">
           <div>
             <Image
-              className=""
+              className="mt-5"
               src="/assests/images/appointment.png"
               alt=""
               height={50}

@@ -3,7 +3,7 @@ import React from "react";
 function News() {
   return (
     <div className="bg-[url('/assests/images/peo.png')] bg-no-repeat bg-contain">
-      <div className="mt-36  py-32 px-28 bg-[#3791A4] ">
+      <div className="  py-32 px-28 bg-[#3791A4] ">
         <div className="flex justify-between  ">
           <div>
             <h1 className="text-[#F0F4F9] text-3xl font-bold">
