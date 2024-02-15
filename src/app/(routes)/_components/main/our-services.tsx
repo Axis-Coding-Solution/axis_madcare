@@ -68,15 +68,15 @@ function OurServices() {
           </div>
         </div>
         <div className="bg-[url('/assests/images/doctors-bg.png')] bg-no-repeat bg-contain bg-top">
-          <div className="grid grid-cols-4 gap-5 mx-20 pt-20  ">
+          <div className="grid grid-cols-4 gap-5 mx-16 pt-20   ">
             {services.map((service) => (
               <div
                 key={service.id}
-                className="grid grid-cols-4 gap-5 cursor-pointer"
+                className="grid grid-cols-4 gap-5 cursor-pointer shadow-lg "
               >
-                <div className=" shadow-xl rounded-md  bg-[#FFFFFF]     xl:h-[450px] xl:w-[290px] max-[320px]:pl-3 max-[375px]:pl-4 max-[425px]:pl-5 max-[280px]:pl-2 max-[768px]:pl-8 max-[1024px]:pl-9 lg:pl-3 xl:pl-0  pt-16">
+                <div className=" shadow-xl   bg-[#FFFFFF] rounded-lg     xl:h-[450px] xl:w-[290px] max-[320px]:pl-3 max-[375px]:pl-4 max-[425px]:pl-5 max-[280px]:pl-2 max-[768px]:pl-8 max-[1024px]:pl-9 lg:pl-3 xl:pl-0  pt-16">
                   <div className="">
-                    <div className="flex justify-center ">
+                    <div className="flex justify-center  ">
                       <Image
                         src={service.icon}
                         alt="icon"
@@ -86,14 +86,14 @@ function OurServices() {
                       />
                     </div>
                     <div className=" text-center">
-                      <h5 className="mt-5 text-[#68959E]   text-[15px] font-extrabold">
+                      <h5 className="mt-5 text-[#62919A] px-1 font-bold  text-[16px]">
                         {service.title}
                       </h5>
-                      <p className="pr-2 text-gray-400  text-[12px] px-3 mt-5 ">
+                      <p className="pr-2 text-gray-400  text-[11px] text-start px-5  mt-5 ">
                         {service.description}
                       </p>
                       <div className="">
-                        <button className=" text-sm  rounded-full h-14 w-48 px-0 mt-12 border-[1px] border-[#3791a4]  font-bold    text-[#68959E] hover:text-[white] hover:bg-[#3791a4] transition-all duration-300 ">
+                        <button className=" text-sm  rounded-full h-14 w-44 px-0 mt-12 border-[1px] border-[#3791a4]  font-bold    text-[#68959E] hover:text-[white] hover:bg-[#3F7884] transition-all duration-300 ">
                           View Detail
                         </button>
                       </div>

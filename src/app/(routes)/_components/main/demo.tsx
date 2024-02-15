@@ -26,7 +26,7 @@ function Demo() {
                 <div className="flex flex-wrap -mx-3 mb-6">
                   <div className="w-full md:w-1/2  px-3  mb-6 md:mb-0">
                     <input
-                      className="shadow appearance-none border border-[#CFEEF3]  py-4 rounded-3xl w-full  px-5  leading-tight focus:outline-none"
+                      className="shadow appearance-none border border-[#CFEEF3]  py-4 rounded-2xl w-full  px-5  leading-tight focus:outline-none"
                       id="name"
                       type="text"
                       placeholder="Name"
@@ -34,7 +34,7 @@ function Demo() {
                   </div>
                   <div className="w-full md:w-1/2  px-3">
                     <input
-                      className="shadow appearance-none border border-[#CFEEF3] rounded-3xl w-full py-4 px-5  leading-tight focus:outline-none "
+                      className="shadow appearance-none border border-[#CFEEF3] rounded-2xl w-full py-4 px-5  leading-tight focus:outline-none "
                       id="phone"
                       type="tel"
                       placeholder="phone"
@@ -45,7 +45,7 @@ function Demo() {
                   <div className="w-full md:w-1/2  px-3 mb-6 md:mb-0">
                     <div className="mb-4 relative">
                       <select
-                        className="shadow text-neutral-400 appearance-none border border-[#CFEEF3] rounded-3xl w-full py-4 pl-5  leading-tight focus:outline-none"
+                        className="shadow text-neutral-400 appearance-none border border-[#CFEEF3] rounded-2xl w-full py-4 pl-5  leading-tight focus:outline-none"
                         id="category"
                       >
                         <option>Category</option>
@@ -59,7 +59,7 @@ function Demo() {
                   </div>
                   <div className="w-full  md:w-1/2  px-3">
                     <input
-                      className="shadow appearance-none border border-[#CFEEF3] rounded-3xl w-full py-4 px-5  leading-tight focus:outline-none"
+                      className="shadow appearance-none border border-[#CFEEF3] rounded-2xl w-full py-4 px-5  leading-tight focus:outline-none"
                       id="phone"
                       type="tel"
                       placeholder="Email"

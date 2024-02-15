@@ -7,20 +7,20 @@ function EHR() {
       <div className="bg-[#3791A4] pt-28 mt-20 ">
         <div className="bg-[url('/assests/images/bg-eye-care.png')] bg-no-repeat bg-contain   bg-[#3791A4]   pb-20 ">
           <div className="flex gap-10 ">
-            <div className="pl-28">
+            <div className="pl-28 ">
               <Image
-                className=""
+                className="h-[350px]"
                 src="/assests/images/eye-care.png"
                 alt=""
                 height={100}
-                width={2500}
+                width={2530}
               />
             </div>
-            <div className=" mt-0">
+            <div className="">
               <h1 className="text-[#F0F4F9] text-[25px]  font-extrabold">
                 We specialize in Electronic Health Records (EHR)
               </h1>
-              <p className="text-[#E7EFF4]  pr-36 mt-6">
+              <p className="text-[#E7EFF4] text-base pr-[98px]  mt-7">
                 We specialize in Electronic Health Records (EHR), offering
                 comprehensive solutions tailored to the unique needs of
                 healthcare providers. With a deep understanding of the
