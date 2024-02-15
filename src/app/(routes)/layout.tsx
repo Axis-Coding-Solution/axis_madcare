@@ -8,10 +8,10 @@ import Footer from "./_components/main/footer";
  */
 function Layout({ children }: LayoutPropsType) {
   return (
-    <div>
+    <div className="flex flex-col h-full">
       <Header />
-      {children}
-      <Footer/>
+      <main className="flex-1">{children}</main>
+      <Footer />
     </div>
   );
 }
