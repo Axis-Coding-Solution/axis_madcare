@@ -57,11 +57,11 @@ body,
 }
 
 .swiper-pagination-bullet {
-  background-color: #3791a4;
-  width: 2rem;
+  background-color: #3791a4 !important;
+  width: 22px;
   height: 1rem;
   border-radius: 1rem;
-  background-color: #3791a4;
+  background-color: #6D8AB3;
   cursor: pointer;
   margin-bottom: 30px !important;
 }

@@ -12,7 +12,7 @@ import { fjalla } from "@/utility/font";
 const Slider = () => {
   return (
     <>
-      <div className="bg-[url('/assests/images/people.png')] mt-28 bg-no-repeat h-[20vh] bg-top ">
+      <div className="bg-[url('/assests/images/people.png')] mt-28 bg-no-repeat  h-[20vh] bg-top ">
         <div className="pl-[33%]  not-italic pt-7 text-[#3f7884] tracking-tighter  text-4xl leading-[24px] font-normal">
           <h1 className="pl-20">PEOPLE WHO LOVE US</h1>
         </div>
@@ -21,14 +21,14 @@ const Slider = () => {
         pagination={true}
         modules={[Pagination, Autoplay]}
         autoplay={{
-          delay: 600,
+          delay: 5000,
           disableOnInteraction: false,
         }}
-        className="mySwiper"
+        className="mySwiper mt-10"
       >
         <SwiperSlide>
           <div className="pl-72  ">
-            <div className="grid grid-cols-12 gap-y-4 bg-[url('/assests/images/peo.png')] bg-no-repeat bg-contain w-full  ">
+            <div className="grid grid-cols-12  w-full  ">
               <div className="sm:col-span-2  col-span-12  items-center sm:justify-center flex flex-col gap-2 lg:gap-2">
                 <div className=" ">
                   <Image
@@ -82,7 +82,7 @@ const Slider = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="pl-72  ">
-            <div className="grid grid-cols-12 gap-y-4 bg-[url('/assests/images/peo.png')] bg-no-repeat bg-contain w-full  ">
+            <div className="grid grid-cols-12  w-full  ">
               <div className="sm:col-span-2  col-span-12  items-center sm:justify-center flex flex-col gap-2 lg:gap-2">
                 <div className=" ">
                   <Image
@@ -96,11 +96,11 @@ const Slider = () => {
                 <h1
                   className={`${fjalla.className} text-[19px] leading-[23px] text-[#1b71a1]  not-italic font-medium `}
                 >
-                  Edward Newgate
+                  Jeny Doe
                 </h1>
 
                 <h1 className="font-normal not-italic text-[16px] leading-[24px] text-[#3f7884]">
-                  Founder circle
+                  Web Designer
                 </h1>
               </div>
 
@@ -136,7 +136,7 @@ const Slider = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="pl-72  ">
-            <div className="grid grid-cols-12 gap-y-4 bg-[url('/assests/images/peo.png')] bg-no-repeat bg-contain w-full  ">
+            <div className="grid grid-cols-12  w-full  ">
               <div className="sm:col-span-2  col-span-12  items-center sm:justify-center flex flex-col gap-2 lg:gap-2">
                 <div className=" ">
                   <Image
@@ -150,11 +150,11 @@ const Slider = () => {
                 <h1
                   className={`${fjalla.className} text-[19px] leading-[23px] text-[#1b71a1]  not-italic font-medium `}
                 >
-                  Edward Newgate
+                  Jhon Doe
                 </h1>
 
                 <h1 className="font-normal not-italic text-[16px] leading-[24px] text-[#3f7884]">
-                  Founder circle
+                  UX/UI Designer
                 </h1>
               </div>
 

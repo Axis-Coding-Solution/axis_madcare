@@ -11,14 +11,14 @@ function Demo() {
           </div>
         </div>
 
-        <div className="flex pl-28  mt-10">
+        <div className="flex  pl-28">
           <div>
             <Image
-              className="mt-5"
+              className="mt-20"
               src="/assests/images/appointment.png"
               alt=""
               height={50}
-              width={600}
+              width={550}
             />
           </div>
 
@@ -34,19 +34,19 @@ function Demo() {
                 />
               </div>
 
-              <form className="bg-white rounded px-8  pt-6 pb-8 mb-4">
+              <form className="bg-white rounded px-8  pt-20 pb-8 mb-4">
                 <div className="flex flex-wrap -mx-3 mb-6">
-                  <div className="w-full md:w-[320px]   px-3  mb-6 md:mb-0">
+                  <div className="w-full md:w-[270px]   px-3  mb-6 md:mb-0">
                     <input
-                      className="shadow appearance-none border border-[#CFEEF3]  py-5 rounded-2xl w-full  px-5  leading-tight focus:outline-none"
+                      className="shadow appearance-none border border-[#CFEEF3]  py-4 rounded-2xl w-full  px-5  leading-tight focus:outline-none"
                       id="name"
                       type="text"
                       placeholder="Name"
                     />
                   </div>
-                  <div className="w-full  md:w-[320px]  px-3">
+                  <div className="w-full  md:w-[270px]    px-3">
                     <input
-                      className="shadow appearance-none border border-[#CFEEF3] rounded-2xl w-full py-5 px-5  leading-tight focus:outline-none "
+                      className="shadow appearance-none border border-[#CFEEF3] rounded-2xl w-full py-4 px-5  leading-tight focus:outline-none "
                       id="phone"
                       type="tel"
                       placeholder="phone"
@@ -54,10 +54,10 @@ function Demo() {
                   </div>
                 </div>
                 <div className="flex flex-wrap -mx-3 ">
-                  <div className="w-full md:w-[320px]  px-3 mb-6 md:mb-0">
+                  <div className="w-full md:w-[270px]   px-3 mb-6 md:mb-0">
                     <div className="mb-4 relative">
                       <select
-                        className="shadow text-neutral-400 appearance-none border border-[#CFEEF3] rounded-2xl w-full py-5 pl-5  leading-tight focus:outline-none"
+                        className="shadow text-neutral-400 appearance-none border border-[#CFEEF3] rounded-2xl w-full py-4 pl-5  leading-tight focus:outline-none"
                         id="category"
                       >
                         <option>Category</option>
@@ -69,11 +69,11 @@ function Demo() {
                       </div>
                     </div>
                   </div>
-                  <div className="w-full  md:w-[320px]  px-3">
+                  <div className="w-full  md:w-[270px]    px-3">
                     <input
-                      className="shadow appearance-none border border-[#CFEEF3] rounded-2xl w-full py-5 px-5  leading-tight focus:outline-none"
-                      id="phone"
-                      type="tel"
+                      className="shadow appearance-none border border-[#CFEEF3] rounded-2xl w-full py-4 px-5  leading-tight focus:outline-none"
+                      id="Email"
+                      type="Email"
                       placeholder="Email"
                     />
                   </div>

@@ -5,73 +5,73 @@ import React from "react";
 function Footer() {
   return (
     <div className="">
-      <div className="grid grid-cols-12 bg-[#95D3D4] py-36 pb-40">
+      <div className="grid grid-cols-12 bg-[#95D3D4] py-28 pb-40">
         <div className="sm:col-span-1 col-span-12 text-center sm:text-start"></div>
-        <div className="sm:col-span-4 col-span-12 text-center sm:text-start">
+        <div className="sm:col-span-5 col-span-12 text-center sm:text-start">
           <div>
             <Image
               src="/svgs/d55bb295d2a8b570c3560064ee726527-ai (5).svg"
               alt=""
               height={80}
-              width={140}
+              width={170}
             />
-            <p className="text-[#f0f4f9] mt-5 not-italic font-normal   text-[19px] leading-[24px]">
+            <p className="text-[#f0f4f9] mt-5 not-italic font-normal   text-[16px] leading-[24px]">
               The world most trusted <br />
               telehealth company.
             </p>
           </div>
         </div>
-        <div className="sm:col-span-2 col-span-12 text-center sm:text-start cursor-pointer">
+        <div className="sm:col-span-2  col-span-12 text-center sm:text-start cursor-pointer">
           <h1
-            className={`${fjalla.className} not-italic text-[#f0f4f9] font-bold text-[19px] leading-[38px] tracking-tighter`}
+            className={`${fjalla.className}   not-italic text-[#f0f4f9] font-bold text-[19px] leading-[38px] tracking-tighter`}
           >
             Departments
           </h1>
-          <h2 className="mt-5 hover:text-white text-[#336666] mb-2 not-italic font-normal text-[18px] leading-[32px] ">
+          <h2 className="mt-5 hover:text-white  text-[#336666]  not-italic font-normal text-[18px] leading-[32px] ">
             Eye care
           </h2>
-          <h2 className=" hover:text-white text-[#336666] mb-2 not-italic font-normal text-[18px] leading-[32px]">
+          <h2 className=" hover:text-white  text-[#336666]  not-italic font-normal text-[18px] leading-[32px]">
             Cardiac are
           </h2>
-          <h2 className="  hover:text-white text-[#336666] mb-2 not-italic font-normal text-[18px] leading-[32px]">
+          <h2 className="  hover:text-white  text-[#336666]   not-italic font-normal text-[18px] leading-[32px]">
             Heart care
           </h2>
         </div>
-        <div className="sm:col-span-2 col-span-12 text-center sm:text-start cursor-pointer">
+        <div className="sm:col-span-2   col-span-12 text-center sm:text-start cursor-pointer">
           <h1
-            className={`${fjalla.className} not-italic text-[#f0f4f9] font-bold text-[19px] leading-[38px] tracking-tighter`}
+            className={`${fjalla.className}  not-italic text-[#f0f4f9] font-bold text-[19px] leading-[38px] tracking-tighter`}
           >
             Membership
           </h1>
-          <h2 className="mt-5  hover:text-white text-[#336666] mb-2 not-italic font-normal text-[18px] leading-[32px]">
+          <h2 className="mt-5  hover:text-white  text-[#336666]   not-italic font-normal text-[18px] leading-[32px]">
             Free trial
           </h2>
-          <h2 className="hover:text-white text-[#336666]  not-italic font-normal text-[18px] leading-[32px] mb-2">
+          <h2 className="hover:text-white  text-[#336666]  not-italic font-normal text-[18px] leading-[32px]  ">
             Silver
           </h2>
-          <h2 className=" hover:text-white text-[#336666] mb-2 not-italic font-normal text-[18px] leading-[32px]">
+          <h2 className=" hover:text-white  text-[#336666]  not-italic font-normal text-[18px] leading-[32px]">
             Premium
           </h2>
         </div>
-        <div className="sm:col-span-2 col-span-12 text-center sm:text-start cursor-pointer">
+        <div className="sm:col-span-2   col-span-12  text-center sm:text-start cursor-pointer">
           <h1
             className={`${fjalla.className} not-italic text-[#f0f4f9] font-bold text-[19px] leading-[38px] tracking-tighter`}
           >
             Customer Care
           </h1>
-          <h2 className="mt-5 hover:text-white text-[#336666] mb-2 not-italic font-normal text-[18px] leading-[32px]">
+          <h2 className="mt-5 hover:text-white text-[#336666]  not-italic font-normal text-[18px] leading-[32px]">
             About Us
           </h2>
-          <h2 className="hover:text-white text-[#336666] mb-2 not-italic font-normal text-[18px] leading-[32px]">
+          <h2 className="hover:text-white text-[#336666]   not-italic font-normal text-[18px] leading-[32px]">
             Contact US
           </h2>
-          <h2 className="hover:text-white text-[#336666] mb-2 not-italic font-normal text-[18px] leading-[32px]">
+          <h2 className="hover:text-white text-[#336666]  not-italic font-normal text-[18px] leading-[32px]">
             Get Update
           </h2>
         </div>
         <div className="sm:col-span-1 col-span-12"></div>
       </div>
-      <div className="bg-[#3791A4] py-10 pl-28 text-[#dbdbe9] not-italic  font-bold text-[15px] leading-[20px]">
+      <div className="bg-[#3791A4] py-10 pl-28 text-[#dbdbe9] not-italic  font-bold text-[13px] leading-[20px]">
         <p>All rights Reserved &copy; Axis MedCare Solutions, 2024</p>
       </div>
     </div>

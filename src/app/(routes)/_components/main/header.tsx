@@ -33,17 +33,17 @@ function Header() {
   return (
     <div
       className={`transition-all duration-300 ease-in-out fixed top-0 w-full ${
-        isScrolled ? "bg-[#F0F4F9]  shadow-md" : "bg-transparent"
+        isScrolled ? "backdrop-blur-sm   shadow-md" : "bg-transparent"
       } text-white`}
     >
-      <div className="flex justify-between items-center px-[130px] p-4">
+      <div className="flex justify-between items-center px-[117px] p-4">
         <div className="flex items-center justify-between w-full">
           <div className="mr-4 text-black">
             <Image
               src="/svgs/d55bb295d2a8b570c3560064ee726527-ai (5).svg"
               alt=""
               height={50}
-              width={125}
+              width={120}
             />
           </div>
           <div className="relative">
@@ -68,8 +68,8 @@ function Header() {
               </button>
             </div>
           </div>
-          <div className=" font-bold   gap-10 hidden md:flex">
-            <button className="text-[#316069]">Solutions</button>
+          <div className=" font-bold  text-[16px]  gap-10 hidden md:flex">
+            <button className="text-[#316069] ">Solutions</button>
             <button className="text-[#316069]">Pricing</button>
             <button className="text-[#316069]">Company</button>
             <button className="text-[#316069]">Resources</button>

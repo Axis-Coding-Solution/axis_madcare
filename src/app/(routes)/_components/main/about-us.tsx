@@ -35,7 +35,7 @@ const AboutUs = () => {
               Learn more
             </button>
           </div>
-          <div className="mt-10">
+          <div className="mt-14">
             <Image
               src="/assests/images/health-care.png"
               width={1200}

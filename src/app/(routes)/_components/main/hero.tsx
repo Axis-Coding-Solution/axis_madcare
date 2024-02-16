@@ -2,9 +2,9 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <div className="bg-[url('/assests/images/hero.jpeg')]   bg-cover bg-center h-[700px]">
-      <div className="flex justify-between gap-16 px-32">
-        <div className="pt-40 text-[#3f7884] ">
+    <div className="bg-[url('/assests/images/hero.jpeg')]   bg-cover bg-center h-[750px]">
+      <div className="flex justify-between gap-16 pl-28">
+        <div className="pt-44 text-[#3f7884] ">
           <h1 className="text-5xl font-light not-italic leading-[57px]">
             EMR,Billing and <br /> Insurance
           </h1>
@@ -15,8 +15,8 @@ function Hero() {
             Request Demo
           </button>
         </div>
-        <div className="pt-28">
-          <Image src="/assests/images/pic.png" alt="" height={80} width={510} />
+        <div className="pt-28 pr-28">
+          <Image src="/assests/images/pic.png" alt="" height={80} width={550} />
         </div>
       </div>
     </div>

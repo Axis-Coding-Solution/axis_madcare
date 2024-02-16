@@ -71,13 +71,10 @@ function OurServices() {
           </div>
         </div>
         <div className="bg-[url('/assests/images/doctors-bg.png')] bg-no-repeat bg-contain bg-top">
-          <div className="grid grid-cols-4 gap-5 mx-[60px] pt-12  ">
+          <div className="grid grid-cols-4 gap-5  mx-20 pt-12  ">
             {services.map((service) => (
-              <div
-                key={service.id}
-                className="grid grid-cols-4 gap-5  cursor-pointer shadow-lg "
-              >
-                <div className=" shadow-xl   bg-[#FFFFFF] rounded-lg     xl:h-[490px] xl:w-[327px]   pt-16">
+              <div key={service.id}>
+                <div className=" shadow-xl   bg-[#FFFFFF] rounded-lg     xl:h-[490px] xl:w-[270px]   pt-16">
                   <div className="">
                     <div className="flex justify-center  ">
                       <Image
@@ -90,11 +87,11 @@ function OurServices() {
                     </div>
                     <div className=" text-center  ">
                       <h5
-                        className={`${fjalla.className} mt-10 text-[#3f7884]  leading-[23px] font-bold  text-[23px]`}
+                        className={`${fjalla.className} mt-10 text-[#3f7884]   font-bold  text-[20px]`}
                       >
                         {service.title}
                       </h5>
-                      <p className="pr-2 text-[#7b7a8b] font-normal text-[14px]  px-5  mt-5 ">
+                      <p className="pr-2 text-[#7b7a8b] font-normal text-[12px]  px-2     mt-5 ">
                         {service.description}
                       </p>
                       <div className="">
