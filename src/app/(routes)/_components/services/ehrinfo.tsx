@@ -47,9 +47,18 @@ import Image from "next/image";
 import React from "react";
 
 const Ehrinfo = () => {
+    const list = [
+        { data: "Health information exchanges" },
+        { data: "Pharmacies" },
+        { data: "Payers" },
+        { data: "Radiology / imaging services" },
+        { data: "Hospital networks" },
+        { data: "Referring providers" },
+        { data: "Cancer registries" },
+        { data: "Patients" },]
   return (
     <div className="mb-20">
-      <div className="bg-[url('/assests/images/about-us.png')] mt-28 bg-no-repeat h-[20vh] bg-top ">
+      <div className="bg-[url('/assests/images/about-us.png')] mt-10 bg-no-repeat h-[20vh] bg-top ">
         <div className="pl-[44%]  not-italic pt-7 text-[#3f7884] tracking-tighter  text-4xl leading-[24px] font-normal">
           <h1 className="">
             About <span className="text-gray-400"> Software</span>{" "}
@@ -58,7 +67,7 @@ const Ehrinfo = () => {
       </div>
       <div className="flex justify-center bg-[url('/assests/images/about-bg.png')]  bg-no-repeat bg-cover">
         <div className="flex mx-28 ">
-          <div className="flex flex-col  mt-20 ">
+          <div className="flex flex-col ">
             <h1
               className={`${fjalla.className} font-bold not-italic text-[#3f7884] leading-[40px] text-[33px] mt-6 `}
             >
@@ -68,7 +77,13 @@ const Ehrinfo = () => {
               Transform your practice with CureMD's cloud-based Electronic
               Health Record in a way you never imagined before. With a powerful
               knowledge base,
-              <br /> in the healthcare industry, specializing in areas such as
+              {list.map((item) => (
+                <li className="list-disc" key={item.data}>
+                  {item.data}
+                </li>
+              ))}
+
+              {/* <br /> in the healthcare industry, specializing in areas such as
               billing and coding, insurance, provider services, revenue
               management cycles, and patient relationships.
               <br /> We firmly believe that patient care is the most noble duty,
@@ -76,14 +91,14 @@ const Ehrinfo = () => {
               alleviating the burdens associated with managing their practices.
               <br /> Our dedicated and knowledgeable team is available around
               the clock, seven days a week, ensuring continuous support and
-              assistance to our clients.
+              assistance to our clients. */}
             </p>
 
             <button className=" text-[16px] leading-[24px] not-italic  rounded-full h-14 w-48 px-0 mt-12 border-[1px] border-[#194e58]  font-bold    text-[#1e5c69] hover:text-[white] hover:bg-[#1F3D43] transition-all duration-300 ">
               Learn more
             </button>
           </div>
-          <div className="mt-14 ">
+          <div className=" ">
             <Image
             className="rounded-md"
               src="/assests/images/ehr.jpg"

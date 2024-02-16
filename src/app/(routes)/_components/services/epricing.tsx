@@ -3,6 +3,15 @@ import React from "react";
 import { fjalla } from "@/utility/font";
 
 function Epricing() {
+    const list = [
+        { data: "Health information exchanges" },
+        { data: "Pharmacies" },
+        { data: "Payers" },
+        { data: "Radiology / imaging services" },
+        { data: "Hospital networks" },
+        { data: "Referring providers" },
+        { data: "Cancer registries" },
+        { data: "Patients" },]
   return (
     <>
       <div className="bg-[#3791A4] pt-28 mt-20 pb-10 ">
@@ -10,7 +19,7 @@ function Epricing() {
           <div className="flex gap-10 ">
             <div className="pl-[120px]  ">
               <Image
-                className="h-[270px] rounded-md"
+                className="h-[270px] rounded-xl"
                 src="/assests/images/bg-eprescribing.jpg"
                 alt=""
                 height={100}
