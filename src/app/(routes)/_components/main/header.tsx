@@ -32,7 +32,7 @@ function Header() {
 
   return (
     <div
-      className={`transition-all duration-300 ease-in-out left-0 z-[100] fixed top-0 w-full ${
+      className={`transition-all duration-300 ease-in-out left-0 right-0 z-[100] fixed top-0 w-full ${
         isScrolled ? "backdrop-blur-sm   shadow-md" : "bg-transparent"
       } text-white`}
     >
