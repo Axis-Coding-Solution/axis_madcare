@@ -32,19 +32,19 @@ function Blog() {
   ];
   return (
     <>
-      <div className="pt-10 mt-10  ">
-        <div className="bg-[url('/assests/images/blog-post.png')] bg-no-repeat h-[30vh] bg-top px-40">
-          <div className="pl-[33%]  pt-3 text-[#3F7884] text-4xl font-bold">
+      <div className="pt-10 mt-48  ">
+        <div className="bg-[url('/assests/images/blog-post.png')] bg-no-repeat h-[18vh] bg-top px-40">
+          <div className="pl-[33%] not-italic leading-[24px] pt-7 tracking-tighter text-[#3f7884] text-4xl font-normal">
             <h1>RECENT BLOGPOST</h1>
           </div>
         </div>
 
-        <div className="bg-[url('/assests/images/doctors-bg.png')]  bg-no-repeat bg-cover  pb-20 ">
+        <div className="bg-[url('/assests/images/doctors-bg.png')]  bg-no-repeat bg-contain   pb-40 ">
           <div className="pt-28 mt-10 grid grid-cols-4 gap-6 mx-28 ">
             {blogPosts.map((post, index) => (
               <div
                 key={index}
-                className="bg-white border rounded-md border-gray-200  shadow-2xl dark:bg-gray-800 dark:border-gray-700"
+                className="bg-white border rounded-xl border-gray-200  shadow-xl dark:bg-gray-800 dark:border-gray-700"
               >
                 <div className="">
                   <Image
@@ -60,14 +60,14 @@ function Blog() {
                     <h1 className="text-[#5AA4B4] pl-5 ">{post.category}</h1>
                     <div className="flex items-center gap-2">
                       <SlCalender className="" />
-                      <span>{post.date}</span>
+                      <span className="text-xs">{post.date}</span>
                     </div>
                   </div>
                   <div>
-                    <h2 className="text-[#64929B] font-extrabold text-base mt-5 pl-3">
+                    <h2 className="text-[#3F7884] font-extrabold not-italic text-[20px] leading-[24px] text-base mt-5 pl-3">
                       {post.title}
                     </h2>
-                    <p className="text-neutral-500 mt-3 hover:underline pl-3 hover:text-[#5AA4B4] cursor-pointer">
+                    <p className="text-neutral-400 mt-3 font-normal text-[18px] leading-[24px] not-italic hover:underline pl-3 hover:text-[#5AA4B4] cursor-pointer">
                       read full article
                     </p>
                   </div>

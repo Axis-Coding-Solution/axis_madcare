@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-
 function Hero() {
   return (
     <div className="bg-[url('/assests/images/hero.jpeg')]   bg-cover bg-center h-[700px]">
@@ -12,7 +11,7 @@ function Hero() {
           <p className="text-[#3f7884] mt-10 text-[19px] not-italic font-normal  ">
             Secure,Integrated and easy to use
           </p>
-          <button className="text-[#fffefe] text-[16px] leading-[24px] not-italic  font-bold  rounded-full h-14 w-56 px-0 mt-12      hover:bg-[#1C505B] bg-[#3791a4] ">
+          <button className="text-[#fffefe] text-[16px] leading-[24px] not-italic  font-bold  rounded-full h-14 w-56 px-0 mt-12 transition-all duration-300      hover:bg-[#1C505B] bg-[#3791a4] ">
             Request Demo
           </button>
         </div>
