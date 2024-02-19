@@ -36,7 +36,7 @@ const AboutUs = () => {
             </button>
             </div>
           </div>
-          <div className="mt-14 order-first sm:order-last">
+          <div className="mt-16 order-first sm:order-last">
             <Image
               src="/assests/images/health-care.png"
               width={1200}

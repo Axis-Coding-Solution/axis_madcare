@@ -24,7 +24,7 @@ function News() {
             >
               SUBSCRIBE TO NEWSLETTER
             </h1>
-            <div className="flex flex-col sm:flex-row sm:gap-3">
+            <div className="flex flex-col sm:flex-row sm:gap-3 lg:gap-0">
               <div className="w-full md:w-96 lg:px-3 mt-3">
                 <input
                   className="shadow appearance-none rounded-2xl border-[1px]  w-full py-4 px-5 leading-tight focus:outline-none bg-[#3791A4] placeholder-gray-500"
@@ -33,7 +33,7 @@ function News() {
                   placeholder="Email"
                 />
               </div>
-              <button className=" font-bold not-italic text-[16px]  leading-[24px]   border-2 rounded-2xl  h-[60px] px-12  mt-2 border-white  text-[#464558]  bg-[#F2F6FA] transition-all duration-300">
+              <button className=" font-bold not-italic text-[16px]  leading-[24px]   border-2 rounded-2xl  h-[57px] px-12  mt-2 border-white  text-[#464558]  bg-[#F2F6FA] transition-all duration-300">
                 Subscribe
               </button>
             </div>

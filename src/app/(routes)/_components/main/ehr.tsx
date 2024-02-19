@@ -23,7 +23,7 @@ function EHR() {
               >
                 We specialize in Electronic Health Records (EHR)
               </h1>
-              <p className="text-[#f0f4f9] text-[15px] text-center sm:text-start  font-normal leading-[24px] xl:pr-[110px]  mt-7">
+              <p className="text-[#f0f4f9] text-[15px] text-center sm:text-start  font-normal leading-[24px] xl:pr-[105px]  mt-7">
                 We specialize in Electronic Health Records (EHR), offering
                 comprehensive solutions tailored to the unique needs of
                 healthcare providers. With a deep understanding of the
@@ -35,11 +35,11 @@ function EHR() {
                 optimize their operations and deliver exceptional care to their
                 patients.
               </p>
-
+             
               <div className="flex justify-center sm:justify-start">
-                <button className=" text-[16px] leading-[24px] mt-7 rounded-full h-14 w-48 px-0  border-[1px] bg-[#F2F6FA]  font-bold    text-[#464558]     transition-all duration-300 ">
-                  Learn More
-                </button>
+              <button className=" text-[16px] leading-[24px] mt-7 rounded-full h-14 w-48 px-0  border-[1px] bg-[#F2F6FA]  font-bold    text-[#464558]     transition-all duration-300 ">
+                Learn More
+              </button>
               </div>
             </div>
           </div>
