@@ -11,14 +11,24 @@ function Demo() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2  items-center justify-center w-full px-3 sm:px-10">
+        {/* <div className="grid grid-cols-1 sm:grid-cols-2   items-center justify-center w-full px-3 sm:px-10 lg:px-28">
           <div className="">
             <Image
-              className="lg:mt-20"
+              className="lg:mt-20 "
               src="/assests/images/appointment.png"
               alt=""
               height={100}
-              width={600}
+              width={550}
+            />
+          </div> */}
+           <div className="grid grid-cols-1 sm:grid-cols-2   w-full px-3 sm:px-10 lg:px-28">
+          <div className="">
+            <Image
+              className="lg:mt-20 "
+              src="/assests/images/appointment.png"
+              alt=""
+              height={100}
+              width={550}
             />
           </div>
 

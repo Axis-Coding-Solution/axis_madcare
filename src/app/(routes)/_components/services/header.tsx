@@ -4,14 +4,13 @@ import Lottie, { LottiePlayer } from "lottie-react";
 import animationData from "../../animation/animationdata1.json";
 
 const defaultOptions = {
-      loop: true,
-      autoplay: true, 
-      animationData: animationData,
-      rendererSettings: {
-        preserveAspectRatio: 'xMidYMid slice'
-      }
-    };
-
+  loop: true,
+  autoplay: true,
+  animationData: animationData,
+  rendererSettings: {
+    preserveAspectRatio: "xMidYMid slice",
+  },
+};
 
 const Header = () => {
   return (
@@ -24,14 +23,11 @@ const Header = () => {
         animationData={animationData}
         loop={true} // Set to true if you want the animation to loop
         autoplay={true} // Set to true if you want the animation to play automatically
-        
       />
       <div
         style={{
           position: "absolute",
           top: 0,
-          // left: 0,
-          width: "100%",
           height: "100%",
           display: "flex",
           marginLeft: "100px",
@@ -42,11 +38,12 @@ const Header = () => {
           fontWeight: "bold", // Adjust font weight as needed
         }}
       >
-        <div className="flex flex-col text-white justify-start items-start  pt-32  mt-12">
-          <h1 className="text-[40px]  font-sans">
-            Electronic Health Records (EHR)
+        <div className="flex flex-col text-white justify-start items-start">
+          <h1 className="text-[50px]  font-sans">
+            Electronic Health Records <br />
+            (EHR)
           </h1>
-          <p className=" text-2xl w-1/2 font-sans">
+          <p className=" text-2xl w-3/4 font-sans">
             Simplified Clinical Automation
           </p>
         </div>

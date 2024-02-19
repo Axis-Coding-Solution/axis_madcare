@@ -28,8 +28,8 @@ const Slider = () => {
       >
         <SwiperSlide>
           <div className="  ">
-            <div className="grid grid-cols-12  w-full  ">
-              <div className="sm:col-span-4  col-span-12  items-center sm:justify-center flex flex-col gap-2 lg:gap-2">
+            <div className="grid grid-cols-12  w-full lg:mx-60 ">
+              <div className="sm:col-span-4 lg:col-span-2   col-span-12  items-center sm:justify-center flex flex-col gap-2 lg:gap-2">
                 <div className=" ">
                   <Image
                     src="/assests/images/sw.png"
@@ -64,7 +64,7 @@ const Slider = () => {
                   <FaRegStar />
                 </div>
 
-                <p className="  not-italic font-normal text-[16px] text-[#3f7884]    xl:leading-[24px]">
+                <p className="  not-italic font-normal text-[16px] text-[#3f7884]    xl:leading-[24px] lg:pr-24">
                   This medical and health care facility distinguishes itself
                   from the competition by providing technologically advanced
                   medical and health care. A mobile app and a website are
@@ -82,8 +82,8 @@ const Slider = () => {
         </SwiperSlide>
         <SwiperSlide>
         <div className="  ">
-            <div className="grid grid-cols-12  w-full  ">
-              <div className="sm:col-span-4  col-span-12  items-center sm:justify-center flex flex-col gap-2 lg:gap-2">
+            <div className="grid grid-cols-12  w-full lg:mx-60  ">
+              <div className="sm:col-span-4 lg:col-span-2   col-span-12  items-center sm:justify-center flex flex-col gap-2 lg:gap-2">
                 <div className=" ">
                   <Image
                     src="/assests/images/sw.png"
@@ -118,7 +118,7 @@ const Slider = () => {
                   <FaRegStar />
                 </div>
 
-                <p className="  not-italic font-normal text-[16px] text-[#3f7884]    xl:leading-[24px]">
+                <p className="  not-italic font-normal text-[16px] text-[#3f7884]    xl:leading-[24px] lg:pr-24">
                   This medical and health care facility distinguishes itself
                   from the competition by providing technologically advanced
                   medical and health care. A mobile app and a website are
@@ -136,8 +136,8 @@ const Slider = () => {
         </SwiperSlide>
         <SwiperSlide>
         <div className="  ">
-            <div className="grid grid-cols-12  w-full  ">
-              <div className="sm:col-span-4  col-span-12  items-center sm:justify-center flex flex-col gap-2 lg:gap-2">
+            <div className="grid grid-cols-12  w-full lg:mx-60  ">
+              <div className="sm:col-span-4 lg:col-span-2   col-span-12  items-center sm:justify-center flex flex-col gap-2 lg:gap-2">
                 <div className=" ">
                   <Image
                     src="/assests/images/sw.png"
@@ -172,7 +172,7 @@ const Slider = () => {
                   <FaRegStar />
                 </div>
 
-                <p className="  not-italic font-normal text-[16px] text-[#3f7884]    xl:leading-[24px]">
+                <p className="  not-italic font-normal text-[16px] text-[#3f7884]    xl:leading-[24px] lg:pr-24">
                   This medical and health care facility distinguishes itself
                   from the competition by providing technologically advanced
                   medical and health care. A mobile app and a website are

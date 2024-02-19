@@ -43,7 +43,7 @@ import "@/app/_styles/index.css";
 export default function RootLayout({ children }: any) {
   return (
     <html lang="en">
-      <body className={roboto.className}>{children}</body>
+      <body className={roboto.className + " antialiased"}>{children}</body>
     </html>
   );
 }

@@ -94,12 +94,12 @@ function OurServices() {
                      
                     </div>
                     <div className="h-[100px]">
-                    <p className="pr-2 text-[#7b7a8b] text-center font-normal text-[12px]  px-2     mt-5 ">
+                    <p className="pr-2 text-[#7b7a8b] text-center font-normal text-[12px]  px-2  ">
                         {service.description}
                       </p>
                       </div>
                     <div className="">
-                        <button className=" text-[16px]   rounded-full h-14 w-44 px-0 mt-12 border-[1px] border-[#3791a4]  font-bold  cursor-pointer   text-[#68959E] hover:text-[#fffefe] hover:bg-[#3F7884] transition-all duration-300 ">
+                        <button className=" text-[16px]   rounded-full h-14 w-44 px-0 mt-10 border-[1px] border-[#3791a4]  font-bold  cursor-pointer   text-[#68959E] hover:text-[#fffefe] hover:bg-[#3F7884] transition-all duration-300 ">
                           View Detail
                         </button>
                       </div>

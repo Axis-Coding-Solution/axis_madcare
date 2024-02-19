@@ -72,9 +72,11 @@ function Footer() {
         </div>
         <div className="sm:col-span-1 col-span-12"></div>
       </div>
-     
+      {/* <div className="bg-[#3791A4] py-10 pl-28 text-[#dbdbe9] not-italic  font-bold text-[13px] leading-[20px]">
+        <p>All rights Reserved &copy; Axis MedCare Solutions, 2024</p>
+      </div> */}
     </div>
-     <div className="bg-[#3791A4] text-center sm:text-start lg:text-center py-1 sm:pl-28 lg:pl-10 text-[#dbdbe9] not-italic  font-bold text-[13px] leading-[20px]">
+     <div className="bg-[#3791A4] text-center sm:text-start lg:text-center py-1 sm:pl-28 lg:pl-0 text-[#dbdbe9] not-italic  font-bold text-[13px] leading-[20px]">
      <p>All rights Reserved &copy; Axis MedCare Solutions, 2024</p>
    </div>
    </>
