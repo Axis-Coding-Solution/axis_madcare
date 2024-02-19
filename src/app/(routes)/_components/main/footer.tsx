@@ -1,5 +1,6 @@
 import { fjalla } from "@/utility/font";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 function Footer() {
@@ -60,9 +61,11 @@ function Footer() {
           >
             Customer Care
           </h1>
+          <Link href="/aboutus">
           <h2 className="mt-5 hover:text-white text-[#336666]  not-italic font-normal text-[18px] leading-[32px]">
             About Us
           </h2>
+          </Link>
           <h2 className="hover:text-white text-[#336666]   not-italic font-normal text-[18px] leading-[32px]">
             Contact US
           </h2>

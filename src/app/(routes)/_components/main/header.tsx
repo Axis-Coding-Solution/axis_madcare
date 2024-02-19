@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,7 +37,7 @@ function Header() {
         isScrolled ? "backdrop-blur-sm   shadow-md" : "bg-transparent"
       } text-white`}
     >
-      <div className="flex justify-between items-center lg:px-[117px] px-10 p-4">
+      <div className="flex justify-between items-center lg:px-[117px] px-7 p-4">
         <div className="flex items-center justify-between w-full">
           <div className="mr-4 text-black">
             <Image
@@ -52,7 +53,8 @@ function Header() {
                 className="block  text-black lg:hidden focus:outline-none"
                 onClick={toggleMenu}
               >
-                <svg
+                <RxHamburgerMenu className="border-[1px] border-gray-400 text-blue-950 w-12 h-10" />
+                {/* <svg
                   className="w-6 h-6"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -64,21 +66,21 @@ function Header() {
                     strokeWidth={2}
                     d="M4 6h16M4 12h16m-7 6h7"
                   />
-                </svg>
+                </svg> */}
               </button>
             </div>
           </div>
-          <div className=" font-bold  text-[16px]  gap-10 hidden lg:flex">
+          <div className=" font-bold  text-[16px]   gap-10 hidden lg:flex">
             <button className="text-[#316069] ">Solutions</button>
             <button className="text-[#316069]">Pricing</button>
             <button className="text-[#316069]">Company</button>
             <button className="text-[#316069]">Resources</button>
-            <button className="text-white text-sm border-2 rounded-full h-[50px] px-6  border-white hover:text-[#316069] hover:border-[#315a61] hover:bg-transparent bg-[#1a363b] transition-all duration-300">
+            <button className="text-white text-sm border-2 rounded-full h-[50px]   px-6  border-white hover:text-[#316069] hover:border-[#315a61] hover:bg-transparent bg-[#1a363b] transition-all duration-300">
               Request Demo
             </button>
           </div>
           <div
-            className={`absolute  text-center w-full bg-white mt-12 top-14 text-black right-0  transition-max-height duration-500 ease-in-out overflow-hidden ${
+            className={`absolute  text-center w-full bg-[#f3f6f7] mt-12 top-14 text-black right-0  transition-max-height duration-500 ease-in-out overflow-hidden ${
               isOpen ? "max-h-72" : "max-h-0"
             }`} 
           >
