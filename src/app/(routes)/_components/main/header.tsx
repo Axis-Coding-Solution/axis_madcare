@@ -32,11 +32,11 @@ function Header() {
 
   return (
     <div
-      className={`transition-all duration-300 ease-in-out left-0 z-[100] fixed top-0 w-full ${
+      className={`transition-all duration-300 ease-in-out left-0 right-0 z-[100] fixed top-0 w-full ${
         isScrolled ? "backdrop-blur-sm   shadow-md" : "bg-transparent"
       } text-white`}
     >
-      <div className="flex justify-between items-center px-[117px] p-4">
+      <div className="flex justify-between items-center lg:px-[117px] px-10 p-4">
         <div className="flex items-center justify-between w-full">
           <div className="mr-4 text-black">
             <Image
@@ -49,7 +49,7 @@ function Header() {
           <div className="relative">
             <div>
               <button
-                className="block  text-black md:hidden focus:outline-none"
+                className="block  text-black lg:hidden focus:outline-none"
                 onClick={toggleMenu}
               >
                 <svg
@@ -68,7 +68,7 @@ function Header() {
               </button>
             </div>
           </div>
-          <div className=" font-bold  text-[16px]  gap-10 hidden md:flex">
+          <div className=" font-bold  text-[16px]  gap-10 hidden lg:flex">
             <button className="text-[#316069] ">Solutions</button>
             <button className="text-[#316069]">Pricing</button>
             <button className="text-[#316069]">Company</button>
@@ -78,18 +78,18 @@ function Header() {
             </button>
           </div>
           <div
-            className={`absolute text-center w-full bg-white mt-8 top-14 text-black right-0 transition-max-height duration-500 ease-in-out overflow-hidden ${
-              isOpen ? "max-h-52" : "max-h-0"
-            }`}
+            className={`absolute  text-center w-full bg-white mt-12 top-14 text-black right-0  transition-max-height duration-500 ease-in-out overflow-hidden ${
+              isOpen ? "max-h-72" : "max-h-0"
+            }`} 
           >
-            <p>hhhh</p>
-            <p>hhhh</p>
-            <p>hhhh</p>
-            <p>hhhh</p>
-            <p>hhhh</p>
-            <p>hhhh</p>
-            <p>hhhh</p>
-            <p>hhhh</p>
+            <p className="mt-3">Solutions</p>
+            <p className="mt-3">Pricing</p>
+            <p className="mt-3">Company</p>
+            <p className="mt-3">Resources</p>
+            <button className="text-white text-sm border-2 my-3 rounded-full h-[40px] px-6  border-white hover:text-[#316069] hover:border-[#315a61] hover:bg-transparent bg-[#1a363b] transition-all duration-300">
+              Request Demo
+            </button>
+            
             {/* <button className="block lg:hidden focus:outline-none" onClick={toggleMenu}>
           <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />

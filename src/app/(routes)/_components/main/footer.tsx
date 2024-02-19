@@ -4,10 +4,11 @@ import React from "react";
 
 function Footer() {
   return (
+    <>
     <div className="">
-      <div className="grid grid-cols-12 bg-[#95D3D4] py-28 pb-40">
-        <div className="sm:col-span-1 col-span-12 text-center sm:text-start"></div>
-        <div className="sm:col-span-5 col-span-12 text-center sm:text-start">
+      <div className="grid grid-cols-12 bg-[#95D3D4] gap-3 py-28 pb-40 pl-10 sm:pl-0">
+        <div className="sm:col-span-1 col-span-12  sm:text-start"></div>
+        <div className="sm:col-span-5 col-span-12  sm:text-start">
           <div>
             <Image
               src="/svgs/d55bb295d2a8b570c3560064ee726527-ai (5).svg"
@@ -21,7 +22,7 @@ function Footer() {
             </p>
           </div>
         </div>
-        <div className="sm:col-span-2  col-span-12 text-center sm:text-start cursor-pointer">
+        <div className="sm:col-span-2  col-span-12 text-start cursor-pointer">
           <h1
             className={`${fjalla.className}   not-italic text-[#f0f4f9] font-bold text-[19px] leading-[38px] tracking-tighter`}
           >
@@ -37,7 +38,7 @@ function Footer() {
             Heart care
           </h2>
         </div>
-        <div className="sm:col-span-2   col-span-12 text-center sm:text-start cursor-pointer">
+        <div className="sm:col-span-2   col-span-12 text-start cursor-pointer">
           <h1
             className={`${fjalla.className}  not-italic text-[#f0f4f9] font-bold text-[19px] leading-[38px] tracking-tighter`}
           >
@@ -53,7 +54,7 @@ function Footer() {
             Premium
           </h2>
         </div>
-        <div className="sm:col-span-2   col-span-12  text-center sm:text-start cursor-pointer">
+        <div className="sm:col-span-2   col-span-12  text-start cursor-pointer">
           <h1
             className={`${fjalla.className} not-italic text-[#f0f4f9] font-bold text-[19px] leading-[38px] tracking-tighter`}
           >
@@ -71,10 +72,12 @@ function Footer() {
         </div>
         <div className="sm:col-span-1 col-span-12"></div>
       </div>
-      <div className="bg-[#3791A4] py-10 pl-28 text-[#dbdbe9] not-italic  font-bold text-[13px] leading-[20px]">
-        <p>All rights Reserved &copy; Axis MedCare Solutions, 2024</p>
-      </div>
+     
     </div>
+     <div className="bg-[#3791A4] text-center sm:text-start lg:text-center py-1 sm:pl-28 lg:pl-10 text-[#dbdbe9] not-italic  font-bold text-[13px] leading-[20px]">
+     <p>All rights Reserved &copy; Axis MedCare Solutions, 2024</p>
+   </div>
+   </>
   );
 }
 

@@ -19,7 +19,7 @@ body,
 @media (max-width: 500px) {
   .swiper {
     width: 100vw;
-    height: 170vh;
+    height: 110vh;
   }
   .swiper-slide {
     text-align: center;

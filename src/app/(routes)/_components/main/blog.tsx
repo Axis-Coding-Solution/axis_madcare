@@ -32,15 +32,15 @@ function Blog() {
   ];
   return (
     <>
-      <div className="pt-10 mt-40  ">
-        <div className="bg-[url('/assests/images/blog-post.png')] bg-no-repeat h-[18vh] bg-top px-40">
-          <div className="pl-[33%] not-italic leading-[24px] pt-7 tracking-tighter text-[#3f7884] text-4xl font-normal">
-            <h1>RECENT BLOGPOST</h1>
+      <div className="pt-10 sm:mt-40  ">
+        <div className="bg-[url('/assests/images/blog-post.png')] bg-no-repeat h-[18vh] bg-top sm:px-40">
+          <div className=" text-center  not-italic leading-[24px] pt-7 tracking-tighter text-[#3f7884] text-4xl font-normal">
+            <h1 className="font-bold">RECENT BLOGPOST</h1>
           </div>
         </div>
 
         <div className="bg-[url('/assests/images/doctors-bg.png')]  bg-no-repeat bg-contain   pb-40 ">
-          <div className="pt-28 mt-10 grid grid-cols-4 gap-6 mx-28 ">
+          <div className="sm:pt-28 mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6 xl:mx-28 mx-5">
             {blogPosts.map((post, index) => (
               <div
                 key={index}
@@ -54,8 +54,7 @@ function Blog() {
                     width={350}
                     alt="pic"
                   />
-                </div>
-                <div className="mt-5 bg-[#FFFEFE] mb-9 rounded-md ">
+                  <div className="mt-5 bg-[#FFFEFE] mb-9 rounded-md ">
                   <div className="flex gap-5 rounded-md">
                     <h1 className="text-[#5AA4B4] pl-5 ">{post.category}</h1>
                     <div className="flex items-center gap-2">
@@ -72,6 +71,8 @@ function Blog() {
                     </p>
                   </div>
                 </div>
+                </div>
+                
               </div>
             ))}
           </div>
