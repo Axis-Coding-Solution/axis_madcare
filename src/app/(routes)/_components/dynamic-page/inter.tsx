@@ -91,7 +91,7 @@ const Inter = ({
   return (
     <div className="mb-20">
       <div className="bg-[url('/assests/images/about-us.png')] mt-10 bg-no-repeat h-[20vh] bg-top ">
-        <div className="pl-[44%]  not-italic pt-7 text-[#3f7884] tracking-tighter  text-4xl leading-[24px] font-normal">
+        <div className="pl-[39%]  not-italic pt-7 text-[#3f7884] tracking-tighter  text-4xl leading-[24px] font-normal">
           <h1 className="">{title}</h1>
         </div>
       </div>
@@ -132,7 +132,7 @@ const Inter = ({
               className="rounded-md"
             //   src="/assests/images/interoperability1.jpg"
             src={icon}
-              width={3000}
+              width={1000}
               height={50}
               alt="pic"
             />

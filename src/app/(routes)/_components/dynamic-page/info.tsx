@@ -31,7 +31,7 @@ function Info({
                 src="/assests/images/bg-eprescribing.jpg"
                 alt=""
                 height={100}
-                width={1000}
+                width={300}
               />
             </div>
             <div className="">

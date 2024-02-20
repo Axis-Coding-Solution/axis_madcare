@@ -26,12 +26,12 @@ const Header = ({
     // <div
     // // className="from-[#3791A4] bg-gradient-to-r h-[30rem] mb-10 flex justify-around "
     // >
-    <div className="flex justify-around mt-28 bg-[#3791A4] bg-gradient-to-r">
-      <div className=" mt-52  font-sans text-white">
-        <h1 className="text-[40px]">{title}</h1>
-        <p className="text-2xl flex justify-center t">{title}</p>
+    <div className="flex justify-around bg-gradient-to-l from-[#91BDBE]">
+      <div className=" mt-52  font-sans text-[#3F7884]">
+        <h1 className="text-[60px]">{title}</h1>
+        <p className="text-4xl flex justify-center t">{title}</p>
       </div>
-      <div style={{ width: "30%", height: "30%" }} className="m-10">
+      <div style={{ width: "30%", height: "30%" }} className="my-20">
         <Lottie
           animationData={Billinganimation}
           loop={true} // Set to true if you want the animation to loop

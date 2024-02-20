@@ -3,7 +3,7 @@ import Page from '../_components/ourservices/page'
 
 const page = () => {
   return (
-    <div className='mt-28'><Page/></div>
+    <div className=''><Page/></div>
   )
 }
 
