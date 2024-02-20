@@ -1,5 +1,6 @@
 import { fjalla } from "@/utility/font";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 function Footer() {
@@ -60,12 +61,16 @@ function Footer() {
           >
             Customer Care
           </h1>
+          <Link href="/aboutus">
           <h2 className="mt-5 hover:text-white text-[#336666]  not-italic font-normal text-[18px] leading-[32px]">
             About Us
           </h2>
+          </Link>
+          <Link href="/contactus">
           <h2 className="hover:text-white text-[#336666]   not-italic font-normal text-[18px] leading-[32px]">
             Contact US
           </h2>
+          </Link>
           <h2 className="hover:text-white text-[#336666]  not-italic font-normal text-[18px] leading-[32px]">
             Get Update
           </h2>
@@ -76,9 +81,9 @@ function Footer() {
         <p>All rights Reserved &copy; Axis MedCare Solutions, 2024</p>
       </div> */}
     </div>
-     <div className="bg-[#3791A4] h-12 text-start sm:text-start lg:text-start text-xl p-2 sm:pl-28 lg:pl-0 text-[#dbdbe9] not-ital text-[13px] leading-[20px]">
+     <div className="bg-[#3791A4] h-12 text-start sm:text-start lg:text-start text-xl p-2 sm:pl-28 lg:pl-0 text-[#dbdbe9] not-italic text-[13px] leading-[20px]">
      <p className="pl-32">All rights Reserved &copy; Axis MedCare Solutions, 2024</p>
-   </div>
+   </div> 
    </>
   );
 }

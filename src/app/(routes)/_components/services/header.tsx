@@ -18,7 +18,7 @@ const Header = () => {
     // // className="from-[#3791A4] bg-gradient-to-r h-[30rem] mb-10 flex justify-around "
     // >
 
-    <div style={{ width: "100%", height: "50%" }} className="mt-28"  >
+    <div style={{ width: "100%", height: "50%" }} className="mt-28">
       <Lottie
         animationData={animationData}
         loop={true} // Set to true if you want the animation to loop
@@ -33,9 +33,9 @@ const Header = () => {
           marginLeft: "100px",
           alignItems: "center",
           justifyContent: "start",
-          fontSize: "24px", // Adjust font size as needed
-          color: "white", // Adjust text color as needed
-          fontWeight: "bold", // Adjust font weight as needed
+          fontSize: "24px",
+          color: "white",
+          fontWeight: "bold",
         }}
       >
         <div className="flex flex-col text-white justify-start items-start ">
@@ -49,14 +49,7 @@ const Header = () => {
           </p>
         </div>
       </div>
-      {/* <div className="flex flex-col text-white justify-start items-start ml-40 pt-32  mt-12">
-        <h1 className="text-[40px]  font-sans">
-          Electronic Health Records (EHR)
-        </h1>
-        <p className=" text-2xl w-1/2 font-sans">Simplified Clinical Automation</p>
-      </div> */}
     </div>
-    // </div>
   );
 };
 
