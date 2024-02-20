@@ -76,7 +76,7 @@ function Footer() {
         <p>All rights Reserved &copy; Axis MedCare Solutions, 2024</p>
       </div> */}
     </div>
-     <div className="bg-[#3791A4] h-12 text-start sm:text-start lg:text-start text-xl p-2 sm:pl-28 lg:pl-0 text-[#dbdbe9] not-italic text-[13px] leading-[20px]">
+     <div className="bg-[#3791A4] h-12 text-start sm:text-start lg:text-start text-xl p-2 sm:pl-28 lg:pl-0 text-[#dbdbe9] not-ital text-[13px] leading-[20px]">
      <p className="pl-32">All rights Reserved &copy; Axis MedCare Solutions, 2024</p>
    </div>
    </>

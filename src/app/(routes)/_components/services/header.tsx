@@ -18,7 +18,7 @@ const Header = () => {
     // // className="from-[#3791A4] bg-gradient-to-r h-[30rem] mb-10 flex justify-around "
     // >
 
-    <div style={{ width: "100%", height: "50%" }} className="mt-28 ">
+    <div style={{ width: "100%", height: "50%" }} className="mt-28"  >
       <Lottie
         animationData={animationData}
         loop={true} // Set to true if you want the animation to loop
@@ -38,7 +38,7 @@ const Header = () => {
           fontWeight: "bold", // Adjust font weight as needed
         }}
       >
-        <div className="flex flex-col text-white justify-start items-start">
+        <div className="flex flex-col text-white justify-start items-start ">
           <h1 className="text-[50px]  font-sans">
             Electronic Health Records <br />
             {/* {titl */}
