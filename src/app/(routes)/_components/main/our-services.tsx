@@ -1,5 +1,7 @@
+"use client"
 import Image from "next/image";
 import { fjalla } from "@/utility/font";
+import Link from "next/link";
 
 function OurServices() {
   const services = [
@@ -11,49 +13,49 @@ function OurServices() {
         "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.",
     },
     {
-      id: 1,
+      id: 2,
       icon: "/icons/account_receivable.png",
       title: "Account Receivable Management",
       description:
         "Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.",
     },
     {
-      id: 1,
+      id: 3,
       icon: "/icons/credentialing.png",
       title: "Credentialing & Contracting",
       description:
         "Refers to the process of verifying qualifications and negotiating agreements between healthcare providers and insurance companies or other payers to establish networks.",
     },
     {
-      id: 1,
+      id: 4,
       icon: "/icons/networking.png",
       title: "Out Network Negotiation",
       description:
         "Out-Network Negotiation is the process of negotiating agreements and reimbursement rates between healthcare providers and insurance companies",
     },
     {
-      id: 1,
+      id: 5,
       icon: "/icons/networking.png",
       title: "Eligibility and Benefit Verification",
       description:
         "Eligibility and Benefit Verification is the process of confirming a patient's insurance coverage and determining the extent of their benefits for specific healthcare services",
     },
     {
-      id: 1,
+      id: 6,
       icon: "/icons/credentialing.png",
       title: "Enrollment services",
       description:
         "Enrollment services encompass the procedures and support provided to individuals or entities seeking to enroll in various programs, memberships, or services",
     },
     {
-      id: 1,
+      id: 7,
       icon: "/icons/account_receivable.png",
       title: "Complete RCM Services",
       description:
         "Enrollment services encompass the procedures and support provided to individuals or entities seeking to enroll in various programs, memberships, or services",
     },
     {
-      id: 1,
+      id: 8,
       icon: "/icons/billing.png",
       title: "EMR Applications and Support",
       description:
@@ -72,11 +74,22 @@ function OurServices() {
         </div>
         <div className="bg-[url('/assests/images/doctors-bg.png')] bg-no-repeat bg-contain bg-top">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mx-5 lg:mx-24 sm:pt-12  ">
-            {services.map((service) => (
-              <div key={service.id}>
-                <div className=" shadow-xl   bg-[#FFFFFF] rounded-lg     h-[520px]    pt-12 pb-4">
+            {services.map((service,index) => (
+              
+              <div  key={service.id} className="cursor-pointer"
+               onClick={() => (console.log(index + 1))} 
+               >
+                {/* {console.log("",index)} */}
+                
+                <Link 
+                href={`/dynamicpage/${service.id}`}
+                // href="/dynamicpage/${service.id}"  
+
+                >
+                <div 
+                className=" shadow-xl   bg-[#FFFFFF] rounded-lg     h-[520px]    pt-12 pb-4">
                   <div className="flex flex-col justify-between items-center">
-                    <div className="flex flex-col gap-5 h-[200px] items-center text-center">
+                    <div className="flex flex-col gap-5 h-[200px] items-center text-center" >
                     <Image
                         src={service.icon}
                         alt="icon"
@@ -131,6 +144,8 @@ function OurServices() {
                     </div>
                   </div> */}
                 </div>
+
+                </Link>
               </div>
             ))}
           </div>

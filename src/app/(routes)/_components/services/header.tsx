@@ -14,8 +14,16 @@ const defaultOptions = {
 
 const Header = () => {
   return (
+    // <div
+    // // className="from-[#3791A4] bg-gradient-to-r h-[30rem] mb-10 flex justify-around "
+    // >
+
     <div style={{ width: "100%", height: "50%" }} className="mt-28">
-      <Lottie animationData={animationData} loop={true} autoplay={true} />
+      <Lottie
+        animationData={animationData}
+        loop={true} // Set to true if you want the animation to loop
+        autoplay={true} // Set to true if you want the animation to play automatically
+      />
       <div
         style={{
           position: "absolute",
@@ -33,6 +41,7 @@ const Header = () => {
         <div className="flex flex-col text-white justify-start items-start">
           <h1 className="text-[50px]  font-sans">
             Electronic Health Records <br />
+            {/* {titl */}
             (EHR)
           </h1>
           <p className=" text-2xl w-3/4 font-sans">
