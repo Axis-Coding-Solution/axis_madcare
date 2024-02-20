@@ -16,11 +16,11 @@ const defaultOptions = {
 const Header = () => {
   return (
     <div className="flex justify-around   bg-gradient-to-l from-[#91BDBE]">
-      <div className=" mt-52  font-sans text-slate-400">
+      <div className=" mt-60  font-sans text-[#3F7884]">
         <h1 className="text-8xl">Contact US</h1>
       </div>
 
-      <div style={{ width: "30%", height: "30%" }} className="mt-20">
+      <div style={{ width: "30%", height: "30%" }} className="mt-11">
         <Lottie
           animationData={Contactusanimations}
           loop={true} // Set to true if you want the animation to loop

@@ -73,7 +73,7 @@ function OurServices() {
           </div>
         </div>
         <div className="bg-[url('/assests/images/doctors-bg.png')] bg-no-repeat bg-contain bg-top">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mx-5 lg:mx-24 sm:pt-12  ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mx-5 lg:mx-24 sm:pt-12 xl:pt-0  ">
             {services.map((service,index) => (
               
               <div  key={service.id} className="cursor-pointer"
