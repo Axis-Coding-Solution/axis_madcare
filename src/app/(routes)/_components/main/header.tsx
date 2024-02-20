@@ -38,7 +38,7 @@ function Header() {
         isScrolled ? "backdrop-blur-sm   shadow-md" : "bg-transparent"
       } text-white`}
     >
-      <div className="flex justify-between items-center lg:px-[120px] px-7 p-4">
+      <div className="flex justify-between items-center lg:px-[119px] px-7 p-4">
         <div className="flex items-center justify-between w-full">
           <div className="mr-4 text-black">
             <Image
@@ -72,6 +72,9 @@ function Header() {
             </div>
           </div>
           <div className=" font-bold  text-[16px]  gap-10 hidden lg:flex">
+            <Link href="/">
+              <button className="text-[#316069] mt-3">Home</button>
+            </Link>
             <Link href="/services">
               <button className="text-[#316069] mt-3 ">Services</button>
             </Link>
@@ -81,9 +84,7 @@ function Header() {
             <Link href="/contactus">
               <button className="text-[#316069] mt-3">Contact Us</button>
             </Link>
-            <Link href="/">
-            <button className="text-[#316069] mt-3">Home</button>
-            </Link>
+
             {/* <button className="text-[#316069]">Company</button>
             <button className="text-[#316069]">Resources</button> */}
 

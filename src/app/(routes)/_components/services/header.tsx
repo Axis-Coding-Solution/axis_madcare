@@ -38,7 +38,7 @@ const Header = () => {
           fontWeight: "bold",
         }}
       >
-        <div className="flex flex-col text-white justify-start items-start">
+        <div className="flex flex-col text-white justify-start items-start ">
           <h1 className="text-[50px]  font-sans">
             Electronic Health Records <br />
             {/* {titl */}

@@ -13,26 +13,16 @@ const defaultOptions = {
   },
 };
 
-const Header = ({
-  title,
-  description,
-  icon,
-}: {
-  title: string | undefined;
-  description: string | undefined;
-  icon: string | undefined;
-}) => {
+const Header = () => {
   return (
     // <div
     // // className="from-[#3791A4] bg-gradient-to-r h-[30rem] mb-10 flex justify-around "
     // >
     <div className="flex justify-around mt-28 bg-[#3791A4] bg-gradient-to-r">
-    
-      <div className=" mt-52  font-sans text-white">
-        <h1 className="text-[40px]">{title}</h1>
-        <p className="text-2xl flex justify-center t">{title}</p>
+      <div className=" mt-52  font-sans">
+        <h1 className="text-[40px]">Our Services</h1>
+        <p className="text-2xl flex justify-center t">Our Services</p>
       </div>
-    
       <div style={{ width: "30%", height: "30%" }} className="m-10">
         <Lottie
           animationData={Billinganimation}
