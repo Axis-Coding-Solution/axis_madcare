@@ -24,7 +24,7 @@ const page = () => {
       id: 1,
       icon: "/icons/billing.png",
       title: "Medical Billing and Coding",
-      slug:"mbc",
+      slug:"medical-billing-and-coding",
       description:
         "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.",
     },
@@ -32,7 +32,7 @@ const page = () => {
       id: 2,
       icon: "/icons/account_receivable.png",
       title: "Account Receivable Management",
-      slug:"arm",
+      slug:"account-receivable-management",
 
       description:
       "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.",
@@ -41,7 +41,7 @@ const page = () => {
       id: 3,
       icon: "/icons/credentialing.png",
       title: "Credentialing & Contracting",
-      slug:"cc",
+      slug:"credentialing-&-contracting",
 
       description:
       "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Refers to the process of verifying qualifications and negotiating agreements between healthcare providers and insurance companies or other payers to establish networks.",
@@ -50,7 +50,7 @@ const page = () => {
       id: 4,
       icon: "/icons/networking.png",
       title: "Out Network Negotiation",
-      slug:"onn",
+      slug:"out-network-negotiation",
 
       description:
       "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Out-Network Negotiation is the process of negotiating agreements and reimbursement rates between healthcare providers and insurance companies",
@@ -59,7 +59,7 @@ const page = () => {
       id: 5,
       icon: "/icons/networking.png",
       title: "Eligibility and Benefit Verification",
-      slug:"eabv",
+      slug:"eligibility-and-benefit-verification",
 
       description:
       "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Eligibility and Benefit Verification is the process of confirming a patient's insurance coverage and determining the extent of their benefits for specific healthcare services",
@@ -68,7 +68,7 @@ const page = () => {
       id: 6,
       icon: "/icons/credentialing.png",
       title: "Enrollment services",
-      slug:"es",
+      slug:"enrollment-services",
 
       description:
       "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Enrollment services encompass the procedures and support provided to individuals or entities seeking to enroll in various programs, memberships, or services",
@@ -77,7 +77,7 @@ const page = () => {
       id: 7,
       icon: "/icons/account_receivable.png",
       title: "Complete RCM Services",
-      slug:"crs",
+      slug:"complete-rcm-services",
 
       description:
       "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Enrollment services encompass the procedures and support provided to individuals or entities seeking to enroll in various programs, memberships, or services",
@@ -86,7 +86,7 @@ const page = () => {
       id: 8,
       icon: "/icons/billing.png",
       title: "EMR Applications and Support",
-      slug:"eas",
+      slug:"emr-applications-and-support",
 
       description:
       "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Enrollment services encompass the procedures and support provided to individuals or entities seeking to enroll in various programs, memberships, or services",

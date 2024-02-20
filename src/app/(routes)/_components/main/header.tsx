@@ -75,7 +75,7 @@ function Header() {
             <Link href="/">
               <button className="text-[#316069] mt-3">Home</button>
             </Link>
-            <Link href="/services">
+            <Link href="/ourservices">
               <button className="text-[#316069] mt-3 ">Services</button>
             </Link>
             <Link href="/aboutus">

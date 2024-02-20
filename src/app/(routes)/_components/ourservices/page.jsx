@@ -23,7 +23,7 @@ const Page = () => {
       id: 1,
       icon: "/icons/billing.png",
       title: "Medical Billing and Coding",
-      slug:"mbc",
+      slug:"medical-billing-and-coding",
       description:
         "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.",
     },
@@ -31,64 +31,64 @@ const Page = () => {
       id: 2,
       icon: "/icons/account_receivable.png",
       title: "Account Receivable Management",
-      slug:"arm",
+      slug:"account-receivable-management",
 
       description:
-        "Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.",
+      "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.",
     },
     {
       id: 3,
       icon: "/icons/credentialing.png",
       title: "Credentialing & Contracting",
-      slug:"cc",
+      slug:"credentialing-&-contracting",
 
       description:
-        "Refers to the process of verifying qualifications and negotiating agreements between healthcare providers and insurance companies or other payers to establish networks.",
+      "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Refers to the process of verifying qualifications and negotiating agreements between healthcare providers and insurance companies or other payers to establish networks.",
     },
     {
       id: 4,
       icon: "/icons/networking.png",
       title: "Out Network Negotiation",
-      slug:"onn",
+      slug:"out-network-negotiation",
 
       description:
-        "Out-Network Negotiation is the process of negotiating agreements and reimbursement rates between healthcare providers and insurance companies",
+      "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Out-Network Negotiation is the process of negotiating agreements and reimbursement rates between healthcare providers and insurance companies",
     },
     {
       id: 5,
       icon: "/icons/networking.png",
       title: "Eligibility and Benefit Verification",
-      slug:"eabv",
+      slug:"eligibility-and-benefit-verification",
 
       description:
-        "Eligibility and Benefit Verification is the process of confirming a patient's insurance coverage and determining the extent of their benefits for specific healthcare services",
+      "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Eligibility and Benefit Verification is the process of confirming a patient's insurance coverage and determining the extent of their benefits for specific healthcare services",
     },
     {
       id: 6,
       icon: "/icons/credentialing.png",
       title: "Enrollment services",
-      slug:"es",
+      slug:"enrollment-services",
 
       description:
-        "Enrollment services encompass the procedures and support provided to individuals or entities seeking to enroll in various programs, memberships, or services",
+      "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Enrollment services encompass the procedures and support provided to individuals or entities seeking to enroll in various programs, memberships, or services",
     },
     {
       id: 7,
       icon: "/icons/account_receivable.png",
       title: "Complete RCM Services",
-      slug:"crs",
+      slug:"complete-rcm-services",
 
       description:
-        "Enrollment services encompass the procedures and support provided to individuals or entities seeking to enroll in various programs, memberships, or services",
+      "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Enrollment services encompass the procedures and support provided to individuals or entities seeking to enroll in various programs, memberships, or services",
     },
     {
       id: 8,
       icon: "/icons/billing.png",
       title: "EMR Applications and Support",
-      slug:"eas",
+      slug:"emr-applications-and-support",
 
       description:
-        "Enrollment services encompass the procedures and support provided to individuals or entities seeking to enroll in various programs, memberships, or services",
+      "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Enrollment services encompass the procedures and support provided to individuals or entities seeking to enroll in various programs, memberships, or services",
     },
   ];
   return (
@@ -111,7 +111,7 @@ const Page = () => {
               <div key={service.id} className="cursor-pointer ">
                 <Link 
                 // href={`/${slugName}/${service.id}`}
-                href={`/dynamicpage/${service.slug}`}
+                href={`/servicess/${service.slug}`}
 
                 >
                   <div className=" group shadow-xl border   bg-[#FFFFFF]  hover:bg-gray-200 rounded-lg transition-all duration-300 h-[220px]    pt-12 pb-4">
