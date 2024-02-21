@@ -41,7 +41,7 @@ const page = () => {
       id: 3,
       icon: "/icons/credentialing.png",
       title: "Credentialing & Contracting",
-      slug:"credentialing-&-contracting",
+      slug:"credentialing-contracting",
 
       description:
       "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Refers to the process of verifying qualifications and negotiating agreements between healthcare providers and insurance companies or other payers to establish networks.",
