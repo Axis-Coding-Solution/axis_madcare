@@ -26,7 +26,7 @@ const Page = () => {
       slug: "medical-billing-and-coding",
       description:
         "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.",
-      image: "../../animation/Contactanimation.json",
+    
     },
     {
       id: 2,
@@ -100,7 +100,7 @@ const Page = () => {
         <div className="bg-[url('/assests/images/bg-departments.png')] bg-no-repeat h-[15vh]  bg-top md:px-40 mt-10">
           <div className="  pt-7 ">
             <h1 className="text-[#3f7884] text-center font-bold  tracking-tighter   text-[40px] leading-[24px] not-italic">
-              OUR SERVICES
+              OUR SERVICES 
             </h1>
           </div>
         </div>

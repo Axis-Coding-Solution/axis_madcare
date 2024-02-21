@@ -12,7 +12,7 @@ function Hero() {
             Secure,Integrated and easy to use
           </p>
           <div className="flex justify-center sm:justify-start">
-            <button className="text-[#fffefe] text-[16px] leading-[24px] not-italic  font-bold  rounded-full h-14 w-56 px-0 mt-12 transition-all duration-300      hover:bg-[#1C505B] bg-[#3791a4] ">
+            <button className="text-[#fffefe] text-[16px] leading-[24px] not-italic  font-bold  rounded-full h-14 w-56 px-0 mt-12 transition-all duration-300      hover:bg-[#1C505B]  bg-[#3791a4] ">
               Request Demo
             </button>
           </div>
