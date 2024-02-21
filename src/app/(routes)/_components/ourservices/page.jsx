@@ -9,6 +9,14 @@ import { PiRecycleDuotone } from "react-icons/pi";
 import Image from "next/image";
 import Header from "../ourservices/header";
 import Link from "next/link";
+import animation from "../../animation/Animation.json";
+import accountrceivable from "../../animation/accountrceivable.json";
+import Contracting from "../../animation/Contracting.json";
+import Codinganimation from "../../animation/Codinganimation.json";
+import Accountanimation from "../../animation/Accountanimation.json";
+import Verificationanimation from "../../animation/Verificationanimation.json";
+import negotiation from "../../animation/negotiation.json";
+import Lottie from "lottie-react";
 
 const Page = () => {
   function generateSlug(text) {
@@ -21,17 +29,18 @@ const Page = () => {
   const obj = [
     {
       id: 1,
-      icon: "/icons/billing.png",
+      // icon: "/icons/billing.png",
+      icon: animation,
       title: "Medical Billing and Coding",
       slug: "medical-billing-and-coding",
       description:
         "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.",
-    
+      image: "../../animation/Contactanimation.json",
     },
     {
       id: 2,
-      icon: "/icons/account_receivable.png",
-      title: "Account Receivable Management",
+      icon:Accountanimation,
+      title: "Account Receivable",
       slug: "account-receivable-management",
 
       description:
@@ -39,16 +48,16 @@ const Page = () => {
     },
     {
       id: 3,
-      icon: "/icons/credentialing.png",
+      icon:Contracting,
       title: "Credentialing & Contracting",
-      slug: "credentialing-&-contracting",
+      slug: "credentialing-contracting",
 
       description:
         "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Refers to the process of verifying qualifications and negotiating agreements between healthcare providers and insurance companies or other payers to establish networks.",
     },
     {
       id: 4,
-      icon: "/icons/networking.png",
+      icon:negotiation,
       title: "Out Network Negotiation",
       slug: "out-network-negotiation",
 
@@ -57,16 +66,15 @@ const Page = () => {
     },
     {
       id: 5,
-      icon: "/icons/networking.png",
+      icon:Verificationanimation,
       title: "Eligibility and Benefit Verification",
       slug: "eligibility-and-benefit-verification",
-
       description:
         "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Eligibility and Benefit Verification is the process of confirming a patient's insurance coverage and determining the extent of their benefits for specific healthcare services",
     },
     {
       id: 6,
-      icon: "/icons/credentialing.png",
+      icon:animation,
       title: "Enrollment services",
       slug: "enrollment-services",
 
@@ -75,7 +83,7 @@ const Page = () => {
     },
     {
       id: 7,
-      icon: "/icons/account_receivable.png",
+      icon:animation,
       title: "Complete RCM Services",
       slug: "complete-rcm-services",
 
@@ -84,7 +92,7 @@ const Page = () => {
     },
     {
       id: 8,
-      icon: "/icons/billing.png",
+      icon:animation,
       title: "EMR Applications and Support",
       slug: "emr-applications-and-support",
 
@@ -105,7 +113,7 @@ const Page = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 mb-10 sm:grid-cols-2 lg:grid-cols-4 gap-8 mx-5 lg:mx-24 sm:pt-12  ">
+        <div className="grid grid-cols-1 mb-10 sm:grid-cols-2 px-7 lg:grid-cols-4 gap-8  lg:mx-24 sm:pt-12  ">
           {obj.map((service, index) => {
             const slugName = generateSlug(service.title);
             return (
@@ -114,21 +122,31 @@ const Page = () => {
                   // href={`/${slugName}/${service.id}`}
                   href={`/servicess/${service.slug}`}
                 >
-                  <div className=" group shadow-xl border   bg-[#FFFFFF]  hover:bg-gray-200 rounded-lg transition-all duration-300 h-[220px]    pt-12 pb-4">
+                  <div className=" group shadow-xl border   bg-[#FFFFFF]  hover:bg-[#3f7884] rounded-lg transition-all duration-300 h-[220px] pb-4">
                     <div className="flex flex-col justify-between items-center">
-                      <div className="flex flex-col gap-5 h-[200px] items-center text-center">
-                        <Image
+                      <div className="group flex flex-col gap-5 h-[200px] items-center text-center relative">
+                        {/* <Image
                           src={service.icon}
                           alt="icon"
                           objectFit="cover"
                           width={100}
                           height={40}
                           className="text-black"
-                        />
-                        <h5 className="">{service.title}</h5>
+                        /> */}
+
+                        <div
+                          style={{ width: "40%", height: "10%" }}
+                          className=" top-0"
+                        >
+                          <Lottie
+                            animationData={service.icon}
+                            loop={true} // Set to true if you want the animation to loop
+                            autoplay={true} // Set to true if you want the animation to play automatically
+                          />
+                          </div>
+
+                        <div className=" absolute bottom-0 mb-10 group-hover:text-white"><h5 className="">{service.title}</h5></div>
                       </div>
-                      <div className="h-[100px]"></div>
-                      <div className=""></div>
                     </div>
                   </div>
                 </Link>

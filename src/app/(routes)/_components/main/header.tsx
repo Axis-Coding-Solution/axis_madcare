@@ -76,13 +76,13 @@ function Header() {
               <button className="text-[#316069] mt-3">Home</button>
             </Link>
             <Link href="/ourservices">
-              <button className="text-[#316069] mt-3 ">Services</button>
+              <button className="text-[#316069] mt-3   ">Services</button>
             </Link>
             <Link href="/aboutus">
-              <button className="text-[#316069] mt-3"> About Us</button>
+              <button className="text-[#316069] mt-3  "> About Us</button>
             </Link>
             <Link href="/contactus">
-              <button className="text-[#316069] mt-3">Contact Us</button>
+              <button className="text-[#316069] mt-3   ">Contact Us</button>
             </Link>
 
             {/* <button className="text-[#316069]">Company</button>

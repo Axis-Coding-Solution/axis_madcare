@@ -2,6 +2,8 @@
 import Image from "next/image";
 import { fjalla } from "@/utility/font";
 import Link from "next/link";
+import Billinganimation from "../../animation/Billinganimation.json";
+import Lottie from "lottie-react";
 
 function OurServices() {
   const services = [
@@ -26,7 +28,7 @@ function OurServices() {
       id: 3,
       icon: "/icons/credentialing.png",
       title: "Credentialing & Contracting",
-      slug: "credentialing-&-contracting",
+      slug:"credentialing-contracting",
 
       description:
       "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.",

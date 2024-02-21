@@ -10,7 +10,11 @@ import coding from "../../animation/Codinganimation.json";
 import account from "../../animation/Accountanimation.json";
 import verify from "../../animation/Verificationanimation.json";
 import complete from "../../animation/Completeanimation.json";
-
+import animation from "../../animation/Animation.json";
+import Accountanimation from "../../animation/Accountanimation.json";
+import Contracting from "../../animation/Contracting.json";
+import negotiation from "../../animation/negotiation.json";
+import Verificationanimation from "../../animation/Verificationanimation.json";
 
 // import { useRouter } from 'next/navigation'
 
@@ -30,7 +34,8 @@ const Page = () => {
   const services = [
     {
       id: 1,
-      icon: "/icons/billing.png",
+      // icon: "/icons/billing.png",
+      icon:animation,
       title: "Medical Billing and Coding",
       slug: "medical-billing-and-coding",
       description:
@@ -39,27 +44,25 @@ const Page = () => {
     },
     {
       id: 2,
-      icon: "/icons/account_receivable.png",
+      icon:Accountanimation,
       title: "Account Receivable Management",
       slug: "account-receivable-management",
-
       description:
       "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Out-Network Negotiation is the process of negotiating agreements and reimbursement rates between healthcare providers and insurance companies",
         image:account
     },
     {
       id: 3,
-      icon: "/icons/credentialing.png",
+      icon:Contracting,
       title: "Credentialing & Contracting",
-      slug: "credentialing-&-contracting",
-
+      slug:"credentialing-contracting",
       description:
       "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Out-Network Negotiation is the process of negotiating agreements and reimbursement rates between healthcare providers and insurance companies",
         
     },
     {
       id: 4,
-      icon: "/icons/networking.png",
+      icon:negotiation,
       title: "Out Network Negotiation",
       slug: "out-network-negotiation",
 
@@ -69,7 +72,7 @@ const Page = () => {
     },
     {
       id: 5,
-      icon: "/icons/networking.png",
+      icon:Verificationanimation,
       title: "Eligibility and Benefit Verification",
       slug: "eligibility-and-benefit-verification",
 
@@ -79,7 +82,7 @@ const Page = () => {
     },
     {
       id: 6,
-      icon: "/icons/credentialing.png",
+      icon:Contactus,
       title: "Enrollment services",
       slug: "enrollment-services",
 
@@ -88,7 +91,7 @@ const Page = () => {
     },
     {
       id: 7,
-      icon: "/icons/account_receivable.png",
+      icon:Contactus,
       title: "Complete RCM Services",
       slug: "complete-rcm-services",
 
@@ -98,7 +101,8 @@ const Page = () => {
     },
     {
       id: 8,
-      icon: "/icons/billing.png",
+      icon:Contactus,
+      // icon: "/icons/billing.png",
       title: "EMR Applications and Support",
       slug: "emr-applications-and-support",
 
@@ -132,6 +136,7 @@ const Page = () => {
         title={service?.title}
         description={service?.description}
         image={service?.image}
+        icon={service?.icon}
       />
       <DynamicHeader
         title={service?.title}

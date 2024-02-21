@@ -28,7 +28,7 @@ function Info({
           <div className="flex gap-10 ">
             <div className="pl-[120px]  ">
               <Image
-                className="h-[270px] w-[400px] rounded-xl"
+                className="h-[270px] w-[300px] rounded-xl"
                 src="/assests/images/bg-eprescribing.jpg"
                 alt=""
                 height={100}
