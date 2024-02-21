@@ -3,40 +3,38 @@ import React from "react";
 import Lottie, { LottiePlayer } from "lottie-react";
 import animationData from "../../animation/animationdata1.json";
 import Billinganimation from "../../animation/Billinganimation.json";
-
-const defaultOptions = {
-  loop: true,
-  autoplay: true,
-  animationData: Billinganimation,
-  rendererSettings: {
-    preserveAspectRatio: "xMidYMid slice",
-  },
-};
+;
+const obj = {
+  bill: Billinganimation
+}
 
 const Header = ({
   title,
   description,
   icon,
+  image
 }: {
   title: string | undefined;
   description: string | undefined;
   icon: string | undefined;
+  image: any | undefined;
 }) => {
+  console.log('EEEEEEEEEEEEEEEE', image)
   return (
     // <div
     // // className="from-[#3791A4] bg-gradient-to-r h-[30rem] mb-10 flex justify-around "
     // >
     <div className="flex justify-around bg-gradient-to-l from-[#91BDBE]">
       <div className=" mt-52  font-sans text-[#3F7884]">
-        <h1 className="text-[60px]">{title}</h1>
+        <h1 className="text-[40px]">{title}</h1>
         <p className="text-4xl flex justify-center t">{title}</p>
       </div>
       <div style={{ width: "30%", height: "30%" }} className="my-20">
-        <Lottie
-          animationData={Billinganimation}
-          loop={true} // Set to true if you want the animation to loop
-          autoplay={true} // Set to true if you want the animation to play automatically
-        />
+      {image&&  <Lottie
+          animationData={image}
+          loop={true} 
+          autoplay={true} 
+        />}
         <div
           style={{
             position: "absolute",
