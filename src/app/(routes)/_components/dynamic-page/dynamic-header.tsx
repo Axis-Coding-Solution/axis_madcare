@@ -12,7 +12,7 @@ const DynamicHeader = ({
   icon: string | undefined;
 }) => {
   return (
-    <div className="mb-20">
+    <div className="mb-20 pl-3">
       <div className="bg-[url('/assests/images/about-us.png')] mt-10 bg-no-repeat h-[20vh] bg-top ">
         <div className="pl-[40%]  not-italic pt-7 text-[#3f7884] tracking-tighter  text-4xl leading-[24px] font-normal">
           <h1 className="">
@@ -32,7 +32,7 @@ const DynamicHeader = ({
               {description}
             </p>
           </div>
-          <div className=" ">
+          {/* <div className=" ">
             <Image
               className="rounded-md"
               src={icon}
@@ -40,7 +40,7 @@ const DynamicHeader = ({
               height={50}
               alt="pic"
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

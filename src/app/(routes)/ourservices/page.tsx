@@ -34,7 +34,7 @@ const Page = () => {
       title: "Medical Billing and Coding",
       slug: "medical-billing-and-coding",
       description:
-      "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.",
+        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.",
     },
     {
       id: 2,
@@ -49,10 +49,10 @@ const Page = () => {
       id: 3,
       icon: "/icons/credentialing.png",
       title: "Credentialing & Contracting",
-      slug:"credentialing-contracting",
+      slug: "credentialing-contracting",
 
       description:
-      "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.",
+        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.",
     },
     {
       id: 4,
@@ -61,7 +61,7 @@ const Page = () => {
       slug: "out-network-negotiation",
 
       description:
-      "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.",
+        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.",
     },
     {
       id: 5,
@@ -113,7 +113,7 @@ const Page = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 mb-10 sm:grid-cols-2 lg:grid-cols-4 gap-8 mx-5 lg:mx-24 sm:pt-12  ">
+        <div className="grid grid-cols-1 mb-10 sm:grid-cols-2 px-7 lg:grid-cols-4 gap-8  lg:mx-24 sm:pt-12  ">
           {obj.map((service, index) => {
             const slugName = generateSlug(service.title);
             return (
@@ -124,8 +124,8 @@ const Page = () => {
                 >
                   <div className=" group shadow-xl border   bg-[#FFFFFF]  hover:bg-[#3f7884] rounded-lg transition-all duration-300 h-[220px] pb-4">
                     <div className="flex flex-col justify-between items-center">
-                    <div className="group flex flex-col gap-5 h-[200px] items-center text-center mt-10">
-                      <Image
+                      <div className="group flex flex-col gap-5 h-[200px] items-center text-center mt-10">
+                        <Image
                           src={service.icon}
                           alt="icon"
                           objectFit="cover"
@@ -134,7 +134,7 @@ const Page = () => {
                           className="text-black"
                         />
 
-                      {/* <div
+                        {/* <div
                         style={{ width: "40%", height: "10%" }}
                         className=" top-0"
                       >
@@ -145,10 +145,10 @@ const Page = () => {
                         />
                       </div> */}
 
-                      <div className="  mb-10 group-hover:text-white">
-                        <h5 className="">{service.title}</h5>
+                        <div className="  mb-10 group-hover:text-white">
+                          <h5 className="">{service.title}</h5>
+                        </div>
                       </div>
-                    </div>
                     </div>
                   </div>
                 </Link>

@@ -4,6 +4,7 @@ import Lottie, { LottiePlayer } from "lottie-react";
 import animationData from "../../animation/animationdata1.json";
 import Billinganimation from "../../animation/Billinganimation.json";
 
+
 const defaultOptions = {
   loop: true,
   autoplay: true,

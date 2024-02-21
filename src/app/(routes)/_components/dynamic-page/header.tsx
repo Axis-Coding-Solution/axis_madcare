@@ -3,38 +3,29 @@ import React from "react";
 import Lottie, { LottiePlayer } from "lottie-react";
 import animationData from "../../animation/animationdata1.json";
 import Billinganimation from "../../animation/Billinganimation.json";
-;
 const obj = {
-  bill: Billinganimation
-}
+  bill: Billinganimation,
+};
 
 const Header = ({
   title,
   description,
   icon,
-  image
+  image,
 }: {
   title: string | undefined;
   description: string | undefined;
   icon: string | undefined;
   image: any | undefined;
 }) => {
-  console.log('EEEEEEEEEEEEEEEE', image)
   return (
-    // <div
-    // // className="from-[#3791A4] bg-gradient-to-r h-[30rem] mb-10 flex justify-around "
-    // >
-    <div className="flex justify-around bg-gradient-to-l from-[#91BDBE]">
-      <div className=" mt-52  font-sans text-[#3F7884]">
-        <h1 className="text-[40px]">{title}</h1>
-        <p className="text-4xl flex justify-center t">{title}</p>
+    <div className="flex justify-around  bg-gradient-to-l from-[#91BDBE]  ">
+      <div className=" mt-52   font-sans text-[#3F7884]">
+        <h1 className="text-[50px]">{title}</h1>
+        <p className="text-[25px] flex">{title}</p>
       </div>
-      <div style={{ width: "30%", height: "30%" }} className="my-20">
-      {image&&  <Lottie
-          animationData={image}
-          loop={true} 
-          autoplay={true} 
-        />}
+      <div style={{ width: "30%", height: "40%" }} className="my-20">
+        {image && <Lottie animationData={image} loop={true} autoplay={true} />}
         <div
           style={{
             position: "absolute",
@@ -45,30 +36,11 @@ const Header = ({
             marginLeft: "100px",
             alignItems: "center",
             justifyContent: "start",
-            fontSize: "24px", // Adjust font size as needed
-            color: "white", // Adjust text color as needed
-            fontWeight: "bold", // Adjust font weight as needed
+            fontSize: "24px",
+            color: "white",
+            fontWeight: "bold",
           }}
-        >
-          {/* <div className="flex flex-col text-black justify-start items-start"> */}
-          {/* <h1 className="text-[50px]  font-sans"> */}
-          {/* Electronic Health Records <br />
-            {/* {titl */}
-          {/* (EHR)  */}
-          {/* {title} */}
-          {/* </h1> */}
-          {/* <p className=" text-2xl w-3/4 font-sans"> */}
-          {/* Simplified Clinical Automation */}
-          {/* {title} */}
-          {/* </p> */}
-          {/* </div> */}
-        </div>
-        {/* <div className="flex flex-col text-white justify-start items-start ml-40 pt-32  mt-12">
-        <h1 className="text-[40px]  font-sans">
-          Electronic Health Records (EHR)
-        </h1>
-        <p className=" text-2xl w-1/2 font-sans">Simplified Clinical Automation</p>
-      </div> */}
+        ></div>
       </div>
     </div>
   );
