@@ -38,7 +38,7 @@ const Page = () => {
     },
     {
       id: 2,
-      icon: "/icons/account_receivable.png",
+      icon: "/icons/AccountReceviable.png",
       title: "Account Receivable Management",
       slug: "account-receivable-management",
 
@@ -47,7 +47,7 @@ const Page = () => {
     },
     {
       id: 3,
-      icon: "/icons/credentialing.png",
+      icon: "/icons/Contracting.png",
       title: "Credentialing & Contracting",
       slug: "credentialing-contracting",
 
@@ -56,7 +56,7 @@ const Page = () => {
     },
     {
       id: 4,
-      icon: "/icons/networking.png",
+      icon: "/icons/negotiation.png",
       title: "Out Network Negotiation",
       slug: "out-network-negotiation",
 
@@ -74,7 +74,7 @@ const Page = () => {
     },
     {
       id: 6,
-      icon: "/icons/credentialing.png",
+      icon: "/icons/enrollment.png",
       title: "Enrollment services",
       slug: "enrollment-services",
 
@@ -83,7 +83,7 @@ const Page = () => {
     },
     {
       id: 7,
-      icon: "/icons/account_receivable.png",
+      icon: "/icons/RCM.png",
       title: "Complete RCM Services",
       slug: "complete-rcm-services",
 
@@ -92,7 +92,7 @@ const Page = () => {
     },
     {
       id: 8,
-      icon: "/icons/billing.png",
+      icon: "/icons/EMR.png",
       title: "EMR Applications and Support",
       slug: "emr-applications-and-support",
 

@@ -33,12 +33,11 @@ function Blog() {
   return (
     <>
       <div className="pt-10 sm:mt-40  ">
-        <div className="bg-[url('/assests/images/blog-post.png')] bg-no-repeat h-[18vh] bg-top sm:px-40">
+        <div className="bg-[url('/assests/images/blog-post.png')] bg-no-repeat h-[10vh] bg-top sm:px-40">
           <div className=" text-center  not-italic leading-[24px] pt-7 tracking-tighter text-[#3f7884] text-4xl font-normal">
             <h1 className="font-bold">RECENT BLOGPOST</h1>
           </div>
         </div>
-
         <div className="bg-[url('/assests/images/doctors-bg.png')]  bg-no-repeat bg-contain   pb-40 ">
           <div className="sm:pt-28 mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6 xl:mx-28 mx-5">
             {blogPosts.map((post, index) => (
@@ -72,8 +71,7 @@ function Blog() {
                   </div>
                 </div>
                 </div>
-                
-              </div>
+               </div>
             ))}
           </div>
           {/* <div className=" w-[20%]  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">

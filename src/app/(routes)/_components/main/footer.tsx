@@ -17,7 +17,7 @@ function Footer() {
               height={80}
               width={170}
             />
-            <p className="text-[#f0f4f9] mt-5 not-italic font-normal   text-[16px] leading-[24px]">
+            <p className=" mt-5 not-italic font-normal text-[14px]">
               The world most trusted <br />
               telehealth company.
             </p>
@@ -68,7 +68,7 @@ function Footer() {
           </Link>
           <Link href="/contactus">
           <h2 className="hover:text-white text-[#336666]   not-italic font-normal text-[18px] leading-[32px]">
-            Contact US
+            Contact us
           </h2>
           </Link>
           <h2 className="hover:text-white text-[#336666]  not-italic font-normal text-[18px] leading-[32px]">

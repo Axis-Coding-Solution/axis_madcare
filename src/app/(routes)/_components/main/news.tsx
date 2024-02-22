@@ -27,7 +27,7 @@ function News() {
             <div className="flex flex-col sm:flex-row sm:gap-3 lg:gap-0">
               <div className="w-full md:w-96 lg:px-3 mt-3">
                 <input
-                  className="shadow appearance-none rounded-2xl border-[1px]  w-full py-4 px-5 leading-tight focus:outline-none bg-[#3791A4] placeholder-gray-500"
+                  className="shadow placeholder-white appearance-none rounded-2xl border-[1px]  w-full py-4 px-5 leading-tight focus:outline-none bg-[#3791A4] placeholder-gray-500"
                   id="Email"
                   type="Email"
                   placeholder="Email"

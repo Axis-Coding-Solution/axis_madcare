@@ -15,9 +15,10 @@ const defaultOptions = {
 
 const Banner = () => {
   return (
-    <div className="flex gap-64   bg-gradient-to-l from-[#91BDBE]">
-      <div className=" mt-52  font-sans text-[#3F7884]">
-        <h1 className="text-8xl ml-28">About US</h1>
+    <div className="flex justify-around gap-[25rem]    bg-gradient-to-l from-[#91BDBE]">
+
+      <div className="font-sans text-[#3F7884]">
+        <h1 className="text-8xl font-light mt-56">About us</h1>
       </div>
 
       <div style={{ width: "30%", height: "35%" }} className="mt-11">
@@ -38,6 +39,7 @@ const Banner = () => {
           }}
         ></div>
       </div>
+
     </div>
   );
 };

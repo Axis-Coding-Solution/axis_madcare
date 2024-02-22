@@ -20,9 +20,7 @@ function Corporation() {
                 80 Pine Street, 21st Floor <br /> New York, NY 10005
               </p>
             </div>
-            
-            
-            <div className="pl-20">
+             <div className="pl-20">
               <TfiEmail className="ml-20 text-3xl text-[#3F7884]" />
               <p className="hover:underline mt-5 text-xl text-[#3F7884]">
                 sales@axismedcare.com
