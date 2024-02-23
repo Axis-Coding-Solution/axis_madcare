@@ -5,9 +5,12 @@ import About from '../_components/aboutus/about'
 
 const page = () => {
   return (
+
 <>
 <Banner/>
+<div className="m-24">
 <About/>
+</div>
 </>
   )
 }

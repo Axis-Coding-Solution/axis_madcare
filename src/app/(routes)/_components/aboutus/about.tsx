@@ -6,19 +6,19 @@ function About() {
   return (
     <div>
       <div className="bg-[url('/assests/images/about-us.png')] mt-28 bg-no-repeat h-[20vh] bg-top ">
-        <div className="pl-[39%]  not-italic pt-7 text-[#3f7884] tracking-tighter  text-4xl leading-[24px] font-normal">
-          <h1 className="pl-20">ABOUT US</h1>
+        <div className="text-center  not-italic pt-7 text-[#3f7884] tracking-tighter text-4xl leading-[24px] font-bold">
+          <h1 className="font-bold" >ABOUT US</h1>
         </div>
       </div>
       <div className="flex justify-center bg-[url('/assests/images/about-bg.png')]  bg-no-repeat bg-cover mb-40">
-        <div className="flex mx-28 ">
-          <div className="flex flex-col  mt-20 ">
+        <div className="flex flex-col lg:flex-row ">
+          <div className="flex flex-col  mt-20 px-10 ">
             <h1
               className={`${fjalla.className} font-bold not-italic text-[#3f7884] leading-[40px] text-[33px] mt-6 `}
             >
               We are founded and based in US
             </h1>
-            <p className="not-italic text-[17px] text-[#6eadb9]  leading-[28px] font-normal pr-14 mt-6">
+            <p className="not-italic text-[17px] text-[#6eadb9]  leading-[28px] font-normal  mt-6">
               Our company brings over 20 years of extensive experience
               <br /> in the healthcare industry, specializing in areas such as
               billing and coding, insurance, provider services, revenue

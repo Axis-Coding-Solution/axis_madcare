@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <div className="flex justify-center gap-[30rem] items-center   bg-gradient-to-l from-[#91BDBE]">
       <div className="font-sans text-[#3F7884]">
-        <h1 className="text-8xl font-light not-italic ">Contact Us</h1>
+        <h1 className="text-8xl  not-italic  ">Contact Us</h1>
       </div>
       <div style={{ width: "30%", height: "35%" }} className="mt-11">
         <Lottie

@@ -16,16 +16,16 @@ const defaultOptions = {
 
 const Header = () => {
   return (
-    // <div
-    // // className="from-[#3791A4] bg-gradient-to-r h-[30rem] mb-10 flex justify-around "
-    // >
-    <div className="flex justify-center gap-[32rem] bg-gradient-to-l from-[#91BDBE]">
+    
+    <div className="flex flex-col md:flex-row justify-center  lg:gap-[28rem] bg-gradient-to-l from-[#91BDBE]">
       
-      <div className=" mt-72 font-sans">
-        <h1 className="text-[80px] text-[#3F7884]">Our Services</h1>
-        {/* <p className="text-2xl flex justify-center t">Our Services</p> */}
+      <div className=" mt-24 lg:mt-72 font-sans">
+        <h1 className="  lg:text-[80px] text-[#3F7884]">Our Services</h1>
       </div>
-      <div style={{ width: "30%", height: "30%" }} className=" mt-32 mb-10 ">
+
+      <div 
+      style={{ width: "30%", height: "30%" }}  
+      className=" mt-32 mb-10 ">
         <Lottie
           animationData={Billinganimation}
           loop={true} // Set to true if you want the animation to loop
@@ -66,6 +66,7 @@ const Header = () => {
         <p className=" text-2xl w-1/2 font-sans">Simplified Clinical Automation</p>
       </div> */}
       </div>
+
     </div>
   );
 };

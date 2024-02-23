@@ -17,19 +17,20 @@ const Slider = () => {
           <h1 className="font-bold">PEOPLE WHO LOVE US</h1>
         </div>
       </div>
+      <div className="bg-red-900">
       <Swiper
         pagination={true}
         modules={[Pagination, Autoplay]}
         autoplay={{
-          delay: 5000,
+          delay: 2000,
           disableOnInteraction: false,
         }}
         className="mySwiper mt-10"
       >
         <SwiperSlide>
-          <div className="  ">
-            <div className="grid grid-cols-12  w-full lg:mx-60 ">
-              <div className="sm:col-span-4 lg:col-span-2   col-span-12  items-center sm:justify-center flex flex-col gap-2 lg:gap-2">
+          <div className=" ">
+            <div className="grid grid-cols-12  w-full lg:mx-60">
+              <div className="sm:col-span-4 lg:col-span-2 col-span-12 items-center sm:justify-center flex flex-col gap-2 lg:gap-2">
                 <div className=" ">
                   <Image
                     src="/assests/images/sw.png"
@@ -52,7 +53,7 @@ const Slider = () => {
 
               <div className="sm:col-span-8 col-span-12 px-10 pt-10 sm:pt-0 text-start flex flex-col gap-3 justify-center">
                 <h1
-                  className={`${fjalla.className} text-[33px] text-center sm:text-start leading-[40px] text-[#3f7884]  not-italic font-bold `}
+                  className={`${fjalla.className} text-[28px] lg:text-[33px] text-center sm:text-start leading-[40px] text-[#3f7884]  not-italic font-bold `}
                 >
                   Fantastic Response!
                 </h1>
@@ -64,7 +65,7 @@ const Slider = () => {
                   <FaRegStar />
                 </div>
 
-                <p className="  not-italic font-normal text-[16px] text-[#3f7884]    xl:leading-[24px] lg:pr-24">
+                <p className="  not-italic font-normal text-[16px]  xl:text-[16px] text-[#3f7884]    xl:leading-[24px] lg:pr-24">
                   This medical and health care facility distinguishes itself
                   from the competition by providing technologically advanced
                   medical and health care. A mobile app and a website are
@@ -80,6 +81,7 @@ const Slider = () => {
             </div>
           </div>
         </SwiperSlide>
+
         <SwiperSlide>
         <div className="  ">
             <div className="grid grid-cols-12  w-full lg:mx-60  ">
@@ -106,7 +108,7 @@ const Slider = () => {
 
               <div className="sm:col-span-8 col-span-12 px-10 pt-10 sm:pt-0 text-start flex flex-col gap-3 justify-center">
                 <h1
-                  className={`${fjalla.className} text-[33px] text-center sm:text-start leading-[40px] text-[#3f7884]  not-italic font-bold `}
+                  className={`${fjalla.className} text-[28px] lg:text-[33px] text-center sm:text-start leading-[40px] text-[#3f7884]  not-italic font-bold `}
                 >
                   Fantastic Response!
                 </h1>
@@ -118,7 +120,7 @@ const Slider = () => {
                   <FaRegStar />
                 </div>
 
-                <p className="  not-italic font-normal text-[16px] text-[#3f7884]    xl:leading-[24px] lg:pr-24">
+                <p className="  not-italic font-normal text-[16px] md:text-[12px] xl:text-[13px] lg:text-[14px] 2xl:text-[16px] text-[#3f7884]    xl:leading-[24px] lg:pr-24">
                   This medical and health care facility distinguishes itself
                   from the competition by providing technologically advanced
                   medical and health care. A mobile app and a website are
@@ -134,6 +136,7 @@ const Slider = () => {
             </div>
           </div>
         </SwiperSlide>
+        
         <SwiperSlide>
         <div className="  ">
             <div className="grid grid-cols-12  w-full lg:mx-60  ">
@@ -160,7 +163,7 @@ const Slider = () => {
 
               <div className="sm:col-span-8 col-span-12 px-10 pt-10 sm:pt-0 text-start flex flex-col gap-3 justify-center">
                 <h1
-                  className={`${fjalla.className} text-[33px] text-center sm:text-start leading-[40px] text-[#3f7884]  not-italic font-bold `}
+                  className={`${fjalla.className} text-[28px] lg:text-[33px] text-center sm:text-start leading-[40px] text-[#3f7884]  not-italic font-bold `}
                 >
                   Fantastic Response!
                 </h1>
@@ -172,7 +175,7 @@ const Slider = () => {
                   <FaRegStar />
                 </div>
 
-                <p className="  not-italic font-normal text-[16px] text-[#3f7884]    xl:leading-[24px] lg:pr-24">
+                <p className="  not-italic font-normal text-[16px] md:text-[12px] xl:text-[13px] lg:text-[14px] 2xl:text-[16px] text-[#3f7884]    xl:leading-[24px] lg:pr-24">
                   This medical and health care facility distinguishes itself
                   from the competition by providing technologically advanced
                   medical and health care. A mobile app and a website are
@@ -189,6 +192,7 @@ const Slider = () => {
           </div>
         </SwiperSlide>
       </Swiper>
+      </div>
     </>
   );
 };

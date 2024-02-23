@@ -10,15 +10,15 @@ const AboutUs = () => {
           <h1 className="font-bold">ABOUT US</h1>
         </div>
       </div>
-      <div className="flex justify-center bg-[url('/assests/images/about-bg.png')]  bg-no-repeat bg-cover">
+      <div className="flex justify-center bg-[url('/assests/images/about-bg.png')]  bg-no-repeat bg-cover p-5">
         <div className="flex flex-col sm:flex-row sm:items-center mx-5 lg:mx-28 ">
           <div className="flex flex-col  mt-20 ">
             <h1
-              className={`${fjalla.className} text-center sm:text-start font-bold not-italic text-[#3f7884] leading-[40px] text-[33px] mt-6 `}
+              className={`${fjalla.className} text-center sm:text-start font-bold not-italic text-[#3f7884] leading-[40px] text-2xl lg:text-[33px] mt-6 `}
             >
               We are founded and based in US
             </h1>
-            <p className="not-italic text-[17px] text-[#6eadb9] text-justify  leading-[28px] font-normal sm:pr-14 mt-6">
+            <p className="not-italic text-[12px] lg:text-[17px] text-[#6eadb9] text-justify  leading-[28px] font-normal sm:pr-14 mt-6">
               Our company brings over 20 years of extensive experience
               <br /> in the healthcare industry, specializing in areas such as
               billing and coding, insurance, provider services, revenue
