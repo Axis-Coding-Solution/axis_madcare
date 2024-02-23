@@ -33,14 +33,15 @@ const Header = () => {
           marginLeft: "100px",
           alignItems: "center",
           justifyContent: "start",
-          fontSize: "24px", // Adjust font size as needed
-          color: "white", // Adjust text color as needed
-          fontWeight: "bold", // Adjust font weight as needed
+          fontSize: "24px",
+          color: "white",
+          fontWeight: "bold",
         }}
       >
-        <div className="flex flex-col text-white justify-start items-start">
+        <div className="flex flex-col text-white justify-start items-start ">
           <h1 className="text-[50px]  font-sans">
             Electronic Health Records <br />
+            {/* {titl */}
             (EHR)
           </h1>
           <p className=" text-2xl w-3/4 font-sans">
@@ -48,14 +49,7 @@ const Header = () => {
           </p>
         </div>
       </div>
-      {/* <div className="flex flex-col text-white justify-start items-start ml-40 pt-32  mt-12">
-        <h1 className="text-[40px]  font-sans">
-          Electronic Health Records (EHR)
-        </h1>
-        <p className=" text-2xl w-1/2 font-sans">Simplified Clinical Automation</p>
-      </div> */}
     </div>
-    // </div>
   );
 };
 

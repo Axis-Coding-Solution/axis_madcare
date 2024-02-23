@@ -2,27 +2,29 @@
 import React from "react";
 import Lottie, { LottiePlayer } from "lottie-react";
 import animationData from "../../animation/animationdata1.json";
-import animation from "../../animation/animation.json";
+import Contactusanimations from "../../animation/Contactusanimations.json";
 
 const defaultOptions = {
   loop: true,
   autoplay: true,
-  animationData: animation,
+  animationData: Contactusanimations,
   rendererSettings: {
     preserveAspectRatio: "xMidYMid slice",
   },
 };
 
-const Banner = () => {
+const Header = () => {
   return (
-    <div className="flex justify-around gap-[25rem]    bg-gradient-to-l from-[#91BDBE]">
-
+    <div className="flex justify-center gap-[30rem] items-center   bg-gradient-to-l from-[#91BDBE]">
       <div className="font-sans text-[#3F7884]">
-        <h1 className="text-8xl font-light mt-56">About us</h1>
+        <h1 className="text-8xl font-light not-italic ">Contact Us</h1>
       </div>
-
       <div style={{ width: "30%", height: "35%" }} className="mt-11">
-        <Lottie animationData={animation} loop={true} autoplay={true} />
+        <Lottie
+          animationData={Contactusanimations}
+          loop={true} // Set to true if you want the animation to loop
+          autoplay={true}
+        />
         <div
           style={{
             position: "absolute",
@@ -39,9 +41,8 @@ const Banner = () => {
           }}
         ></div>
       </div>
-
     </div>
   );
 };
 
-export default Banner;
+export default Header;
