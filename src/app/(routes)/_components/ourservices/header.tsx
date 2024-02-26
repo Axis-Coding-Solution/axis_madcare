@@ -4,7 +4,6 @@ import Lottie, { LottiePlayer } from "lottie-react";
 import animationData from "../../animation/animationdata1.json";
 import Billinganimation from "../../animation/Billinganimation.json";
 
-
 const defaultOptions = {
   loop: true,
   autoplay: true,
@@ -16,15 +15,17 @@ const defaultOptions = {
 
 const Header = () => {
   return (
-    // <div
-    // // className="from-[#3791A4] bg-gradient-to-r h-[30rem] mb-10 flex justify-around "
-    // >
-    <div className="flex justify-center gap-[32rem] bg-gradient-to-l from-[#91BDBE]">
-      
-      <div className=" mt-72 font-sans">
-        <h1 className="text-[80px] text-[#3F7884]">Our Services</h1>
-        {/* <p className="text-2xl flex justify-center t">Our Services</p> */}
+    <div className="flex flex-col md:flex-row justify-center  lg:gap-[28rem] bg-gradient-to-r from-[#C0DFE3] to-[#A9D1D7] via-[#71AFBC]">
+      {/* <div className="mt-24 xl:mt-40">
+        <h1 className="lg:text-[80px] text-[#3F7884]">Our</h1>
+        <span className="lg:text-[70px] text-[#3F7884] -ml-2">Services</span>
+      </div> */}
+      <div className="font-sans text-[#3F7884] text-8xl  not-italic mt-24 xl:mt-48  pl-14 ">
+        
+        <h1 className=" ">Our</h1>
+        <span className="">Services</span>
       </div>
+
       <div style={{ width: "30%", height: "30%" }} className=" mt-32 mb-10 ">
         <Lottie
           animationData={Billinganimation}

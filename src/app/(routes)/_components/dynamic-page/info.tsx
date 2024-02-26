@@ -28,11 +28,11 @@ function Info({
           <div className="flex gap-10 ">
             <div className="pl-[120px]  ">
               <Image
-                className="h-[270px] w-[300px] rounded-xl"
+                className="h-[270px] w-[250px] rounded-xl"
                 src="/assests/images/bg-eprescribing.jpg"
                 alt=""
                 height={100}
-                width={300}
+                width={200}
               />
             </div>
             <div className="w-[800px]">
@@ -45,8 +45,8 @@ function Info({
                 {description}
               </p>
 
-              <button className=" text-[16px] leading-[24px] mt-7 rounded-full h-14 w-48 px-0  border-[1px] bg-[#F2F6FA]  font-bold    text-[#464558]     transition-all duration-300 ">
-                Learn More
+              <button className=" text-[16px] leading-[24px] mt-7 rounded-full h-14 w-48 px-0  border-[1px] bg-[#F2F6FA]  font-bold    text-[#464558]     transition-all duration-1000 ">
+                Learn More 
               </button>
             </div>
           </div>

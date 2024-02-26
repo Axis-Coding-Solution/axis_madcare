@@ -29,7 +29,7 @@ const Inter = ({
               {description}
             </p>
 
-            <button className=" text-[16px] leading-[24px] not-italic  rounded-full h-14 w-48 px-0 mt-9 border-[1px] border-[#194e58]  font-bold    text-[#1e5c69] hover:text-[white] hover:bg-[#1F3D43] transition-all duration-300 ">
+            <button className=" text-[16px] leading-[24px] not-italic  rounded-full h-14 w-48 px-0 mt-9 border-[1px] border-[#194e58]  font-bold    text-[#1e5c69] hover:text-[white] hover:bg-[#1F3D43] transition-all duration-1000 ">
               Learn more
             </button>
           </div>

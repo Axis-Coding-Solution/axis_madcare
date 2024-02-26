@@ -41,7 +41,7 @@ const Page = () => {
     {
       id: 1,
       // icon: "/icons/billing.png",
-      icon: Contactus,
+      icon: "/icons/coding.png",
       title: "Medical Billing and Coding",
       slug: "medical-billing-and-coding",
       description:
@@ -50,71 +50,71 @@ const Page = () => {
     },
     {
       id: 2,
-      icon:Accountanimation,
+      icon: "/icons/AccountReceviable.png",
       title: "Account Receivable Management",
       slug: "account-receivable-management",
       description:
-        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.",
+      "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Out-Network Negotiation is the process of negotiating agreements and reimbursement rates between healthcare providers and insurance companies",
       image: complete,
     },
     {
       id: 3,
-      icon:Contracting,
+      icon: "/icons/Contracting.png",
       title: "Credentialing & Contracting",
       slug: "credentialing-contracting",
       description:
-        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Refers to the process of verifying qualifications and negotiating agreements between healthcare providers and insurance companies or other payers to establish networks.",
+      "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Out-Network Negotiation is the process of negotiating agreements and reimbursement rates between healthcare providers and insurance companies",
         image: account,
       },
     {
       id: 4,
-      icon:negotiation,
+      icon: "/icons/negotiation.png",
       title: "Out Network Negotiation",
       slug: "out-network-negotiation",
 
       description:
-        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Out-Network Negotiation is the process of negotiating agreements and reimbursement rates between healthcare providers and insurance companies",
+      "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Out-Network Negotiation is the process of negotiating agreements and reimbursement rates between healthcare providers and insurance companies",
         image: emr,
       },
     {
       id: 5,
-      icon:Verificationanimation,
+      icon: "/icons/verification.png",
       title: "Eligibility and Benefit Verification",
       slug: "eligibility-and-benefit-verification",
 
       description:
-        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Eligibility and Benefit Verification is the process of confirming a patient's insurance coverage and determining the extent of their benefits for specific healthcare services",
+      "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Out-Network Negotiation is the process of negotiating agreements and reimbursement rates between healthcare providers and insurance companies",
       image: verify,
     },
     {
       id: 6,
-      icon:Contactus,
+      icon: "/icons/enrollment.png",
       title: "Enrollment services",
       slug: "enrollment-services",
 
       description:
-        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Enrollment services encompass the procedures and support provided to individuals or entities seeking to enroll in various programs, memberships, or services",
+      "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Out-Network Negotiation is the process of negotiating agreements and reimbursement rates between healthcare providers and insurance companies",
         image: account,
       },
     {
       id: 7,
-      icon:Contactus,
+      icon: "/icons/RCM.png",
       title: "Complete RCM Services",
       slug: "complete-rcm-services",
 
       description:
-        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Enrollment services encompass the procedures and support provided to individuals or entities seeking to enroll in various programs, memberships, or services",
+      "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Out-Network Negotiation is the process of negotiating agreements and reimbursement rates between healthcare providers and insurance companies",
       image: Codinganimation,
     },
     {
       id: 8,
-      icon:Contactus,
+      icon: "/icons/EMR.png",
       // icon: "/icons/billing.png",
       title: "EMR Applications and Support",
       slug: "emr-applications-and-support",
 
       description:
-        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Enrollment services encompass the procedures and support provided to individuals or entities seeking to enroll in various programs, memberships, or services",
+      "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.Out-Network Negotiation is the process of negotiating agreements and reimbursement rates between healthcare providers and insurance companies",
         image: rcm,
       },
   ];
@@ -148,6 +148,7 @@ const Page = () => {
             title={service?.title}
             description={service?.description}
             image={service?.image}
+            icon={service?.icon}
           />
           <DynamicHeader
             title={service?.title}

@@ -5,9 +5,15 @@ import About from '../_components/aboutus/about'
 
 const page = () => {
   return (
+
 <>
 <Banner/>
+
 <About/>
+
+{/* <div className="m-24">
+<About/>
+</div> */}
 </>
   )
 }

@@ -97,11 +97,21 @@ function Header() {
               isOpen ? "max-h-72" : "max-h-0"
             }`}
           >
-            <p className="mt-3">Solutions</p>
-            <p className="mt-3">Pricing</p>
-            <p className="mt-3">Company</p>
-            <p className="mt-3">Resources</p>
-            <button className="text-white text-sm border-2 my-3 rounded-full h-[40px] px-6  border-white hover:text-[#316069] hover:border-[#315a61] hover:bg-transparent bg-[#1a363b] transition-all duration-300">
+            <Link href="/">
+              <p className="mt-3">Home</p>
+            </Link>
+            <Link href="/ourservices">
+            <p className="mt-3">Services</p>
+            </Link>
+
+            <Link href="/aboutus">
+            <p className="mt-3">About Us</p>
+            </Link>
+
+            <Link href="/contactus">
+            <p className="mt-3">Contact Us</p>
+            </Link>
+            <button className="text-white text-sm border-2 my-3 rounded-full h-[40px] px-6  border-white hover:text-[#316069] hover:border-[#315a61] hover:bg-transparent bg-[#1a363b] transition-all duration-1000">
               Request Demo
             </button>
 

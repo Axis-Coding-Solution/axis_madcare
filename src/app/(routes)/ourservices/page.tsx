@@ -113,7 +113,7 @@ const Page = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 mb-10 sm:grid-cols-2 px-7 lg:grid-cols-4 gap-8  lg:mx-24 sm:pt-12  ">
+        <div className="grid grid-cols-1 mb-10 sm:grid-cols-2 px-7 lg:grid-cols-4 gap-8  lg:mx-24 sm:pt-12   ">
           {obj.map((service, index) => {
             const slugName = generateSlug(service.title);
             return (
@@ -122,7 +122,7 @@ const Page = () => {
                   // href={`/${slugName}/${service.id}`}
                   href={`/ourservices/${service.slug}`}
                 >
-                  <div className=" group shadow-xl border   bg-[#FFFFFF]  hover:bg-[#3f7884] rounded-lg transition-all duration-300 h-[220px] pb-4">
+                  <div className=" group shadow-xl border   bg-[#FFFFFF]  hover:bg-[#3f7884] transition-all duration-1000 rounded-lg  h-[220px] pb-4">
                     <div className="flex flex-col justify-between items-center">
                       <div className="group flex flex-col gap-5 h-[200px] items-center text-center mt-10">
                         <Image

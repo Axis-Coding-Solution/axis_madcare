@@ -15,14 +15,14 @@ const defaultOptions = {
 
 const Banner = () => {
   return (
-    <div className="flex justify-around gap-[25rem]    bg-gradient-to-l from-[#91BDBE]">
+    <div className="flex justify-between px-[110px]     bg-gradient-to-r from-[#C0DFE3] to-[#A9D1D7] via-[#71AFBC]">
 
       <div className="font-sans text-[#3F7884]">
-        <h1 className="text-8xl font-light mt-56">About us</h1>
+        <h1 className=" text-4xl lg:text-8xl  my-40 not-italic  lg:mt-56 ">About us</h1>
       </div>
 
-      <div style={{ width: "30%", height: "35%" }} className="mt-11">
-        <Lottie animationData={animation} loop={true} autoplay={true} />
+      <div style={{ width: "35%", height: "35%" }} className="mt-20 hidden lg:flex">
+        <Lottie animationData={animation} loop={true} autoplay={true} size={200}/>
         <div
           style={{
             position: "absolute",
