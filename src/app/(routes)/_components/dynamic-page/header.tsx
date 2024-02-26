@@ -4,6 +4,7 @@ import Lottie, { LottiePlayer } from "lottie-react";
 import animationData from "../../animation/animationdata1.json";
 import Billinganimation from "../../animation/Billinganimation.json";
 import Image from "next/image";
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
 const obj = {
   bill: Billinganimation,
 };
@@ -16,7 +17,7 @@ const Header = ({
 }: {
   title: string | undefined;
   description: string | undefined;
-  icon: string | undefined;
+  icon: string | StaticImport;
   image: any | undefined;
 }) => {
   return (

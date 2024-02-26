@@ -21,6 +21,7 @@ import Accountanimation from "../../animation/Accountanimation.json";
 import Contracting from "../../animation/Contracting.json";
 import negotiation from "../../animation/negotiation.json";
 import Verificationanimation from "../../animation/Verificationanimation.json";
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 // import { useRouter } from 'next/navigation'
 
@@ -28,10 +29,10 @@ const Page = () => {
   const [service, setService] = useState<
     | {
         id: number;
-        icon: string;
+        icon: any;
         title: string;
         description: string;
-        image: string;
+        image: any;
       }
     | null
     | undefined
@@ -155,7 +156,7 @@ const Page = () => {
             description={service?.description}
             icon={service?.icon}
           />
-          <Info title={service?.title} description={service?.description} />
+          <Info title={service?.title} description={service?.description} icon={undefined} />
 
           <Inter
             title={service?.title}
