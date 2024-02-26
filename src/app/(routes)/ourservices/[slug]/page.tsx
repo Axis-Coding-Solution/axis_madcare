@@ -16,11 +16,10 @@ import rcm from "../../animation/rcm.json";
 import verify from "../../animation/Verificationanimation.json";
 import complete from "../../animation/Completeanimation.json";
 import RcmService from "../../_components/services/rcm-service";
-import animation from "../../animation/Animation.json";
-import Accountanimation from "../../animation/Accountanimation.json";
-import Contracting from "../../animation/Contracting.json";
-import negotiation from "../../animation/negotiation.json";
-import Verificationanimation from "../../animation/Verificationanimation.json";
+
+
+
+
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 // import { useRouter } from 'next/navigation'

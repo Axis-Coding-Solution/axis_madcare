@@ -2,8 +2,8 @@
 import Image from "next/image";
 import { fjalla } from "@/utility/font";
 import Link from "next/link";
-import Billinganimation from "../../animation/Billinganimation.json";
-import Lottie from "lottie-react";
+// import Billinganimation from "../../animation/Billinganimation.json";
+// import Lottie from "lottie-react";
 
 function OurServices() {
   const services = [

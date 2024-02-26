@@ -8,15 +8,7 @@ import { MdManageSearch } from "react-icons/md";
 import { PiRecycleDuotone } from "react-icons/pi";
 import Header from "../_components/ourservices/header";
 import Link from "next/link";
-import Contracting from "../animation/Contracting.json";
-import Codinganimation from "../animation/Codinganimation.json";
-import Accountanimation from "../animation/Accountanimation.json";
-import Verificationanimation from "../animation/Verificationanimation.json";
-import Enrollment from "../animation/Enrollment.json";
-import emr from "../animation/emr.json";
-import rcm from "../animation/rcm.json";
-import outnetwork from "../animation/outnetwork.json";
-import Lottie from "lottie-react";
+
 import Image from "next/image";
 
 const Page = () => {
