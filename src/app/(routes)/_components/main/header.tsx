@@ -41,12 +41,14 @@ function Header() {
       <div className="flex justify-between items-center lg:px-[119px] px-7 p-4">
         <div className="flex items-center justify-between w-full">
           <div className="mr-4 text-black">
+           <Link href="/" >
             <Image
               src="/svgs/d55bb295d2a8b570c3560064ee726527-ai (5).svg"
               alt=""
               height={50}
               width={120}
             />
+            </Link>
           </div>
           <div className="relative">
             <div>
