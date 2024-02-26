@@ -10,7 +10,7 @@ function EHR() {
           <div className="flex flex-col lg:flex-row gap-10 ">
             <div className="xl:pl-[110px]  ">
               <Image
-                className="h-[329px]"
+                className="h-[329px] object-contain"
                 src="/assests/images/eye-care.png"
                 alt=""
                 height={100}

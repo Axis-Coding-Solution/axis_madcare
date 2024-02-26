@@ -47,31 +47,31 @@ function Blog() {
               >
                 <div className="">
                   <Image
-                    className="rounded-md"
+                    className="rounded-md w-[100%]"
                     src={post.imageSrc}
                     height={50}
                     width={350}
                     alt="pic"
                   />
                   <div className="mt-5 bg-[#FFFEFE] mb-9 rounded-md ">
-                  <div className="flex gap-5 rounded-md">
-                    <h1 className="text-[#5AA4B4] pl-5 ">{post.category}</h1>
-                    <div className="flex items-center gap-2">
-                      <SlCalender className="" />
-                      <span className="text-xs">{post.date}</span>
+                    <div className="flex gap-5 rounded-md">
+                      <h1 className="text-[#5AA4B4] pl-5 ">{post.category}</h1>
+                      <div className="flex items-center gap-2">
+                        <SlCalender className="" />
+                        <span className="text-xs">{post.date}</span>
+                      </div>
+                    </div>
+                    <div>
+                      <h2 className="text-[#3F7884] font-extrabold not-italic text-[20px] leading-[24px] text-base mt-5 pl-3">
+                        {post.title}
+                      </h2>
+                      <p className="text-neutral-400 mt-3 font-normal text-[18px] leading-[24px] not-italic hover:underline pl-3 hover:text-[#5AA4B4] cursor-pointer">
+                        read full article
+                      </p>
                     </div>
                   </div>
-                  <div>
-                    <h2 className="text-[#3F7884] font-extrabold not-italic text-[20px] leading-[24px] text-base mt-5 pl-3">
-                      {post.title}
-                    </h2>
-                    <p className="text-neutral-400 mt-3 font-normal text-[18px] leading-[24px] not-italic hover:underline pl-3 hover:text-[#5AA4B4] cursor-pointer">
-                      read full article
-                    </p>
-                  </div>
                 </div>
-                </div>
-               </div>
+              </div>
             ))}
           </div>
           {/* <div className=" w-[20%]  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
