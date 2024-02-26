@@ -59,7 +59,7 @@ const Page = () => {
     },
     {
       id: 3,
-      icon: "/icons/Contracting.png",
+      icon: "/icons/Contracting.png ",
       title: "Credentialing & Contracting",
       slug: "credentialing-contracting",
       description:

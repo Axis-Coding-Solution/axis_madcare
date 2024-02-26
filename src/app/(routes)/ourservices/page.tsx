@@ -22,7 +22,7 @@ const Page = () => {
   const obj = [
     {
       id: 1,
-      icon: "/icons/billing.png",
+      icon: "/icons/coding.png",
       title: "Medical Billing and Coding",
       slug: "medical-billing-and-coding",
       description:
