@@ -1,8 +1,7 @@
 "use client";
 import React from "react";
 import Lottie, { LottiePlayer } from "lottie-react";
-import animationData from "../../animation/animationdata1.json";
-import animation from "../../animation/animation.json";
+import animation from "../../animation/Animation.json";
 
 const defaultOptions = {
   loop: true,
