@@ -13,8 +13,8 @@ const DynamicHeader = ({
 }) => {
   return (
     <div className="mb-20 pl-3">
-      <div className="bg-[url('/assests/images/about-us.png')] mt-10 bg-no-repeat h-[20vh] bg-top ">
-        <div className="pl-[40%]  not-italic pt-7 text-[#3f7884] tracking-tighter  text-4xl leading-[24px] font-normal">
+      <div className="bg-[url('/assests/images/about-us.png')] mt-10 bg-no-repeat h-[20vh] bg-top  ">
+        <div className="pl-[40%]  not-italic pt-7 text-[#3f7884] tracking-tighter  text-4xl leading-[24px] font-normal ">
           <h1 className="">
             <span className="text-gray-400"> {title}</span>{" "}
           </h1>

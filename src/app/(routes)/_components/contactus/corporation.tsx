@@ -8,13 +8,13 @@ function Corporation() {
     <>
       <div>
         <div className="bg-[url('/assests/images/about-us.png')] mt-28 bg-no-repeat h-[20vh] bg-top ">
-          <div className=" text-center   not-italic pt-7 text-[#3f7884] tracking-tighter  text-xl leading-[24px] font-normal">
-            <h1 className="font-bold text-3xl">Axis MedCare Corporation</h1>
+          <div className=" text-center   not-italic pt-7 text-[#3f7884] tracking-tighter  text-xl leading-[24px] font-normal ">
+            <h1 className="font-bold text-3xl">AXIS MedCare Corporation</h1>
           </div>
         </div>
         <div>
           <div className="flex flex-col lg:flex-row justify-evenly items-center mt-10 lg:divide-x-2  divide-[#3F7884] mx-20 cursor-pointer">
-            <div className=" ">
+            <div className=" mt-7 ">
               <TiLocationOutline className="ml-20 text-3xl text-[#3F7884]" />
               <p className="text-lg mt-5 text-[#3F7884]">
                 80 Pine Street, 21st Floor <br /> New York, NY 10005

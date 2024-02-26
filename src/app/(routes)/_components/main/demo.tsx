@@ -141,7 +141,7 @@ function Demo() {
                 </div>
 
                 <div className="flex items-center justify-between  ">
-                  <button className="text-white text-[16px] leading-[24px]  rounded-full z-20 h-14 w-full px-0 not-italic  font-bold    hover:bg-[#316069] bg-[#3791a4] transition-all duration-300  ">
+                  <button className="text-white text-[16px] leading-[24px]  rounded-full z-20 h-14 w-full px-0 not-italic  font-bold    hover:bg-[#316069] bg-[#3791a4] transition-all duration-1000  ">
                     Request Demo
                   </button>
                 </div>

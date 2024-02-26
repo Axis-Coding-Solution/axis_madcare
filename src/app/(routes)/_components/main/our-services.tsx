@@ -9,11 +9,11 @@ function OurServices() {
   const services = [
     {
       id: 1,
-      icon: "/icons/billing.png",
+      icon: "/icons/coding.png",
       title: "Medical Billing and Coding",
       slug: "medical-billing-and-coding",
       description:
-        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.",
+        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing.",
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ function OurServices() {
       slug: "account-receivable-management",
 
       description:
-        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.",
+        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing.",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ function OurServices() {
       slug: "credentialing-contracting",
 
       description:
-        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.",
+        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing.",
     },
     {
       id: 4,
@@ -40,16 +40,16 @@ function OurServices() {
       slug: "out-network-negotiation",
 
       description:
-        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.",
+        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing.",
     },
     {
       id: 5,
-      icon: "/icons/networking.png",
+      icon: "/icons/verification.png",
       title: "Eligibility and Benefit Verification",
       slug: "eligibility-and-benefit-verification",
 
       description:
-        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.",
+        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing.",
     },
     {
       id: 6,
@@ -58,7 +58,7 @@ function OurServices() {
       slug: "enrollment-services",
 
       description:
-        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.",
+        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing.",
     },
     {
       id: 7,
@@ -67,7 +67,7 @@ function OurServices() {
       slug: "complete-rcm-services",
 
       description:
-        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.",
+        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing.",
     },
     {
       id: 8,
@@ -76,11 +76,20 @@ function OurServices() {
       slug: "emr-applications-and-support",
 
       description:
-        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing and optimizing the process of tracking and collecting payments owed to a business for goods or services provided.",
+        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing.",
+    },
+    {
+      id: 9,
+      icon: "/icons/negotiation.png",
+      title: "Public Health",
+      slug: "emr-applications-and-support",
+
+      description:
+        "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing.",
     },
   ];
 
-return (
+  return (
     <>
       <div className=" pt-5 mt-20 sm:mt-10">
         <div className="bg-[url('/assests/images/bg-departments.png')] bg-no-repeat h-[20vh]  bg-top md:px-40">
@@ -90,8 +99,8 @@ return (
             </h1>
           </div>
         </div>
-        <div className="bg-[url('/assests/images/doctors-bg.png')] bg-no-repeat bg-contain">
-          <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-2 2xl:grid-cols-4 gap-8 mx-5 border lg:mx-24  xl:pt-0  ">
+        <div className="bg-[url('/assests/images/doctors-bg.png')] bg-no-repeat bg-contain mt-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2   lg:grid-cols-3 2xl:grid-cols-4 gap-8 mx-5 cursor-pointer lg:mx-20   xl:pt-0  ">
             {services.map((service, index) => (
               <div
                 key={service.id}
@@ -104,9 +113,9 @@ return (
                   href={`ourservices/${service.slug}`}
                   // href="/dynamicpage/${service.id}"
                 > */}
-                <div className="group shadow-xl    bg-[#FFFFFF]  rounded-lg hover:bg-[#3f7884]    h-[520px]    pt-12 pb-4">
+                <div className="group shadow-2xl w-[370px]  bg-[#FFFFFF]  rounded-lg hover:bg-[#3f7884]  transition-all duration-1000 py-16    ">
                   <div className="flex flex-col justify-between items-center  ">
-                    <div className="flex flex-col gap-5 h-[200px] items-center text-center  ">
+                    <div className="flex flex-col gap-5       items-center text-center  ">
                       <Image
                         src={service.icon}
                         alt="icon"
@@ -115,18 +124,18 @@ return (
                         height={40}
                       />
                       <h5
-                        className={`${fjalla.className}  text-[#3f7884] group-hover:text-white   font-bold text-[20px]`}
+                        className={`${fjalla.className}   text-[#3f7884] group-hover:text-white   font-bold text-[20px]`}
                       >
                         {service.title}
                       </h5>
                     </div>
-                    <div className="h-[100px] ">
-                      <p className="pr-2  text-center font-normal group-hover:text-white text-[12px] xl:text-[17px] 2xl:text-[13px]  px-2  ">
+                    <div className="h-[100px] mt-5 ">
+                      <p className="pr-2  text-center font-normal group-hover:text-white text-[12px] xl:text-[13px] 2xl:text-[13px]  px-5  ">
                         {service.description}
                       </p>
                     </div>
                     <div className="">
-                      <button className=" text-[16px]   rounded-full h-14 w-44 px-0 mt-12 border-[1px] border-[#3791a4] group-hover:border-white group-hover:text-white  font-bold  cursor-pointer   text-[#68959E] hover:text-[#fffefe] hover:bg-[#3F7884] transition-all duration-300 ">
+                      <button className=" text-[16px]   rounded-full h-14 w-44 px-0 mt-5 border-[1px] border-[#3791a4] group-hover:border-white group-hover:text-white  font-bold  cursor-pointer   text-[#68959E] hover:text-[#fffefe] hover:bg-[#3F7884] transition-all duration-1000 ">
                         View Detail
                       </button>
                     </div>

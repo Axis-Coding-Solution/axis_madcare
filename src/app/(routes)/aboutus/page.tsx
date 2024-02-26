@@ -8,9 +8,12 @@ const page = () => {
 
 <>
 <Banner/>
-<div className="m-24">
+
 <About/>
-</div>
+
+{/* <div className="m-24">
+<About/>
+</div> */}
 </>
   )
 }

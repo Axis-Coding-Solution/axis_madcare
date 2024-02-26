@@ -111,7 +111,7 @@ function Header() {
             <Link href="/contactus">
             <p className="mt-3">Contact Us</p>
             </Link>
-            <button className="text-white text-sm border-2 my-3 rounded-full h-[40px] px-6  border-white hover:text-[#316069] hover:border-[#315a61] hover:bg-transparent bg-[#1a363b] transition-all duration-300">
+            <button className="text-white text-sm border-2 my-3 rounded-full h-[40px] px-6  border-white hover:text-[#316069] hover:border-[#315a61] hover:bg-transparent bg-[#1a363b] transition-all duration-1000">
               Request Demo
             </button>
 
