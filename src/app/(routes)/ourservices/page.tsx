@@ -99,8 +99,8 @@ const Page = () => {
       <div className="bg-[url('/assests/images/doctors-bg.png')] bg-no-repeat bg-contain bg-top">
         <div className="bg-[url('/assests/images/bg-departments.png')] bg-no-repeat h-[15vh]  bg-top md:px-40 mt-10">
           <div className="  pt-7 ">
-            <h1 className="text-[#3f7884] text-center font-bold  tracking-tighter   text-[40px] leading-[24px] not-italic">
-              OUR SERVICES
+            <h1 className="text-[#3f7884] text-center font-bold  tracking-tighter text-3xl   sm:text-[40px] leading-[24px] not-italic">
+              OUR SERVICES 
             </h1>
           </div>
         </div>
@@ -125,17 +125,6 @@ const Page = () => {
                           height={40}
                           className="text-black"
                         />
-
-                        {/* <div
-                        style={{ width: "40%", height: "10%" }}
-                        className=" top-0"
-                      >
-                        <Lottie
-                          animationData={service.image}
-                          loop={true} // Set to true if you want the animation to loop
-                          autoplay={true} // Set to true if you want the animation to play automatically
-                        />
-                      </div> */}
 
                         <div className="  mb-10 group-hover:text-white">
                           <h5 className="">{service.title}</h5>

@@ -8,67 +8,84 @@
 html,
 body,
 :root {
-    height: 100%;
-    max-width: 100%;
+  height: 100%;
+  max-width: 100%;
 }
 
 body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .swiper {
-    width: 100%;
-    height: 70vh;
+
 }
 
-@media (max-width: 500px) {
+@media (max-width: 320px) {
   .swiper {
-    width: 100vw;
-    height: 170vh;
+   
+ 
   }
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #95d3d4;
+    /* background: #95d3d4; */
 
-        padding-top: 20px;
-
-
-        /* Center slide text vertically */
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
+    padding-top: 20px;
+  }
+}
+/* @media (max-width: 375px) {
+    .swiper {
+      width: 100%;
+      height: 55rem;
+   
     }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #95d3d4;
+  
+      padding-top: 20px;
+    }
+  } */
+@media (max-width: 425px) {
+  .swiper {
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #95d3d4; */
+
+    padding-top: 20px;
+  }
 }
 
 @media (min-width: 500px) {
-    .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #b2dded;
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #b2dded; */
 
-        /* Center slide text vertically */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .swiper-pagination-bullet {
-    background-color: #3791a4 !important;
-    width: 22px;
-    height: 1rem;
-    border-radius: 1rem;
-    background-color: #6D8AB3;
-    cursor: pointer;
-    margin-bottom: 30px !important;
+  background-color: #3791a4 !important;
+  width: 22px;
+  height: 1rem;
+  border-radius: 1rem;
+  background-color: #6d8ab3;
+  cursor: pointer;
+  /* margin-bottom: 20px !important; */
 }
