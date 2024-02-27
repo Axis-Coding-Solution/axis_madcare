@@ -96,11 +96,13 @@ function Footer() {
             Get Update
           </h2>
         </div> */}
-          <div className="flex gap-3 cursor-pointer text-[#3791A4] items-center">
-            <FaLinkedin  size={90}  />
-            <BsTwitterX size={90}  />
-            <LiaFacebook size={120}  />
-            <FaInstagram size={90}  />
+        <div className="sm:col-span-2 col-span-12 mt-5 mb-6">
+          <div className="flex  gap-3 cursor-pointer text-[#3791A4] items-center">
+            <FaLinkedin  size={20}  />
+            <BsTwitterX size={20}  />
+            <LiaFacebook size={20}  />
+            <FaInstagram size={20}  />
+          </div>
           </div>
         </div>
         {/* <div className="bg-[#3791A4] py-10 pl-28 text-[#dbdbe9] not-italic  font-bold text-[13px] leading-[20px]">
@@ -108,7 +110,7 @@ function Footer() {
       </div> */}
       </div>
       <div className="bg-[#3791A4] h-12 text-start sm:text-start lg:text-start text-xl p-2 sm:pl-28 lg:pl-0 text-[#dbdbe9] not-italic text-[0.8rem] xl:text-[13px] leading-[20px]">
-        <p className="ml-6 lg:ml-32 text-[16px] lg:text-[20px]">
+        <p className="ml-6 lg:ml-32 text-[12px] lg:text-[20px]">
           All rights Reserved &copy; Axis MedCare Solutions, 2024
         </p>
       </div>

@@ -91,7 +91,7 @@ function OurServices() {
 
   return (
     <>
-      <div className=" pt-5 mt-20 sm:mt-10">
+      <div className=" pt-5 mt-10 sm:mt-10">
         <div className="bg-[url('/assests/images/bg-departments.png')] bg-no-repeat h-[20vh]  bg-top md:px-40">
           <div className="  pt-7">
             <h1 className="text-[#3f7884] text-center font-bold  tracking-tighter   text-[40px] leading-[24px] not-italic">
@@ -99,8 +99,8 @@ function OurServices() {
             </h1>
           </div>
         </div>
-        <div className="bg-[url('/assests/images/doctors-bg.png')] bg-no-repeat bg-contain mt-10">
-          <div className="grid grid-cols-1 sm:grid-cols-2   lg:grid-cols-3 2xl:grid-cols-4 gap-8 mx-5 cursor-pointer lg:mx-20   xl:pt-0  ">
+        <div className="bg-[url('/assests/images/doctors-bg.png')] bg-no-repeat bg-contain mt-5 sm:mt-10">
+          <div className="grid grid-cols-1  md:grid-cols-3  lg:grid-cols-3  gap-8 mx-5 cursor-pointer lg:mx-20   xl:pt-0  ">
             {services.map((service, index) => (
               <div
                 key={service.id}
@@ -113,7 +113,7 @@ function OurServices() {
                   href={`ourservices/${service.slug}`}
                   // href="/dynamicpage/${service.id}"
                 > */}
-                <div className="group shadow-2xl w-[370px]  bg-[#FFFFFF]  rounded-lg hover:bg-[#3f7884]  transition-all duration-1000 py-16    ">
+                <div className="group shadow-2xl md:w-[240px] lg:w-[280px]  xl:w-[370px]  bg-[#FFFFFF]  rounded-lg hover:bg-[#3f7884]  transition-all duration-1000 py-16    ">
                   <div className="flex flex-col justify-between items-center  ">
                     <div className="flex flex-col gap-5       items-center text-center  ">
                       <Image
@@ -124,13 +124,13 @@ function OurServices() {
                         height={40}
                       />
                       <h5
-                        className={`${fjalla.className}   text-[#3f7884] group-hover:text-white   font-bold text-[20px]`}
+                        className={`${fjalla.className}    text-[#3f7884] group-hover:text-white   font-bold  lg:text-[20px]`}
                       >
                         {service.title}
                       </h5>
                     </div>
                     <div className="h-[100px] mt-5 ">
-                      <p className="pr-2  text-center font-normal group-hover:text-white text-[12px] xl:text-[13px] 2xl:text-[13px]  px-5  ">
+                      <p className="pr-2  text-center font-normal group-hover:text-white text-xs md:text-xs lg:text-[12px] xl:text-[13px] 2xl:text-[13px]  px-5  ">
                         {service.description}
                       </p>
                     </div>

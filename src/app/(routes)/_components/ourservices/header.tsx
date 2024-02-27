@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Lottie, { LottiePlayer } from "lottie-react";
-// import animationData from "../../animation/animationdata1.json";
+
 import Billinganimation from "../../animation/Billinganimation.json";
 
 const defaultOptions = {
@@ -15,18 +15,16 @@ const defaultOptions = {
 
 const Header = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-center  lg:gap-[28rem] bg-gradient-to-r from-[#C0DFE3] to-[#A9D1D7] via-[#71AFBC]">
-      {/* <div className="mt-24 xl:mt-40">
-        <h1 className="lg:text-[80px] text-[#3F7884]">Our</h1>
-        <span className="lg:text-[70px] text-[#3F7884] -ml-2">Services</span>
-      </div> */}
-      <div className="font-sans text-[#3F7884] text-8xl  not-italic mt-24 xl:mt-48  pl-14 ">
-        
+    <div className="flex flex-col xl:flex-row justify-center  xl:gap-[28rem] bg-gradient-to-r from-[#C0DFE3] to-[#A9D1D7] via-[#71AFBC]   xl:px-28">
+      <div className="font-sans text-[#3F7884] text-6xl md:text-7xl lg:text-8xl md:pl-5 xl:pl-0 not-italic pt-40 md:pt-20 lg:mt-10 xl:pt-0 xl:mt-48 text-center  xl:text-left ">
         <h1 className=" ">Our</h1>
         <span className="">Services</span>
       </div>
 
-      <div style={{ width: "30%", height: "30%" }} className=" mt-32 mb-10 ">
+      <div
+        style={{ width: "30%", height: "30%" }}
+        className="mt-10 md:mt-5 lg:mt-10  xl:mt-32  mb-10 mx-auto  "
+      >
         <Lottie
           animationData={Billinganimation}
           loop={true} // Set to true if you want the animation to loop

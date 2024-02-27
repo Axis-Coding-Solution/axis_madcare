@@ -13,14 +13,14 @@ function MainPage() {
   return (
     <div>
       <Hero />
-      <OurServices />
-      <EHR />
+       <OurServices />
+       <EHR />
       <AboutUs />
        <SliderMed />
       <Demo />
       <Blog />
-      <News />
-     
+      <News /> 
+      
     </div>
   );
 }
