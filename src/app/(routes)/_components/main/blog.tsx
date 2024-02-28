@@ -43,7 +43,7 @@ function Blog() {
             {blogPosts.map((post, index) => (
               <div
                 key={index}
-                className="bg-white border rounded-xl border-gray-200  shadow-xl dark:bg-gray-800 dark:border-gray-700"
+                className="bg-white border rounded-xl border-gray-200  shadow-xl"
               >
                 <div className="">
                   <Image
