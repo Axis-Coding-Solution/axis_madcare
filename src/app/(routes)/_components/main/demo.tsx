@@ -6,7 +6,7 @@ function Demo() {
     <>
       <div className="mt-10 md:mt-20">
 
-        <div className="bg-[url('/assests/images/people.png')] bg-no-repeat h-[20vh] bg-top sm:px-40">
+        <div className="bg-[url('/assests/images/people.png')] bg-no-repeat h-[20vh] 2xl:h-12 bg-top sm:px-40">
           <div className="lg:pl-[40%] text-center lg:text-start not-italic font-normal text-4xl leading-[24px] tracking-tighter  pt-5 text-[#3f7884]">
             <h1 className="font-bold">Request Demo</h1>
           </div>
@@ -22,10 +22,10 @@ function Demo() {
               width={550}
             />
           </div> */}
-           <div className="grid grid-cols-1 lg:grid-cols-2 w-full px-3 md:px-20 lg:px-10 xl:px-28">
+           <div className="grid grid-cols-1 lg:grid-cols-2 w-full px-3  lg:px-10 xl:px-28">
           <div className="">
             <Image
-              className="lg:mt-10 "
+              className="lg:mt-10 w-full "
               src="/assests/images/appointment.png"
               alt=""
               height={100}
@@ -34,7 +34,7 @@ function Demo() {
           </div>
 
           <div>
-            <div className="w-full   ">
+            <div className="w-full">
               <div className="absolute bottom-0 right-0">
                 <Image
                   className="mt-5"
@@ -45,8 +45,8 @@ function Demo() {
                 />
               </div>
 
-              <form className="bg-white rounded px-8  pt-5 sm:pt-20 pb-8 mb-4">
-                
+              <form className="bg-white rounded px-5 md:px-10 lg:px-5 pt-5 sm:pt-20 pb-8 mb-4">
+                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                   <div>
                   <input

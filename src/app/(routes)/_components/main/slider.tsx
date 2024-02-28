@@ -10,7 +10,7 @@ import { fjalla } from "@/utility/font";
 const Slider = () => {
   return (
     <>
-      <div className="bg-[url('/assests/images/people.png')] mt-6 sm:mt-28 bg-no-repeat  h-[20vh] bg-top ">
+      <div className="bg-[url('/assests/images/people.png')] mt-6 sm:mt-28 bg-no-repeat  h-[20vh] 2xl:h-14 bg-top ">
         <div className=" text-center   not-italic pt-7 text-[#3f7884] tracking-tighter  sm:text-4xl leading-[24px] font-normal">
           <h1 className="font-bold">PEOPLE WHO LOVE US</h1>
         </div>
@@ -63,7 +63,7 @@ const Slider = () => {
                     <FaRegStar />
                   </div>
 
-                  <p className="  not-italic font-normal text-[18px] md:text-[12px] xl:text-[16px] lg:text-[14px] 2xl:text-[16px] text-[#3f7884]    xl:leading-[24px] lg:pr-24">
+                  <p className="  not-italic font-normal text-[17px] md:text-[12px] xl:text-[16px] lg:text-[14px] 2xl:text-[16px] text-[#3f7884]    xl:leading-[24px] lg:pr-24">
                     This medical and health care facility distinguishes itself
                     from the competition by providing technologically advanced
                     medical and health care. A mobile app and a website are
@@ -117,7 +117,7 @@ const Slider = () => {
                     <FaRegStar />
                   </div>
 
-                  <p className="  not-italic font-normal text-[18px] md:text-[12px] xl:text-[16px] lg:text-[14px] 2xl:text-[16px] text-[#3f7884]    xl:leading-[24px] lg:pr-24">
+                  <p className="  not-italic font-normal text-[17px] md:text-[12px] xl:text-[16px] lg:text-[14px] 2xl:text-[16px] text-[#3f7884]    xl:leading-[24px] lg:pr-24">
                     This medical and health care facility distinguishes itself
                     from the competition by providing technologically advanced
                     medical and health care. A mobile app and a website are
@@ -171,7 +171,7 @@ const Slider = () => {
                     <FaRegStar />
                   </div>
 
-                  <p className="  not-italic font-normal text-[18px] md:text-[12px] xl:text-[16px] lg:text-[14px] 2xl:text-[16px] text-[#3f7884]    xl:leading-[24px] lg:pr-24">
+                  <p className="  not-italic font-normal text-[17px] md:text-[12px] xl:text-[16px] lg:text-[14px] 2xl:text-[16px] text-[#3f7884]    xl:leading-[24px] lg:pr-24">
                     This medical and health care facility distinguishes itself
                     from the competition by providing technologically advanced
                     medical and health care. A mobile app and a website are
@@ -187,6 +187,7 @@ const Slider = () => {
               </div>
             </div>
           </SwiperSlide>
+          
         </Swiper>
       </div>
     </>

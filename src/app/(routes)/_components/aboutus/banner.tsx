@@ -14,14 +14,23 @@ const defaultOptions = {
 
 const Banner = () => {
   return (
-    <div className="flex justify-between px-[110px]     bg-gradient-to-r from-[#C0DFE3] to-[#A9D1D7] via-[#71AFBC]">
-
-      <div className="font-sans text-[#3F7884]">
-        <h1 className=" text-4xl lg:text-8xl  my-40 not-italic  lg:mt-56 ">About us</h1>
+    <div className="flex  sm:justify-between  sm:px-[110px]     bg-gradient-to-r from-[#C0DFE3] to-[#A9D1D7] via-[#71AFBC]">
+      <div className="font-sans text-[#3F7884] mx-auto xl:mx-0 ">
+        <h1 className=" text-5xl lg:text-8xl   my-40  not-italic  xl:mt-56">
+          About us{" "}
+        </h1>
       </div>
 
-      <div style={{ width: "35%", height: "35%" }} className="mt-20 hidden lg:flex">
-        <Lottie animationData={animation} loop={true} autoplay={true} size={200}/>
+      <div
+        style={{ width: "35%", height: "35%" }}
+        className="mt-20 hidden xl:flex"
+      >
+        <Lottie
+          animationData={animation}
+          loop={true}
+          autoplay={true}
+          size={200}
+        />
         <div
           style={{
             position: "absolute",
@@ -38,7 +47,6 @@ const Banner = () => {
           }}
         ></div>
       </div>
-
     </div>
   );
 };

@@ -19,7 +19,8 @@ body {
 }
 
 .swiper {
-
+  background: #95d3d4;
+  padding:42px 0px;
 }
 
 @media (max-width: 320px) {
