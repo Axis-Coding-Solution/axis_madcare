@@ -7,7 +7,15 @@ import { useEffect, useState } from "react";
 // import Lottie from "lottie-react";
 
 function OurServices() {
-  const [services, setServices] = useState([
+  interface Service {
+    id: number ;
+    icon: string | any;
+    title: string | any;
+    slug: string | any;
+    description: string | any;
+  }
+ 
+  const [services, setServices] = useState<Service[]>([
     {
       id: 1,
       icon: "/icons/coding.png",
@@ -89,7 +97,7 @@ function OurServices() {
         "Medical billing and coding involves translating medical procedures and diagnoses into standardized codes for billing and insurance purposes.,Account Receivable Management involves overseeing.",
     },
   ]);
-  const [limitedServices, setLimitedServices] = useState([]);
+  const [limitedServices, setLimitedServices] = useState<Service[]>([]);
 
   useEffect(() => {
     const screenWidth = window.innerWidth;

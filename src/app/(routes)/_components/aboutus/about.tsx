@@ -61,7 +61,7 @@ import React from "react";
 const AboutUs = () => {
   return (
     <div className="sm:mb-20">
-      <div className="bg-[url('/assests/images/about-us.png')] mt-8 sm:mt-28 bg-no-repeat h-[15vh] bg-top ">
+      <div className="bg-[url('/assests/images/about-us.png')] mt-8 sm:mt-28 bg-no-repeat h-[15vh] 2xl:h-12 bg-top ">
         <div className=" text-center   not-italic pt-7 text-[#3f7884] tracking-tighter  text-4xl leading-[24px] font-normal">
           <h1 className="font-bold">ABOUT US</h1>
         </div>
