@@ -33,7 +33,7 @@ function Blog() {
   return (
     <>
       <div className="pt-10 xl:mt-40  ">
-        <div className="bg-[url('/assests/images/blog-post.png')] bg-no-repeat h-[17vh] bg-top sm:px-40">
+        <div className="bg-[url('/assests/images/blog-post.png')] bg-no-repeat h-[17vh] 2xl:h-12 bg-top sm:px-40">
           <div className=" text-center  not-italic leading-[24px] pt-7 tracking-tighter text-[#3f7884] text-2xl sm:text-4xl font-normal">
             <h1 className="font-bold">RECENT BLOGPOST</h1>
           </div>

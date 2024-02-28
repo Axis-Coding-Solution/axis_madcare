@@ -10,7 +10,7 @@ import { fjalla } from "@/utility/font";
 const Slider = () => {
   return (
     <>
-      <div className="bg-[url('/assests/images/people.png')] mt-6 sm:mt-28 bg-no-repeat  h-[20vh] bg-top ">
+      <div className="bg-[url('/assests/images/people.png')] mt-6 sm:mt-28 bg-no-repeat  h-[20vh] 2xl:h-14 bg-top ">
         <div className=" text-center   not-italic pt-7 text-[#3f7884] tracking-tighter  sm:text-4xl leading-[24px] font-normal">
           <h1 className="font-bold">PEOPLE WHO LOVE US</h1>
         </div>

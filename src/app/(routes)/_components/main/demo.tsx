@@ -6,7 +6,7 @@ function Demo() {
     <>
       <div className="mt-10 md:mt-20">
 
-        <div className="bg-[url('/assests/images/people.png')] bg-no-repeat h-[20vh] bg-top sm:px-40">
+        <div className="bg-[url('/assests/images/people.png')] bg-no-repeat h-[20vh] 2xl:h-12 bg-top sm:px-40">
           <div className="lg:pl-[40%] text-center lg:text-start not-italic font-normal text-4xl leading-[24px] tracking-tighter  pt-5 text-[#3f7884]">
             <h1 className="font-bold">Request Demo</h1>
           </div>

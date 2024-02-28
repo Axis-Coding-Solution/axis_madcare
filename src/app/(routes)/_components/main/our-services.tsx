@@ -118,7 +118,7 @@ function OurServices() {
   return (
     <>
       <div className="pt-5 mt-10 sm:mt-10">
-        <div className="bg-[url('/assests/images/bg-departments.png')] bg-no-repeat h-[20vh]  bg-top md:px-40">
+        <div className="bg-[url('/assests/images/bg-departments.png')] bg-no-repeat h-[20vh] 2xl:h-12  bg-top md:px-40">
           <div className="  pt-7">
             <h1 className="text-[#3f7884] text-center font-bold  tracking-tighter   text-[40px] leading-[24px] not-italic">
               OUR SERVICES
@@ -126,7 +126,7 @@ function OurServices() {
           </div>
         </div>
         <div className="bg-[url('/assests/images/doctors-bg.png')] bg-no-repeat bg-contain mt-5 sm:mt-10">
-          <div className="grid grid-cols-1  md:grid-cols-3  lg:grid-cols-3 2xl:grid-cols-4  gap-8 mx-7 cursor-pointer lg:mx-20   xl:pt-0  ">
+          <div className="grid grid-cols-1  md:grid-cols-3  lg:grid-cols-3 2xl:grid-cols-4 2xl:mt-0  gap-8 mx-7 cursor-pointer lg:mx-20   xl:pt-0  ">
             {limitedServices.map((service) => (
               <div key={service.id}>
                 <div className="group shadow-2xl  md:w-[240px] lg:w-[280px]  xl:w-[370px]  bg-[#FFFFFF]  rounded-lg hover:bg-[#3f7884]  transition-all duration-1000 py-16    ">
