@@ -26,15 +26,15 @@ function Corporation() {
             </div>
 
             <div className="lg:pl-20 mt-5 lg:mt-0 lg:h-28">
-              <TfiEmail className=" ml-[70px] md:ml-24  text-3xl text-[#3F7884]" />
-              <p className="hover:underline mt-5 md:text-xl text-[#3F7884]">
+              <TfiEmail className=" ml-[55px] md:ml-24  text-3xl text-[#3F7884]" />
+              <p className="hover:underline mt-5 text-[13px] md:text-xl text-[#3F7884]">
                 sales@axismedcare.com
               </p>
             </div>
 
             <div className="lg:pl-16 mt-5 lg:mt-0 lg:h-28">
               <IoCallOutline className=" mx-auto sm:mx-0 sm:ml-14 text-3xl text-[#3F7884]" />
-              <p className="sm:text-xl mt-5 text-[#3F7884]">+1 866 643 8367</p>
+              <p className=" text-[12px] sm:text-xl mt-5 text-[#3F7884]">+1 866 643 8367</p>
             </div>
           </div>
           {/* <div className="flex flex-col lg:flex-row justify-evenly items-center lg:mt-10 lg:divide-x-2  divide-[#3F7884] mx-20 cursor-pointer">
