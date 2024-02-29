@@ -4,7 +4,7 @@ import React from "react";
 function News() {
   return (
     <div className="bg-[url('/assests/images/peo.png')] bg-no-repeat bg-contain mt-10 ">
-      <div className=" py-10 lg:py-32 px-10 xl:px-28 bg-[#3791A4] ">
+      <div className=" py-10 lg:py-32 px-4 md:px-10 xl:px-28 bg-[#3791A4] ">
         <div className="flex flex-col lg:flex-row lg:justify-between  ">
           <div>
             <h1
@@ -12,11 +12,14 @@ function News() {
             >
               Get an update every week
             </h1>
-            <p className="text-[#b2dded] not-italic mt-2 text-[15px] sm:text-[16px] sm:leading-[24px] font-normal ">
-              Livedoc was created in order to improve the patient experience.{" "}
-              <br />
-              Providing world-class tests, and a wide range of other services.
-            </p>
+            <div className="text-[#b2dded] not-italic mt-2 text-[13px] md:text-[16px] md:leading-[24px] font-normal ">
+              <h1>
+                Livedoc was created in order to improve the patient experience.
+              </h1>{" "}
+              <h3>
+                Providing world-class tests, and a wide range of other services.
+              </h3>
+            </div>
           </div>
           <div className="">
             <h1
@@ -33,9 +36,11 @@ function News() {
                   placeholder="Email"
                 />
               </div>
-              <button className=" font-bold not-italic text-[16px]  leading-[24px]   border-2 rounded-2xl  h-[57px] px-12  mt-2 border-white  text-[#464558]  bg-[#F2F6FA] transition-all duration-300">
+              <div className="">
+              <button className=" font-bold not-italic text-[16px]  leading-[24px] w-full   border-2 rounded-2xl  h-[57px] px-12  mt-2 border-white  text-[#464558]  bg-[#F2F6FA] transition-all duration-300">
                 Subscribe
               </button>
+              </div>
             </div>
           </div>
         </div>

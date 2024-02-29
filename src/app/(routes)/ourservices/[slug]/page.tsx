@@ -150,11 +150,11 @@ const Page = () => {
             image={service?.image}
             icon={service?.icon}
           />
-          <DynamicHeader
+           <DynamicHeader
             title={service?.title}
             description={service?.description}
             icon={service?.icon}
-          />
+          /> 
           <Info title={service?.title} description={service?.description} icon={undefined} />
 
           <Inter
