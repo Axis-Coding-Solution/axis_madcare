@@ -15,15 +15,15 @@ const defaultOptions = {
 
 const Contact = () => {
   return (
-    <div className="flex   justify-between sm:px-[110px] items-center py-36 md:py-40  xl:py-10 sm:pt-20   bg-gradient-to-r from-[#C0DFE3] to-[#A9D1D7] via-[#71AFBC]">
-      <div className="font-sans flex mx-auto xl:mx-0  xl:flex-col text-[#3F7884] text-5xl sm:text-8xl   sm:pl-0   not-italic ">
+    <div className="flex flex-col lg:flex-row  lg:justify-between lg:px-[110px] items-center pt-40   lg:py-20 xl:py-10 xl:pt-20   bg-gradient-to-r from-[#C0DFE3] to-[#A9D1D7] via-[#71AFBC]">
+      <div className="font-sans flex mx-auto lg:mx-0  xl:flex-col text-[#3F7884] text-4xl md:text-5xl lg:text-8xl   sm:pl-0   not-italic ">
         <h1 className=" ">Contact</h1>
         <span className="">Us</span>
       </div>
-      <div style={{ width: "35%", height: "35%" }} className="hidden xl:flex">
+      <div className=" w-[90%]  lg:w-[35%] lg:h-[35%]">
         <Lottie
           animationData={Contactusanimations}
-          loop={true} 
+          loop={true}
           autoplay={true}
         />
         <div

@@ -134,7 +134,7 @@ function Footer() {
             </div>
           </div>
           <div className="sm:col-span-2 pt-10 sm:pt-4 col-span-6 text-start cursor-pointer">
-            <h1 className="not-italic text-[#f0f4f9] font-bold text-[19px] leading-[38px] tracking-tighter">
+            <h1 className="not-italic text-[#f0f4f9] font-bold md:text-[19px] leading-[38px] tracking-tighter">
               Departments
             </h1>
             <h2 className="mt-5 sm:mt-5 hover:text-white text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
@@ -148,7 +148,7 @@ function Footer() {
             </h2>
           </div>
           <div className="sm:col-span-2 md:pt-4 col-span-6 text-start cursor-pointer">
-            <h1 className="not-italic text-[#f0f4f9] font-bold text-[19px] leading-[38px] tracking-tighter">
+            <h1 className="not-italic text-[#f0f4f9] font-bold md:text-[19px] leading-[38px] tracking-tighter">
               Membership
             </h1>
             <h2 className="sm:mt-5 hover:text-white text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
@@ -162,7 +162,7 @@ function Footer() {
             </h2>
           </div>
           <div className="sm:col-span-2 md:pt-4 col-span-6 text-start cursor-pointer">
-            <h1 className="not-italic text-[#f0f4f9] font-bold text-[19px] leading-[38px] tracking-tighter">
+            <h1 className="not-italic text-[#f0f4f9] font-bold md:text-[19px] leading-[38px] tracking-tighter">
               Customer Care
             </h1>
             <Link href="/aboutus">
