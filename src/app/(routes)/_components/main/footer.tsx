@@ -127,7 +127,7 @@ function Footer() {
                 height={80}
                 width={170}
               />
-              <div className="mt-5 flex flex-col not-italic font-normal  sm:text-[16px] text-[#F0F4F9]">
+              <div className="mt-8 sm:mt-5 flex flex-col not-italic font-normal text-[12.9px]  sm:text-[16px] text-[#F0F4F9]">
                 <h1>The world most trusted </h1>
                 telehealth company.
               </div>
@@ -137,7 +137,7 @@ function Footer() {
             <h1 className="not-italic text-[#f0f4f9] font-bold text-[19px] leading-[38px] tracking-tighter">
               Departments
             </h1>
-            <h2 className="mt-5 hover:text-white text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
+            <h2 className="mt-5 sm:mt-5 hover:text-white text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
               Eye care
             </h2>
             <h2 className="hover:text-white text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
@@ -147,11 +147,11 @@ function Footer() {
               Heart care
             </h2>
           </div>
-          <div className="sm:col-span-2 pt-4 col-span-6 text-start cursor-pointer">
+          <div className="sm:col-span-2 md:pt-4 col-span-6 text-start cursor-pointer">
             <h1 className="not-italic text-[#f0f4f9] font-bold text-[19px] leading-[38px] tracking-tighter">
               Membership
             </h1>
-            <h2 className="mt-5 hover:text-white text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
+            <h2 className="sm:mt-5 hover:text-white text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
               Free trial
             </h2>
             <h2 className="hover:text-white text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
@@ -161,12 +161,12 @@ function Footer() {
               Premium
             </h2>
           </div>
-          <div className="sm:col-span-2 pt-4 col-span-6 text-start cursor-pointer">
+          <div className="sm:col-span-2 md:pt-4 col-span-6 text-start cursor-pointer">
             <h1 className="not-italic text-[#f0f4f9] font-bold text-[19px] leading-[38px] tracking-tighter">
               Customer Care
             </h1>
             <Link href="/aboutus">
-              <h2 className="mt-5 hover:text-white text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
+              <h2 className="sm:mt-5 hover:text-white text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
                 About Us
               </h2>
             </Link>

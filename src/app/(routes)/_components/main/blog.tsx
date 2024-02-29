@@ -32,14 +32,14 @@ function Blog() {
   ];
   return (
     <>
-      <div className="pt-10 xl:mt-40  ">
-        <div className="bg-[url('/assests/images/blog-post.png')] bg-no-repeat h-[17vh] 2xl:h-12 bg-top sm:px-40">
+      <div className="md:pt-10 xl:mt-40  ">
+        <div className="bg-[url('/assests/images/blog-post.png')] bg-no-repeat h-28 lg:h-[20vh] min-[1440px]:h-24 min-[1536px]:h-24 bg-top sm:px-40">
           <div className=" text-center  not-italic leading-[24px] pt-7 tracking-tighter text-[#3f7884] text-2xl sm:text-4xl font-normal">
             <h1 className="font-bold">RECENT BLOGPOST</h1>
           </div>
         </div>
         <div className="bg-[url('/assests/images/doctors-bg.png')]  bg-no-repeat bg-contain   xl:pb-40 ">
-          <div className="xl:pt-28 mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6 xl:mx-28 mx-5">
+          <div className="xl:pt-28 mt-4 md:mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6 xl:mx-28 mx-5">
             {blogPosts.map((post, index) => (
               <div
                 key={index}
