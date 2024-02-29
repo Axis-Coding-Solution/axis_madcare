@@ -14,17 +14,42 @@ function Corporation() {
         </div>
         <div>
           <div className="flex flex-col lg:flex-row justify-evenly items-center lg:mt-10 lg:divide-x-2  divide-[#3F7884] mx-20 cursor-pointer">
-            <div className=" mt-5 lg:mt-10 ">
-              <TiLocationOutline className=" mx-auto sm:mx-0 sm:ml-20 text-3xl text-[#3F7884]" />
-              <p className=" text-[12px] sm:text-lg mt-5 text-[#3F7884]">
+            <div className=" ">
+              <TiLocationOutline className=" mx-auto sm:mx-0 md:ml-[70px] lg:ml-24 mt-5 lg:mt-0  text-3xl text-[#3F7884]" />
+              <h1 className=" text-[12px] sm:text-base mt-5 lg:ml-5 lg:mt-6 text-[#3F7884]">
                 80 Pine Street, 21st Floor
-                <h3> New York, NY 10005</h3>
+              </h1>
+              <h4 className=" text-[12px] sm:text-lg lg:ml-5  text-[#3F7884]">
+                {" "}
+                New York, NY 10005
+              </h4>
+            </div>
+
+            <div className="lg:pl-20 mt-5 lg:mt-0 lg:h-28">
+              <TfiEmail className=" ml-[70px] md:ml-24  text-3xl text-[#3F7884]" />
+              <p className="hover:underline mt-5 md:text-xl text-[#3F7884]">
+                sales@axismedcare.com
               </p>
             </div>
 
+            <div className="lg:pl-16 mt-5 lg:mt-0 lg:h-28">
+              <IoCallOutline className=" mx-auto sm:mx-0 sm:ml-14 text-3xl text-[#3F7884]" />
+              <p className="sm:text-xl mt-5 text-[#3F7884]">+1 866 643 8367</p>
+            </div>
+          </div>
+          {/* <div className="flex flex-col lg:flex-row justify-evenly items-center lg:mt-10 lg:divide-x-2  divide-[#3F7884] mx-20 cursor-pointer">
+            <div className="  ">
+              <TiLocationOutline className=" mx-auto sm:mx-0 sm:ml-24 mt-5 lg:mt-[30px] text-3xl text-[#3F7884]" />
+              <h1 className=" text-[12px] sm:text-base mt-8 lg:ml-5 lg:mt-6 text-[#3F7884]">
+                80 Pine Street, 21st Floor
+               
+              </h1>
+              <h4 className=" text-[12px] sm:text-lg lg:ml-5  text-[#3F7884]"> New York, NY 10005</h4>
+            </div>
+
             <div className="lg:pl-20 mt-5 lg:mt-0">
-              <TfiEmail className="ml-24 text-3xl text-[#3F7884]" />
-              <p className="hover:underline mt-5 text-xl text-[#3F7884]">
+              <TfiEmail className=" ml-[70px] md:ml-24  text-3xl text-[#3F7884]" />
+              <p className="hover:underline mt-5 md:text-xl text-[#3F7884]">
                 sales@axismedcare.com
               </p>
             </div>
@@ -33,7 +58,7 @@ function Corporation() {
               <IoCallOutline className=" mx-auto sm:mx-0 sm:ml-14 text-3xl text-[#3F7884]" />
               <p className="sm:text-xl mt-5 text-[#3F7884]">+1 866 643 8367</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
