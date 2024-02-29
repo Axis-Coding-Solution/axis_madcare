@@ -10,7 +10,7 @@ import { fjalla } from "@/utility/font";
 const Slider = () => {
   return (
     <>
-      <div className="bg-[url('/assests/images/people.png')] mt-6 sm:mt-28 bg-no-repeat  h-[20vh] 2xl:h-14 bg-top ">
+      <div className="bg-[url('/assests/images/people.png')] mt-6 sm:mt-28 bg-no-repeat h-28 lg:h-[20vh] min-[1440px]:h-24 min-[1536px]:h-24 bg-top ">
         <div className=" text-center   not-italic pt-7 text-[#3f7884] tracking-tighter  sm:text-4xl leading-[24px] font-normal">
           <h1 className="font-bold">PEOPLE WHO LOVE US</h1>
         </div>
@@ -49,9 +49,9 @@ const Slider = () => {
                   </h1>
                 </div>
 
-                <div className="sm:col-span-8 col-span-12 px-5 lg:px-10 pt-10 sm:pt-0 text-start flex flex-col gap-3 justify-center">
+                <div className="sm:col-span-8 col-span-12 px-5 lg:px-10  sm:pt-0 text-start flex flex-col gap-3 justify-center">
                   <h1
-                    className={`${fjalla.className} text-[28px] lg:text-[33px] text-center sm:text-start leading-[40px] text-[#3f7884]  not-italic font-bold `}
+                    className={`${fjalla.className} md:text-[28px] lg:text-[33px] text-center sm:text-start leading-[40px] text-[#3f7884]  not-italic font-bold `}
                   >
                     Fantastic Response!
                   </h1>
@@ -63,7 +63,7 @@ const Slider = () => {
                     <FaRegStar />
                   </div>
 
-                  <p className="  not-italic font-normal text-[17px] md:text-[12px] xl:text-[16px] lg:text-[14px] 2xl:text-[16px] text-[#3f7884]    xl:leading-[24px] lg:pr-24">
+                  <p className="  not-italic font-normal text-[14px] md:text-[12px] xl:text-[16px] lg:text-[14px] 2xl:text-[16px] text-[#3f7884]    xl:leading-[24px] lg:pr-24">
                     This medical and health care facility distinguishes itself
                     from the competition by providing technologically advanced
                     medical and health care. A mobile app and a website are
@@ -103,9 +103,9 @@ const Slider = () => {
                   </h1>
                 </div>
 
-                <div className="sm:col-span-8 col-span-12 px-5 lg:px-10 pt-10 sm:pt-0 text-start flex flex-col gap-3 justify-center">
+                <div className="sm:col-span-8 col-span-12 px-5 lg:px-10  sm:pt-0 text-start flex flex-col gap-3 justify-center">
                   <h1
-                    className={`${fjalla.className} text-[28px] lg:text-[33px] text-center sm:text-start leading-[40px] text-[#3f7884]  not-italic font-bold `}
+                    className={`${fjalla.className} md:text-[28px] lg:text-[33px] text-center sm:text-start leading-[40px] text-[#3f7884]  not-italic font-bold `}
                   >
                     Fantastic Response!
                   </h1>
@@ -117,7 +117,7 @@ const Slider = () => {
                     <FaRegStar />
                   </div>
 
-                  <p className="  not-italic font-normal text-[17px] md:text-[12px] xl:text-[16px] lg:text-[14px] 2xl:text-[16px] text-[#3f7884]    xl:leading-[24px] lg:pr-24">
+                  <p className="  not-italic font-normal text-[14px] md:text-[12px] xl:text-[16px] lg:text-[14px] 2xl:text-[16px] text-[#3f7884]    xl:leading-[24px] lg:pr-24">
                     This medical and health care facility distinguishes itself
                     from the competition by providing technologically advanced
                     medical and health care. A mobile app and a website are
@@ -157,9 +157,9 @@ const Slider = () => {
                   </h1>
                 </div>
 
-                <div className="sm:col-span-8 col-span-12 px-5 lg:px-10 pt-10 sm:pt-0 text-start flex flex-col gap-3 justify-center">
+                <div className="sm:col-span-8 col-span-12 px-5 lg:px-10  sm:pt-0 text-start flex flex-col gap-3 justify-center">
                   <h1
-                    className={`${fjalla.className} text-[28px] lg:text-[33px] text-center sm:text-start leading-[40px] text-[#3f7884]  not-italic font-bold `}
+                    className={`${fjalla.className} md:text-[28px] lg:text-[33px] text-center sm:text-start leading-[40px] text-[#3f7884]  not-italic font-bold `}
                   >
                     Fantastic Response!
                   </h1>
@@ -171,7 +171,7 @@ const Slider = () => {
                     <FaRegStar />
                   </div>
 
-                  <p className="  not-italic font-normal text-[17px] md:text-[12px] xl:text-[16px] lg:text-[14px] 2xl:text-[16px] text-[#3f7884]    xl:leading-[24px] lg:pr-24">
+                  <p className="  not-italic font-normal text-[14px] md:text-[12px] xl:text-[16px] lg:text-[14px] 2xl:text-[16px] text-[#3f7884]    xl:leading-[24px] lg:pr-24">
                     This medical and health care facility distinguishes itself
                     from the competition by providing technologically advanced
                     medical and health care. A mobile app and a website are
@@ -187,6 +187,7 @@ const Slider = () => {
               </div>
             </div>
           </SwiperSlide>
+       
           
         </Swiper>
       </div>

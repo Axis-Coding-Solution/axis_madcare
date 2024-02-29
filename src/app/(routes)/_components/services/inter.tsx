@@ -21,25 +21,25 @@ const Inter = () => {
   ];
   return (
     <div className="mb-20">
-      <div className="bg-[url('/assests/images/about-us.png')] mt-10 bg-no-repeat h-[20vh] bg-top ">
-        <div className="pl-[44%]  not-italic pt-7 text-[#3f7884] tracking-tighter  text-4xl leading-[24px] font-normal">
+      <div className="bg-[url('/assests/images/about-us.png')] mt-10 bg-no-repeat h-28 lg:h-[20vh] min-[1440px]:h-24 min-[1536px]:h-24 bg-top ">
+        <div className="lg:pl-[44%] text-center lg:text-left  not-italic pt-7  text-[#3f7884] tracking-tighter  text-4xl leading-[24px] font-normal">
           <h1 className="">Interoperability</h1>
         </div>
       </div>
       <div className="flex justify-center bg-[url('/assests/images/about-bg.png')]  bg-no-repeat bg-cover">
-        <div className="flex mx-28 ">
-          <div className="flex flex-col">
+        <div className="flex flex-col-reverse  lg:flex-row lg:mx-28  ">
+          <div className="flex flex-col ">
             <h1
-              className={`${fjalla.className} font-bold not-italic text-[#3f7884] leading-[40px] text-[33px]`}
+              className={`${fjalla.className} font-bold not-italic text-center lg:mt-14 xl:mt-0 lg:text-left text-[#3f7884] lg:leading-[40px] text-[33px] `}
             >
               Interoperability
             </h1>
-            <p className="not-italic text-[17px] text-[#6eadb9]  leading-[28px] font-normal pr-14 mt-6">
+            <p className="not-italic text-[13px] px-3 lg:px-0  sm:text-[17px] text-[#6eadb9]  lg:leading-[28px] lg:text-sm font-normal lg:pr-14 mt-6 xl:text-lg">
               Transform your practice with CureMD cloud-based Electronic Health
               Record in a way you never imagined before. With a powerful
               knowledge base,
             </p>
-            <ul className="grid grid-cols-2 text-[#6eadb9] grid-rows-5 ml-8">
+            <ul className="grid sm:grid-cols-2 px-3 lg:px-0  text-[13px] xl:text-lg text-[#6eadb9] sm:grid-rows-5 ml-8">
               {list.map((item, index) => {
                 return (
                   <li key={index} className="list-disc">
@@ -48,7 +48,7 @@ const Inter = () => {
                 );
               })}
             </ul>
-            <p className="text-[#6eadb9]">
+            <p className="text-[#6eadb9] text-[13px] px-3 lg:px-0  xl:text-lg ">
               {" "}
               We firmly believe that patient care is the most noble duty, and as
               such, we strive to support healthcare providers by alleviating the
@@ -57,10 +57,12 @@ const Inter = () => {
               the clock, seven days a week, ensuring continuous support and
               assistance to our clients.
             </p>
+            <div className="pl-5 lg:pl-0 ">
 
-            <button className=" text-[16px] leading-[24px] not-italic  rounded-full h-14 w-48 px-0 mt-9 border-[1px] border-[#194e58]  font-bold    text-[#1e5c69] hover:text-[white] hover:bg-[#1F3D43] transition-all duration-300 ">
+            <button className=" text-[16px]   leading-[24px] not-italic  rounded-full h-14 w-40 md:w-48  mt-9 border-[1px] border-[#194e58]  font-bold    text-[#1e5c69] hover:text-[white] hover:bg-[#1F3D43] transition-all duration-1000 ">
               Learn more
             </button>
+            </div>
           </div>
           <div className="">
             <Image

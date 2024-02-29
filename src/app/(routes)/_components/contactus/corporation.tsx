@@ -7,8 +7,8 @@ function Corporation() {
   return (
     <>
       <div>
-        <div className="bg-[url('/assests/images/about-us.png')] mt-8 sm:mt-28 bg-no-repeat h-[20vh] 2xl:h-12 bg-top ">
-          <div className=" text-center   not-italic pt-7 text-[#3f7884] tracking-tighter  text-xl leading-[24px] font-normal ">
+        <div className="bg-[url('/assests/images/about-us.png')] mt-8 lg:mt-28 bg-no-repeat h-28 lg:h-[20vh] min-[1440px]:h-24 min-[1536px]:h-24 bg-top ">
+          <div className=" text-center   not-italic pt-7  text-[#3f7884] tracking-tighter  text-xl leading-[24px] font-normal ">
             <h1 className="font-bold sm:text-3xl">AXIS MedCARE CORPORATION</h1>
           </div>
         </div>

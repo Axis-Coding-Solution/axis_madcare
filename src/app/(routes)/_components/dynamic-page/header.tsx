@@ -21,13 +21,13 @@ const Header = ({
   image: any | undefined;
 }) => {
   return (
-    <div className="flex justify-around  bg-gradient-to-r from-[#C0DFE3] to-[#A9D1D7] via-[#71AFBC]  ">
-      <div className=" mt-52   font-sans text-[#3F7884]">
-        <h1 className="text-[50px]">{title}</h1>
-        <p className="text-[25px] flex">{title}</p>
+    <div className="flex  justify-around  bg-gradient-to-r from-[#C0DFE3] to-[#A9D1D7] via-[#71AFBC]  ">
+      <div className=" py-28 lg:py-0 mt-7 lg:mt-52   font-sans text-[#3F7884]">
+        <h1 className=" text-xl mx-auto  md:text-2xl xl:text-[50px]">{title}</h1>
+        <p className=" text-sm  mx-auto  md:text-lg xl:text-[25px] xl:mt-5   ">{title}</p>
       </div>
    
-      <div style={{ width: "30%", height: "40%" }} className=" pt-36 pb-20">
+      <div style={{ width: "30%", height: "40%" }} className=" pt-36 pb-20 hidden lg:flex">
       <Image
         src={icon}
         alt="icon"

@@ -14,17 +14,28 @@ const defaultOptions = {
 
 const Header = () => {
   return (
-    // <div
-    // // className="from-[#3791A4] bg-gradient-to-r h-[30rem] mb-10 flex justify-around "
-    // >
-
-    <div style={{ width: "100%", height: "50%" }} className="mt-28">
-      <Lottie
-        animationData={animationData}
-        loop={true} // Set to true if you want the animation to loop
-        autoplay={true} // Set to true if you want the animation to play automatically
-      />
-      <div
+    <div style={{ width: "100%", height: "120%" }}>
+      <div className=" ">
+        <Lottie
+          animationData={animationData}
+          loop={true}
+          autoplay={true}
+          style={{ height: "130%" }}
+        />
+      </div>
+      <div className=" absolute top-20 left-2 md:top-40  flex ml-0 md:ml-24 items-center justify-start text-[24px] text-white font-bold">
+        <div className="flex flex-col    text-white justify-start items-start ">
+          <h1 className="text-[14px] md:text-[20px] lg:text-[30px] xl:text-[50px]  font-sans lg:mt-10 xl:mt-12">
+            Electronic Health Records <br />
+            (EHR)
+          </h1>
+          <p className="text-[14px]  md:text-[14px] lg:text-[15px] xl:text-2xl lg:w-3/4 font-sans">
+            Simplified Clinical Automation
+          </p>
+        </div>
+      </div>
+      {/* <div
+        className=""
         style={{
           position: "absolute",
           top: 0,
@@ -37,18 +48,18 @@ const Header = () => {
           color: "white",
           fontWeight: "bold",
         }}
+        
       >
-        <div className="flex flex-col text-white justify-start items-start ">
-          <h1 className="text-[50px]  font-sans">
+        <div className="flex sm:flex-col text-black  sm:text-white justify-start items-start ">
+          <h1 className=" md:text-[14px] lg:text-[30px] xl:text-[50px]  font-sans">
             Electronic Health Records <br />
-            {/* {titl */}
             (EHR)
           </h1>
-          <p className=" text-2xl w-3/4 font-sans">
+          <p className="  md:text-[14px] lg:text-[15px] xl:text-2xl lg:w-3/4 font-sans">
             Simplified Clinical Automation
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

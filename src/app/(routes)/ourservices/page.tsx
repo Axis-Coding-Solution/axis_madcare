@@ -97,7 +97,7 @@ const Page = () => {
       <Header />
 
       <div className="bg-[url('/assests/images/doctors-bg.png')] bg-no-repeat bg-contain bg-top">
-        <div className="bg-[url('/assests/images/bg-departments.png')] bg-no-repeat h-[15vh]  bg-top md:px-40 mt-10">
+        <div className="bg-[url('/assests/images/bg-departments.png')] bg-no-repeat h-28 lg:h-[20vh] min-[1440px]:h-24 min-[1536px]:h-24  bg-top md:px-40 mt-10">
           <div className="  pt-7 ">
             <h1 className="text-[#3f7884] text-center font-bold  tracking-tighter text-3xl   sm:text-[40px] leading-[24px] not-italic">
               OUR SERVICES 

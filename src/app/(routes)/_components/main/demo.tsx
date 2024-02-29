@@ -5,9 +5,8 @@ function Demo() {
   return (
     <>
       <div className="mt-10 md:mt-20">
-
-        <div className="bg-[url('/assests/images/people.png')] bg-no-repeat h-[20vh] 2xl:h-12 bg-top sm:px-40">
-          <div className="lg:pl-[40%] text-center lg:text-start not-italic font-normal text-4xl leading-[24px] tracking-tighter  pt-5 text-[#3f7884]">
+        <div className="bg-[url('/assests/images/people.png')] bg-no-repeat h-28 lg:h-[20vh] min-[1440px]:h-24 min-[1536px]:h-24 bg-top sm:px-40">
+          <div className="lg:pl-[40%] text-center lg:text-start not-italic font-normal text-4xl leading-[24px] tracking-tighter  pt-7 text-[#3f7884]">
             <h1 className="font-bold">Request Demo</h1>
           </div>
         </div>
@@ -22,7 +21,7 @@ function Demo() {
               width={550}
             />
           </div> */}
-           <div className="grid grid-cols-1 lg:grid-cols-2 w-full px-3  lg:px-10 xl:px-28">
+        <div className="grid grid-cols-1 lg:grid-cols-2 w-full px-3  lg:px-10 xl:px-28">
           <div className="">
             <Image
               className="lg:mt-10 w-full "
@@ -46,10 +45,9 @@ function Demo() {
               </div>
 
               <form className="bg-white rounded px-5 md:px-10 lg:px-5 pt-5 sm:pt-20 pb-8 mb-4">
-                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                   <div>
-                  <input
+                    <input
                       className="shadow appearance-none border border-[#CFEEF3]  py-4 rounded-2xl w-full  px-5  leading-tight focus:outline-none"
                       id="name"
                       type="text"
@@ -57,7 +55,7 @@ function Demo() {
                     />
                   </div>
                   <div>
-                  <input
+                    <input
                       className="shadow appearance-none border border-[#CFEEF3] rounded-2xl w-full py-4 px-5  leading-tight focus:outline-none "
                       id="phone"
                       type="tel"
@@ -65,7 +63,7 @@ function Demo() {
                     />
                   </div>
                   <div>
-                  <div className=" relative">
+                    <div className=" relative">
                       <select
                         className="shadow text-neutral-400 appearance-none border border-[#CFEEF3] rounded-2xl w-full py-4 pl-5  leading-tight focus:outline-none"
                         id="category"
@@ -77,10 +75,10 @@ function Demo() {
                       <div className="absolute inset-y-0 right-0 pr-10 flex items-center pointer-events-none">
                         <IoIosArrowDown className="text-neutral-400 text-sm" />
                       </div>
-                  </div>
+                    </div>
                   </div>
                   <div>
-                  <input
+                    <input
                       className="shadow appearance-none border border-[#CFEEF3] rounded-2xl w-full py-4 px-5  leading-tight focus:outline-none"
                       id="Email"
                       type="Email"

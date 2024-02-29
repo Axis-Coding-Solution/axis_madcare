@@ -101,7 +101,7 @@ function OurServices() {
 
   useEffect(() => {
     const screenWidth = window.innerWidth;
-    if (screenWidth <= 1536) {
+    if (screenWidth <= 1920) {
       setLimitedServices(services.slice(0, 9));
     } else {
       setLimitedServices(services);
@@ -109,7 +109,7 @@ function OurServices() {
 
     const handleResize = () => {
       const newScreenWidth = window.innerWidth;
-      if (newScreenWidth >= 1536) {
+      if (newScreenWidth >= 1920) {
         setLimitedServices(services.slice(0, 8));
       } else {
         setLimitedServices(services);
@@ -126,7 +126,7 @@ function OurServices() {
   return (
     <>
       <div className="pt-5 mt-10 sm:mt-10">
-        <div className="bg-[url('/assests/images/bg-departments.png')] bg-no-repeat h-[20vh] 2xl:h-12  bg-top md:px-40">
+        <div className="bg-[url('/assests/images/bg-departments.png')] bg-no-repeat h-28 lg:h-[20vh] min-[1440px]:h-24 min-[1536px]:h-24 bg-top md:px-40">
           <div className="  pt-7">
             <h1 className="text-[#3f7884] text-center font-bold  tracking-tighter   text-[40px] leading-[24px] not-italic">
               OUR SERVICES
