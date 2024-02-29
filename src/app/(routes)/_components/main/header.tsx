@@ -1,5 +1,4 @@
-
-"use client"
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
@@ -57,7 +56,7 @@ function Header() {
                 className="block  text-black lg:hidden focus:outline-none"
                 onClick={toggleMenu}
               >
-                <RxHamburgerMenu className="rounded-sm text-blue-950 w-12 h-10" />
+                <RxHamburgerMenu className="rounded-sm text-blue-950 w-10 h-10" />
               </button>
             </div>
           </div>
@@ -106,7 +105,7 @@ function Header() {
                   className="block  text-black  focus:outline-none"
                   onClick={toggleMenu}
                 >
-                  <RxHamburgerMenu className="rounded-sm text-blue-950 w-12 h-10" />
+                  <RxHamburgerMenu className="rounded-sm text-blue-950 w-10 h-10" />
                 </button>
               </div>
             </div>
@@ -144,16 +143,6 @@ function Header() {
 }
 
 export default Header;
-
-
-
-
-
-
-
-
-
-
 
 // "use client";
 
