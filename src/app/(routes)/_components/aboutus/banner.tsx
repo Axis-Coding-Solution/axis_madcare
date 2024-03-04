@@ -22,7 +22,7 @@ const Banner = () => {
       </div>
 
       <div
-        // style={{ width: "35%", height: "35%" }}
+      
         className=" lg:mt-20 w-[90%] h-[10%] lg:w-[35%] lg:h-[35%] mx-auto lg:mx-0 "
       >
         <Lottie

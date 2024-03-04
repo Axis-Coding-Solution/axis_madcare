@@ -20,7 +20,6 @@ const Header = () => {
           animationData={animationData}
           loop={true}
           autoplay={true}
-          // style={{ height: "130%" }}
           className="md:h-[130%]"
         />
       </div>
@@ -35,32 +34,6 @@ const Header = () => {
           </p>
         </div>
       </div>
-      {/* <div
-        className=""
-        style={{
-          position: "absolute",
-          top: 0,
-          height: "100%",
-          display: "flex",
-          marginLeft: "100px",
-          alignItems: "center",
-          justifyContent: "start",
-          fontSize: "24px",
-          color: "white",
-          fontWeight: "bold",
-        }}
-        
-      >
-        <div className="flex sm:flex-col text-black  sm:text-white justify-start items-start ">
-          <h1 className=" md:text-[14px] lg:text-[30px] xl:text-[50px]  font-sans">
-            Electronic Health Records <br />
-            (EHR)
-          </h1>
-          <p className="  md:text-[14px] lg:text-[15px] xl:text-2xl lg:w-3/4 font-sans">
-            Simplified Clinical Automation
-          </p>
-        </div>
-      </div> */}
     </div>
   );
 };
