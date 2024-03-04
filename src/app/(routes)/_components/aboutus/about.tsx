@@ -1,7 +1,3 @@
-
-
-
-
 import { fjalla } from "@/utility/font";
 import Image from "next/image";
 import React from "react";
@@ -35,14 +31,14 @@ const AboutUs = () => {
               assistance to our clients.
             </p>
             <div className="flex justify-center sm:justify-start">
-            <button className=" text-[16px]  leading-[24px] not-italic  rounded-full h-14 w-40 sm:w-48 px-0 mt-12 border-[1px] border-[#194e58]  font-bold    text-[#1e5c69] hover:text-[white] hover:bg-[#1F3D43] transition-all duration-1000 ">
-              Learn more
-            </button>
+              <button className=" text-[16px]  leading-[24px] not-italic  rounded-full h-14 w-40 sm:w-48 px-0 mt-12 border-[1px] border-[#194e58]  font-bold    text-[#1e5c69] hover:text-[white] hover:bg-[#1F3D43] transition-all duration-1000 ">
+                Learn more
+              </button>
             </div>
           </div>
           <div className="mt-5 order-first xl:order-last">
             <Image
-            className="md:w-[500px] xl:w-[1400px]"
+              className="md:w-[500px] xl:w-[1400px]"
               src="/assests/images/health-care.png"
               width={1400}
               height={50}
