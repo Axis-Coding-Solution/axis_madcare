@@ -44,7 +44,7 @@ function OurServices() {
     {
       id: 4,
       icon: "/icons/negotiation.png",
-      title: "Out Network Negotiation",
+      title: "Our Network Negotiation",
       slug: "out-network-negotiation",
 
       description:
@@ -52,7 +52,7 @@ function OurServices() {
     },
     {
       id: 5,
-      icon: "/icons/verification.png",
+      icon: "/icons/benefit.png",
       title: "Eligibility and Benefit Verification",
       slug: "eligibility-and-benefit-verification",
 

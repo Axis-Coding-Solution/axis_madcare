@@ -55,7 +55,7 @@ function Demo() {
                   <div>
                     <div className=" relative">
                       <select
-                        className="shadow text-neutral-400 appearance-none border border-[#CFEEF3] rounded-2xl w-full py-4 pl-5  leading-tight focus:outline-none"
+                        className="shadow text-black appearance-none border border-[#CFEEF3] rounded-2xl w-full py-4 pl-5  leading-tight focus:outline-none"
                         id="category"
                       >
                         <option>Category</option>
@@ -79,7 +79,7 @@ function Demo() {
 
                 <div className="mb-4 mt-8 sm:mt-0">
                   <textarea
-                    className="shadow appearance-none border  border-[#CFEEF3] rounded-3xl w-full py-4 px-5 text-[#D2D1D7] leading-tight focus:outline-none focus:shadow-outline"
+                    className="shadow appearance-none border  border-[#CFEEF3] rounded-3xl w-full py-4 px-5 text-black leading-tight focus:outline-none focus:shadow-outline"
                     id="message"
                     placeholder="Message"
                   ></textarea>

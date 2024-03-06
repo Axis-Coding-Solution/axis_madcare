@@ -21,55 +21,55 @@ function Footer() {
                 height={80}
                 width={170}
               />
-              <div className="mt-8 sm:mt-5 flex flex-col not-italic font-normal text-[12.9px]  sm:text-[16px] text-[#F0F4F9]">
+              <div className="mt-8 sm:mt-5 flex flex-col not-italic font-normal text-[12.9px]  sm:text-[16px] text-white">
                 <h1>The world most trusted </h1>
                 telehealth company.
               </div>
             </div>
           </div>
           <div className="sm:col-span-2 pt-10 sm:pt-4 col-span-6 text-start cursor-pointer">
-            <h1 className="not-italic text-[#f0f4f9] font-bold md:text-[19px] leading-[38px] tracking-tighter">
+            <h1 className="not-italic text-slate-600 font-bold md:text-[19px] leading-[38px] tracking-tighter">
               Departments
             </h1>
-            <h2 className="mt-5 sm:mt-5 hover:text-white text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
+            <h2 className="mt-5 sm:mt-5 text-white hover:text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
               Eye care
             </h2>
-            <h2 className="hover:text-white text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
+            <h2 className="text-white hover:text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
               Cardiac care
             </h2>
-            <h2 className="hover:text-white text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
+            <h2 className="text-white hover:text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
               Heart care
             </h2>
           </div>
           <div className="sm:col-span-2 md:pt-4 col-span-6 text-start cursor-pointer">
-            <h1 className="not-italic text-[#f0f4f9] font-bold md:text-[19px] leading-[38px] tracking-tighter">
+            <h1 className="not-italic text-slate-600 font-bold md:text-[19px] leading-[38px] tracking-tighter">
               Membership
             </h1>
-            <h2 className="sm:mt-5 hover:text-white text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
+            <h2 className="sm:mt-5 text-white hover:text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
               Free trial
             </h2>
-            <h2 className="hover:text-white text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
+            <h2 className="text-white hover:text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
               Silver
             </h2>
-            <h2 className="hover:text-white text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
+            <h2 className="text-white hover:text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
               Premium
             </h2>
           </div>
           <div className="sm:col-span-2 md:pt-4 col-span-6 text-start cursor-pointer">
-            <h1 className="not-italic text-[#f0f4f9] font-bold md:text-[19px] leading-[38px] tracking-tighter">
+            <h1 className="not-italic text-slate-600 font-bold md:text-[19px] leading-[38px] tracking-tighter">
               Customer Care
             </h1>
             <Link href="/aboutus">
-              <h2 className="sm:mt-5 hover:text-white text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
+              <h2 className="sm:mt-5 text-white hover:text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
                 About Us
               </h2>
             </Link>
             <Link href="/contactus">
-              <h2 className="hover:text-white text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
+              <h2 className="text-white hover:text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
                 Contact us
               </h2>
             </Link>
-            <h2 className="hover:text-white text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
+            <h2 className="text-white hover:text-[#336666] not-italic font-normal text-[18px] leading-[32px]">
               Get Update
             </h2>
           </div>

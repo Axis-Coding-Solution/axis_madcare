@@ -57,7 +57,7 @@ const Page = () => {
     },
     {
       id: 5,
-      icon: "/icons/verification.png",
+      icon: "/icons/benefit.png",
       title: "Eligibility and Benefit Verification",
       slug: "eligibility-and-benefit-verification",
 

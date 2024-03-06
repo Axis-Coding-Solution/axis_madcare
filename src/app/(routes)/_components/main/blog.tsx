@@ -65,7 +65,7 @@ function Blog() {
                         {post.title}
                       </h2>
                       <p className="text-neutral-400 mt-3 font-normal text-[18px] leading-[24px] not-italic hover:underline pl-3 hover:text-[#5AA4B4] cursor-pointer">
-                        read full article
+                        Read Full Article
                       </p>
                     </div>
                   </div>
