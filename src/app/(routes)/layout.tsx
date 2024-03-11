@@ -9,7 +9,7 @@ import Footer from "./_components/main/footer";
 function Layout({ children }: LayoutPropsType) {
   return (
     <div className="">
-      <Header />
+      <Header pathname={''} />
       <main className="flex-1">{children}</main>
       <Footer />
     </div>
