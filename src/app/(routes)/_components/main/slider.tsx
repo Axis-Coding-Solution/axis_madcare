@@ -8,6 +8,13 @@ import Image from "next/image";
 import { fjalla } from "@/utility/font";
 
 const Slider = () => {
+  // const pagination = {
+  //   clickable: true,
+  //   renderBullet: function (index, className) {
+  //     return '<span class="' + className + '"></span>';
+  //   },
+  // };
+
   return (
     <>
       <div className="bg-[url('/assests/images/people.png')] mt-6 sm:mt-28 bg-no-repeat h-28 lg:h-[20vh] min-[1440px]:h-24 min-[1536px]:h-24 bg-top ">
@@ -17,10 +24,13 @@ const Slider = () => {
       </div>
       <div className="">
         <Swiper
-          pagination={true}
+          // pagination={true}
+          // modules={[Pagination, Autoplay]}
           modules={[Pagination, Autoplay]}
+          pagination={{ clickable: true }}
+          // pagination={pagination}
           autoplay={{
-            delay: 2000,
+            delay: 3000,
             disableOnInteraction: false,
           }}
           className="mySwiper mt-10 py-20 md:py-24  bg-[#95d3d4]"
@@ -196,3 +206,6 @@ const Slider = () => {
 };
 
 export default Slider;
+
+
+

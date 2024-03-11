@@ -28,7 +28,6 @@ function Blog() {
       title: "Treatment of patients with diabetes during COVID-19",
       imageSrc: "/assests/images/treatment.png",
     },
-    // Add more blog posts as needed
   ];
   return (
     <>
@@ -66,7 +65,7 @@ function Blog() {
                         {post.title}
                       </h2>
                       <p className="text-neutral-400 mt-3 font-normal text-[18px] leading-[24px] not-italic hover:underline pl-3 hover:text-[#5AA4B4] cursor-pointer">
-                        read full article
+                        Read Full Article
                       </p>
                     </div>
                   </div>
@@ -74,33 +73,6 @@ function Blog() {
               </div>
             ))}
           </div>
-          {/* <div className=" w-[20%]  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <div>
-              <Image
-                src="/assests/images/covid-19.png"
-                height={50}
-                width={350}
-                alt="pic"
-              />
-            </div>
-            <div className="p-5">
-              <div className="flex gap-5">
-                <h1 className="text-[#5AA4B4]">Health</h1>
-                <div className="flex items-center gap-2">
-                  <SlCalender className="" />
-                  <span>Nov 21,2021</span>
-                </div>
-              </div>
-              <div>
-                <h2 className="text-[#64929B] font-extrabold text-lg mt-5">
-                  COVID-19: The Most Up-to-Date Information
-                </h2>
-                <p className="text-neutral-500 mt-6 hover:underline hover:text-[#5AA4B4] cursor-pointer">
-                  read full article
-                </p>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
     </>

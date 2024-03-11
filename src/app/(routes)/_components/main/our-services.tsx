@@ -3,8 +3,7 @@ import Image from "next/image";
 import { fjalla } from "@/utility/font";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-// import Billinganimation from "../../animation/Billinganimation.json";
-// import Lottie from "lottie-react";
+
 
 function OurServices() {
   interface Service {
@@ -45,7 +44,7 @@ function OurServices() {
     {
       id: 4,
       icon: "/icons/negotiation.png",
-      title: "Out Network Negotiation",
+      title: "Our Network Negotiation",
       slug: "out-network-negotiation",
 
       description:
@@ -53,7 +52,7 @@ function OurServices() {
     },
     {
       id: 5,
-      icon: "/icons/verification.png",
+      icon: "/icons/benefit.png",
       title: "Eligibility and Benefit Verification",
       slug: "eligibility-and-benefit-verification",
 
